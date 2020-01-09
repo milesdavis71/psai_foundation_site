@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+</body>
+</html>
+<script>
+	var n="Szakkörök Időpont Pedagógus\n" +
+        "kézműves csütörtök 12:55-13:40 Erdélyi Mariann\n" +
+        "gyöngyfűző szerda 14:00-14:45 Haumann Anett\n" +
+        "MateKaland szerda 12:55-13:40 Fodorné Kiss Magolna\n" +
+        "sakk hétfő 14:00-15:30\n" +
+        "péntek 14:00-14:45 Tenk Zoltán\n" +
+        "matematika teh.gond. \n" +
+        "5-6.o. szerda 15:00-15:45 Birinyi-Horváth Edit\n" +
+        "matematika teh.gond.\n" +
+        " 7-8.o. kedd 15:00-15:45 Birinyi-Horváth Edit\n" +
+        "német 5.o. kedd 14:00-14:45 Haumann Anett\n" +
+        "német 6.o. szerda 12:55-13:40 Haumann Anett\n" +
+        "német 7-8. o. csütörtök 12:55-13:40 Haumann Anett\n" +
+        "Sudoku szerda 15:00-15:45 Csányi Erika\n" +
+        "irodalmi szakkör\n" +
+        "magyar teh.gong. hétfő 14:00-15:45 Gusztosné Thékes Andrea\n" +
+        "kamarakórus kedd 15:00-15:45\n" +
+        "csütörtök 14:00-14:45 Bendéné Bán Gyöngyi\n" +
+        "újságírás péntek 14:00-14:45 Bendéné Bán Gyöngyi\n" +
+        "Alkotókör szerda 14:00-16:30 Czeglédyné Somi Éva\n" +
+        "foci kedd 15:45-16:30\n" +
+        "szerda 15:45-16:30 Pajkó M. Zsolt\n" +
+        "természetjáró péntek 15:00-15:45 Tenk Zoltán\n";
+
+
+
+
+	function tablazatFelbont(n){
+		str = n.split("\n");
+		return str
+	}
+
+	function tablazatKiir(str){
+		document.write("<table border=1>");
+		for(let i = 0; i<str.length; i++){
+			document.write("<tr>");
+
+					document.write("<td>"+str[i]+"</td>");
+
+			document.write("</td>");
+		}
+		document.write("</table>");
+	}
+
+
+	var noFelbontot = tablazatFelbont(n);
+	tablazatKiir(noFelbontot);
+
+
+	document.write("</table>");
+    // Requiring fs module in which
+    // writeFile function is defined.
+    const fs = require('fs')
+
+    // Data which will write in a file.
+    let data = noFelbontot;
+
+    // Write data in 'Output.txt' .
+    fs.writeFile('output.txt', data, (err) => {
+
+        // In case of a error throw err.
+        if (err) throw err;
+    })
+
+
+</script>

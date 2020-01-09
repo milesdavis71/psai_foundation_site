@@ -1,0 +1,294 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+//
+@include foundation-xy-grid-classes;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+// @include foundation-float-classes;
+@include foundation-flex-classes;
+
+
+
+	.orbit-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.3rem;
+  background-color: rgba(10, 10, 10, 0.5);
+  color: #fefefe; }
+
+
+  $featured-article-text-color: $white;
+$featured-article-border: rem-calc(1) solid $white;
+$featured-article-links-border: rem-calc(1) solid $light-gray;
+$featured-article-side-links-height: rem-calc(450);
+
+// big feature
+$featured-article-big-bg: url('https://placehold.it/600?text=Big+Feature') no-repeat center center;
+$featured-article-title-size-big: rem-calc(28);
+$featured-article-author-size-big: rem-calc(18);
+
+// small feature
+$featured-article-small-bg: url('https://placehold.it/200?text=Small+Feature') no-repeat center center;
+$featured-article-title-size-small: rem-calc(16);
+$featured-article-author-size-small: rem-calc(12);
+
+.featured-article-big {
+  background: $featured-article-big-bg;
+  background-size: cover;
+  height: $featured-article-side-links-height;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: rem-calc(10);
+  border-right: $featured-article-border;
+
+  .featured-article-text {
+    .featured-article-title {
+      font-size: $featured-article-title-size-big;
+      font-weight: bold;
+      line-height: rem-calc(30);
+      .author {
+        font-size: $featured-article-author-size-big;
+      }
+    }
+    p {
+      color: $featured-article-text-color;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.featured-article-small-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: $featured-article-side-links-height;
+
+  :last-child .featured-article-small {
+    border-bottom: 0;
+  }
+}
+
+.featured-article-small {
+  background: $featured-article-small-bg;
+  height: $featured-article-side-links-height / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: rem-calc(10);
+  border-bottom: $featured-article-border;
+
+  :last-child {
+    border-bottom: 0;
+  }
+
+  .featured-article-text {
+    .featured-article-title {
+      font-size: $featured-article-title-size-small;
+      font-weight: bold;
+      line-height: rem-calc(15);
+      max-height: rem-calc(45);
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    p {
+      color: $featured-article-text-color;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.featured-article-links-container {
+  border: $featured-article-links-border;
+  background-color: $white;
+  height: $featured-article-side-links-height;
+  overflow: scroll;
+}
+
+.featured-article-links,
+.featured-article-links-header {
+  padding: rem-calc(10);
+  border-bottom: $featured-article-links-border;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.featured-article-links-header {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@import 'components/building-blocks/news-card';
+@import 'components/building-blocks/responsive-hidden-nav';
+@import 'components/building-blocks/topbar-responsive';
+@import 'components/building-blocks/comment-section';
+@import 'components/building-blocks/about-the-author';
+@import 'components/building-blocks/wide-article-link';
+@import 'components/building-blocks/large-article-header';
+@import 'components/building-blocks/simple-article-header';
+@import 'components/building-blocks/blockquote';
+@import 'components/building-blocks/flexible-article-images';
+@import 'components/building-blocks/featured-article-side-links';
+@import 'components/building-blocks/featured-blog-posts-panel';
+@import 'components/building-blocks/sticky-social-bar';
+@import 'components/building-blocks/ecommerce-footer';
+@import 'components/building-blocks/pagination-circular';
+@import 'components/building-blocks/pagination-pointed';
+@import 'components/building-blocks/tag-cloud';
+@import 'components/building-blocks/social-buttons';
+@import 'components/building-blocks/polls';
+@import 'components/building-blocks/news-image-gallery';
+@import 'components/building-blocks/quote-inline';
+@import 'components/building-blocks/neat-article-container';
+
+
+
+
+
+
+
+    //hír 
+
+
+
+.wide-article-link {
+  background-color: $white;
+  padding: 1rem 1rem 0.5rem;
+  border: 1px solid $medium-gray;
+  margin-bottom: 1rem;
+  text-align: center;
+  radius: 0.7 px;
+
+  .article-title {
+    a {
+      color: $black;
+
+      &:hover,
+      &:focus {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .article-elipsis {
+    .read-more {
+      font-weight: bold;
+    }
+  }
+
+.article-title,
+  .article-author,
+  .article-elipsis {
+    margin-bottom: 0.25rem;
+  }
+
+  .article-social {
+    margin-top: 0.75rem;
+
+    .social {
+      margin-right: 0.25rem;
+
+      &.comments {
+        @include button-style($social-comments, auto, $white);
+      }
+      &.facebook {
+        @include button-style($social-brand-facebook, auto, $white);
+      }
+      &.twitter {
+        @include button-style($social-brand-twitter, auto, $white);
+      }
+      &.linkedin {
+        @include button-style($social-brand-linkedin, auto, $white);
+      }
+      &.google-plus {
+        @include button-style($social-brand-google-plus, auto, $white);
+      }
+
+      > .fa {
+        color: $white;
+
+        &.fa-comments-o {
+          margin-right: 0.25rem;
+        }
+      }
+    }
+  }
+}
+
+
+//sticky top bar title bar
+
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
+[data-sticky] {
+  width:100%;
+}
+
+.sticky-container {
+  z-index: 5;
+}
+
+
+
+
+
+.close-button {
+  color: red;
+ }
