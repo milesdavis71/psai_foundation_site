@@ -1,4 +1,4 @@
-  {{> hover}}
+{{> hover}}
 
 <div class="cell medium-9 medium-cell-block-y">
   {{> vissza}}
@@ -10,7 +10,7 @@
   <div class="grid-x grid-margin-x">
     <?php
       //set main directory
-      $mainDir = '../../../assets/img/galeriak/2019_20/ps/';
+      $mainDir = '../../../assets/img/galeriak/2019_20/bs/';
 
       //gets sub directories of PDFS directory
       $subDirectories = scandir($mainDir);
@@ -45,8 +45,7 @@
             <input type="hidden" value="'.$albumcim.'" name="title">
             <p class="text-center"><input class="hollow button small" type="submit" value="Megnyitás"
                                           name="submit" style="margin-top: 0.5rem; margin-bottom: -0.5rem"></p>
-          <div class="card-section">
-
+          </div>
         </form>
 
       </div>
@@ -57,9 +56,9 @@
   }
   }
   ?>
-  </div>
+</div>
 
 
-  {{> vissza}}
+{{> vissza}}
 
 </div>
