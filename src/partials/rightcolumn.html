@@ -1,3 +1,12 @@
+<script>
+    function highlight(image) {
+        image.src = "{{root}}assets/img/hatartalanul_logo_right_column_dark.jpg";
+    }
+    function unhighlight(image) {
+        image.src = "{{root}}assets/img/hatartalanul_logo_right_column_light.jpg";
+    }
+</script>
+
 
       <div class="cell medium-2 medium-cell-block-y">
           <p class="text-center">
@@ -43,17 +52,9 @@
 
           <p class="text-center" style="line-height: 1.3rem; margin-top: 1.5rem; margin-bottom: 0rem;">
               <strong>Határtalanul!<br>pályázataink</strong><br>
-              <img src="{{root}}assets/img/hatartalanul_logo_right_column.jpg">
+          <a href="{{root}}palyazatok/ps_bs/hatartalanul.html"><img onmouseenter="highlight(this)" onmouseleave="unhighlight(this)" src="assets/img/hatartalanul_logo_right_column_light.jpg"></a>
               <small>Válasszon évfolyamot!</small>
           </p>
-          <ul class="vertical menu accordion-menu" data-accordion-menu>
-              <li>
-                  <a href="#"><small>Évfolyam</small></a>
-                  <ul class="menu vertical nested">
-                  {{> hatartalanul}}
-                  </ul>
-              </li>
-          </ul>
 
 
 
