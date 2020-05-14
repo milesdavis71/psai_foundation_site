@@ -226,12 +226,15 @@ $accordion-background: $white;
 $accordion-plusminus: true;
 $accordion-title-font-size: rem-calc(14);
 $accordion-item-color: $primary-color;
-$accordion-item-background-hover: $light-gray;
-$accordion-item-padding: 0.5rem 0.5rem;
+//$accordion-item-background-hover: $light-gray;
+$accordion-item-background-hover: $white;
+//$accordion-item-padding: 0.5rem 0.5rem;
+$accordion-item-padding: 0.3rem 0rem;
 $accordion-content-background: $white;
-$accordion-content-border: 2px solid $light-gray;
+//$accordion-content-border: 2px solid $light-gray;
+$accordion-content-border: 0px;
 $accordion-content-color: $body-font-color;
-$accordion-content-padding: 0.1rem;
+$accordion-content-padding: 0rem 0rem 0rem 1rem;
 
 // 8. Accordion Menu
 // -----------------
@@ -844,8 +847,10 @@ $tooltip-radius: $global-radius;
 // 55. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+//$topbar-padding: 0.5rem;
+$topbar-padding: 0rem;
+//$topbar-background: $light-gray;
+$topbar-background: $white;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;

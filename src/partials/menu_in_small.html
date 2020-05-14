@@ -1,112 +1,17 @@
-<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-    <li class="accordion-item" data-accordion-item>
-        <a href="#" class="accordion-title">Accordion 1</a>
-        <div data-id="a1" id="a1" class="accordion-content" data-tab-content >
-            <p>Panel 1. Lorem ipsum dolor</p>
-            <a href="#">Nowhere to Go</a>
-        </div>
-    </li>
-    <li class="accordion-item" data-accordion-item>
-        <a href="#" class="accordion-title">Accordion 2</a>
-        <div data-id="a2" id="a2"  class="accordion-content" data-tab-content>
-            <textarea></textarea>
-            <button class="button">I do nothing!</button>
-        </div>
-    </li>
-    <li class="accordion-item" data-accordion-item>
-        <a href="#" class="accordion-title">Accordion 3</a>
-        <div data-id="a3" id="a3"  class="accordion-content" data-tab-content>
-            Type your name!
-            <input type="text"></input>
-        </div>
-    </li>
+<style type="text/css">
+
+    .accordion-menu a {
+        box-shadow: inset 0 -1px #a2e7f6;
+        line-height: 1.3rem;
+    }
+
+</style>
+
+<ul class="accordion">
+    {{> menu_in_acc}}
 </ul>
 
-<!--<ul class="accordion" data-accordion>-->
-
-    <!--<li class="accordion-item" data-accordion-item>-->
-        <!--<a href="#" class="accordion-title">Accordion 1</a>-->
-        <!--<div class="accordion-content" data-tab-content id="">-->
-            <!--Panel 1. Lorem ipsum dolor-->
-        <!--</div>-->
-    <!--</li>-->
-    <!--<li class="accordion-item" data-accordion-item>-->
-        <!--<a href="#" class="accordion-title">Accordion 2</a>-->
-        <!--<div class="accordion-content" data-tab-content>-->
-            <!--Panel 2. Lorem ipsum dolor-->
-        <!--</div>-->
-    <!--</li>-->
-    <!--<li class="accordion-item" data-accordion-item>-->
-        <!--<a href="#" class="accordion-title">Accordion 3</a>-->
-        <!--<div class="accordion-content" data-tab-content>-->
-            <!--Panel 3. Lorem ipsum dolor-->
-        <!--</div>-->
-    <!--</li>-->
-<!--</ul>-->
-
-    <!--<ul class="accordion" data-magellan data-deep-link="true" data-update-history="true" data-accordion data-allow-all-closed="true">-->
-        <!--<li class="accordion-item" id="result" data-accordion-item>-->
-            <!--<a href="#002" class="accordion-title" >Elérhetőségeink</a>-->
-            <!--<div class="accordion-content" data-tab-content id="002">-->
-                <!--<ul class="accordion" data-magellan data-deep-link="true" data-accordion data-allow-all-closed="true">-->
-                    <!--<li>-->
-                        <!--<a href="{{root}}bemutatkozas/elerhetosegeink.html#001">Címek, e-mailcímek,<br>telefonszámok</a>-->
-                    <!--</li>-->
-                    <!--<li class="accordion-item" data-accordion-item>-->
-                        <!--<a href="#" class="accordion-title">Helyünk a térképen</a>-->
-                        <!--<div class="accordion-content" data-tab-content>-->
-                            <!--<a href="{{root}}elerhetosegeink_ps.html">Petőfi</a>&emsp;-->
-                            <!--<a href="{{root}}elerhetosegeink_bs.html">Bálint</a>-->
-                        <!--</div>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</li>-->
-        <!--<li class="accordion-item" data-accordion-item>-->
-            <!--<a href="#" class="accordion-title" >Bemutatkozás</a>-->
-            <!--<div class="accordion-content" data-tab-content>-->
-                <!--<ul class="accordion" data-accordion data-allow-all-closed="true">-->
-                    <!--<li class="accordion-item" data-accordion-item>-->
-                        <!--<a href="#" class="accordion-title">Great Things</a>-->
-                        <!--<div class="accordion-content" data-tab-content>-->
-                            <!--These are great things!-->
-                        <!--</div>-->
-                    <!--</li>-->
-                    <!--<li class="accordion-item" data-accordion-item>-->
-                        <!--<a href="#" class="accordion-title">Spiffy Things</a>-->
-                        <!--<div class="accordion-content" data-tab-content>-->
-                            <!--These are spiffy things!-->
-                        <!--</div>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</li>-->
-        <!--<li class="accordion-item" data-accordion-item>-->
-            <!--<a href="#" class="accordion-title" >Étkezési információk</a>-->
-            <!--<div class="accordion-content" data-tab-content>-->
-                <!--<ul class="accordion" data-accordion data-allow-all-closed="true">-->
-                    <!--<li class="accordion-item" data-accordion-item>-->
-                        <!--<a href="#" class="accordion-title">Great Things</a>-->
-                        <!--<div class="accordion-content" data-tab-content>-->
-                            <!--These are great things!-->
-                        <!--</div>-->
-                    <!--</li>-->
-                    <!--<li class="accordion-item" data-accordion-item>-->
-                        <!--<a href="#" class="accordion-title">Spiffy Things</a>-->
-                        <!--<div class="accordion-content" data-tab-content>-->
-                            <!--These are spiffy things!-->
-                        <!--</div>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</li>-->
-<!--</ul>-->
-
-
-
-
-
-    <!--
+<!--
 <ul class="vertical menu accordion-menu" data-accordion-menu>
 
     <li>

@@ -8,16 +8,14 @@
     <!-- Cache cleaner eleje -->
     <meta http-equiv="Cache-Control" content="no-cache" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="expires" content="Fri, 16 Jan 2020 1:00:00 GMT" />
+    <!--<meta http-equiv="expires" content="Fri, 16 Jan 2020 1:00:00 GMT" />-->
     <!-- Cache cleaner vége -->
     <title>Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{root}}assets/img/psbs_favicon.ico" />
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
-    <link rel="stylesheet" href="{{root}}assets/mbcsmbfxg3.css"/>
     <link rel="stylesheet" href="{{root}}assets/css/motion-ui.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    </script>
-    </script>
+
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent-->
     <script async="" type="text/javascript">
       window.cookieconsent_options = { "message": "Weboldalunk használatával jóváhagyod a cookie-k használatát a cookie-kkal kapcsolatos irányelv értelmében.", "dismiss": "Bezár", "learnMore": "További információk.", "link": null, "theme": "dark-bottom" };
@@ -26,6 +24,60 @@
       src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js">
     </script>
     <!-- Cookie pop up vége-->
+<!--jquery átmeneti-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    </script>
+<!--jquery átmeneti vége -->
+
+    <!--script accordionhoz-->
+    <script>
+        $(document).foundation();
+
+        $('.accordion').on('down.zf.accordion', function (e,$panel) {
+            var active = $($panel).attr('id');
+            var panels= localStorage.panels === undefined ? new Array() : JSON.parse(localStorage.panels);
+            if ($.inArray(active,panels)==-1) //check that the element is not in the array
+                panels.push(active);
+            localStorage.panels=JSON.stringify(panels);
+        });
+
+        $('.accordion').on('up.zf.accordion', function (e,$panel){
+            var active = $($panel).attr('id');
+            var panels= localStorage.panels === undefined ? new Array() : JSON.parse(localStorage.panels);
+            var elementIndex=$.inArray(active,panels);
+            if (elementIndex!==-1) //check the array
+            {
+                panels.splice(elementIndex,1); //remove item from array
+            }
+            localStorage.panels=JSON.stringify(panels); //save array on localStorage
+            console.log(active)
+        });
+
+
+        var panels=localStorage.panels === undefined ? new Array() : JSON.parse(localStorage.panels); //get all panels
+
+        for (var i in panels){ //<-- panel is the name of the cookie
+            var panelID = $(panels[i]);
+            console.log(panelID)
+            if ($(panels[i]).hasClass('accordion-content')) // check if this is a panel
+            {
+                //app.accordion.open(this);
+                var panelID = $(panels[i]);
+                //var panelID = $("[data-id='"+ $(panels[i]) + "']");
+
+                //$(".accordion").foundation("down", $("[data-id='"+ panels[i] + "']"));
+                $('.accordion').foundation('down', panelID);
+
+            }
+            z
+        }
+
+    </script>
+
+    <!--script accordionhoz vége-->
+
+
   </head>
   <body>
     <style type="text/css">
@@ -51,11 +103,11 @@
       <div class="sticky" data-sticky data-sticky-on="small" data-options="marginTop:0;" style="width:100%">
         <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
           <div class="title-bar-left">
-            <button class="menu-icon" type="button" data-toggle></button>&emsp;
+            <button class="menu-icon" id="menuicon" type="button" data-toggle></button>&emsp;
             <strong>MENÜ</strong>
           </div>
-    
-    
+
+
           <div class="title-bar-right">
             <a href=https://www.facebook.com/petofiszeged target="_blank" id="fb" style="color: white"><i
                 class="fa fa-facebook fa-lg">&thinsp;</i><strong>PS</strong></a>&emsp;
@@ -68,13 +120,8 @@
             style="color: white; line-height: 1.5rem"><img src="{{root}}assets/img/kreta_logo_small.png">
             <strong>BS</strong></a>&thinsp;
         </div>
-    
-        <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
-          <div class="top-bar-left">
-            <ul class="vertical dropdown menu hide-for-large" style="font-size: 1.2rem" data-magellan>
-              {{> menu_in_acc}}
-          </div>
-        </div>
+
+
     
       </div>
     </div>
@@ -105,14 +152,7 @@
     
           Az intézmény fenntartója a Szegedi Tankerületi Központ
         </p>
-        <h4 class="text-center show-for-small-only">
-          <strong>A <font color="#3fa9f5">Szegedi Petőfi Sándor Általános Iskola</font><br />és a <font color="#f7931e">
-              Bálint Sándor Tagiskola</font> honlapja</strong><br />
-          <small>
-            <font color="gray">
-              Az intézmény fenntartója a Szegedi Tankerületi Központ</font>
-          </small>
-        </h4>
+
     
     
     
@@ -134,8 +174,14 @@
 
 <div class="cell medium-auto medium-cell-block-container">
   <div class="grid-x grid-padding-x">
-    <div class="cell medium-3 medium-cell-block-y hide-for-small-only">
-      {{> menu_in_acc}}
+    <div class="cell medium-3 medium-cell-block-y" id="becsuk">
+      <div class="top-bar hide-for-large-only" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
+        <div class="top-bar-left">
+          {{> menu_in_acc}}
+
+        </div>
+      </div>
+
     </div>
 
 
@@ -163,5 +209,7 @@
 
 
     <script src="{{root}}assets/js/app.js"></script>
+
+
   </body>
 </html>
