@@ -452,11 +452,14 @@ $form-button-radius: $global-radius;
 // 21. Label
 // ---------
 
-$label-background: $primary-color;
+//$label-background: $primary-color;
+$label-background: $light-gray;
 $label-color: $white;
 $label-color-alt: $black;
 $label-palette: $foundation-palette;
-$label-font-size: 0.8rem;
+//$label-font-size: 0.8rem;
+$label-font-size: 0.6rem;
+//$label-padding: 0.33333rem 0.5rem;
 $label-padding: 0.33333rem 0.5rem;
 $label-radius: $global-radius;
 
@@ -799,9 +802,11 @@ $tab-background: $white;
 $tab-color: $primary-color;
 $tab-background-active: $light-gray;
 $tab-active-color: $primary-color;
-$tab-item-font-size: rem-calc(12);
+$tab-item-font-size: rem-calc(14);
+$tab-item-font-size: rem-calc(14);
 $tab-item-background-hover: $white;
-$tab-item-padding: 1.25rem 1.5rem;
+//$tab-item-padding: 1.25rem 1.5rem;
+$tab-item-padding: .5rem .75rem;
 $tab-expand-max: 6;
 $tab-content-background: $white;
 $tab-content-border: $light-gray;

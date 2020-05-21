@@ -1,23 +1,37 @@
+<style>
+    .current a {
+        color: #FFA500;
+    }
+</style>
+
 <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-    <li class="accordion-item" data-accordion-item>
-        <a href="#" class="accordion-title">Accordion 1</a>
-        <div data-id="a1" id="a1" class="accordion-content" data-tab-content >
-            <p>Panel 1. Lorem ipsum dolor</p>
-            <a href="#">Nowhere to Go</a>
+    <li {{#ifpage 'index'}} class="current"{{/ifpage}}><a href="{{root}}index.html"> <i class="fa fa-home" style="font-size: 1.5rem;"></i>&ensp;Hírfolyam</a>
+    </li>
+    <li class="accordion-item {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">Elérhetőségeink</a>
+        <div class="accordion-content {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'elerhetosegeink'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/elerhetosegeink.html">Elérhetőségeink</a></li>
+                <li{{#ifpage 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}} class="current"{{/ifpage}}><a href="{{root}}elerhetosegeink_helyunk_a_terkepen_ps_bs.html">Helyünk a térképen {{>label}}</a></li>
+            </ul>
         </div>
     </li>
-    <li class="accordion-item" data-accordion-item>
-        <a href="#" class="accordion-title">Accordion 2</a>
-        <div data-id="a2" id="a2"  class="accordion-content" data-tab-content>
-            <textarea></textarea>
-            <button class="button">I do nothing!</button>
+    <li class="accordion-item {{#ifpage 'tanaraink_ps_bs' 'hitoktatok_ps_bs_2019_20'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">Bemutatkozás</a>
+        <div class="accordion-content {{#ifpage 'tanaraink_ps_bs' 'hitoktatok_ps_bs_2019_20'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'tanaraink_ps_bs'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/tanaraink_ps_bs.html">Tanáraink {{>label}}</a></li>
+                <li{{#ifpage 'hitoktatok_ps_bs_2019_20'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/hitoktatok_ps_bs_2019_20.html">Hitoktatóink {{>label}}</a></li>
+            </ul>
         </div>
     </li>
-    <li class="accordion-item" data-accordion-item>
-        <a href="#" class="accordion-title">Accordion 3</a>
-        <div data-id="a3" id="a3"  class="accordion-content" data-tab-content>
-            Type your name!
-            <input type="text"></input>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">Étkezési információk</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}><a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a></li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}><a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a></li>
+            </ul>
         </div>
     </li>
 </ul>
