@@ -2,11 +2,17 @@
     .current a {
         color: #FFA500;
     }
+    .accordion-title {
+        box-shadow: inset 0 -1px #a2e7f6;
+        line-height: 1.3rem;
+    }
 </style>
 
 <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-    <li {{#ifpage 'index'}} class="current"{{/ifpage}}><a href="{{root}}index.html"> <i class="fa fa-home" style="font-size: 1.5rem;"></i>&ensp;Hírfolyam</a>
+    <div style="box-shadow: inset 0 -1px #a2e7f6; line-height: 1.3rem;">
+    <li {{#ifpage 'index'}} class="current"{{/ifpage}} style="padding: 0.3rem 0rem;"><a href="{{root}}index.html"> <i class="fa fa-home" style="font-size: 1.5rem;"></i>&ensp;Hírfolyam</a>
     </li>
+    </div>
     <li class="accordion-item {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
         <a href="#" class="accordion-title">Elérhetőségeink</a>
         <div class="accordion-content {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
@@ -16,17 +22,19 @@
             </ul>
         </div>
     </li>
-    <li class="accordion-item {{#ifpage 'tanaraink_ps_bs' 'hitoktatok_ps_bs_2019_20'}}is-active{{/ifpage}}" data-accordion-item>
+    <li class="accordion-item {{#ifpage 'tanaraink_ps_bs' 'hitoktatok_ps_bs_2019_20' 'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'}}is-active{{/ifpage}}" data-accordion-item>
         <a href="#" class="accordion-title">Bemutatkozás</a>
-        <div class="accordion-content {{#ifpage 'tanaraink_ps_bs' 'hitoktatok_ps_bs_2019_20'}}is-active{{/ifpage}}" data-tab-content>
+        <div class="accordion-content {{#ifpage 'tanaraink_ps_bs' 'hitoktatok_ps_bs_2019_20' 'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'}}is-active{{/ifpage}}" data-tab-content>
             <ul class="accordion">
                 <li{{#ifpage 'tanaraink_ps_bs'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/tanaraink_ps_bs.html">Tanáraink {{>label}}</a></li>
                 <li{{#ifpage 'hitoktatok_ps_bs_2019_20'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/hitoktatok_ps_bs_2019_20.html">Hitoktatóink {{>label}}</a></li>
+                <li{{#ifpage 'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/reformatus_hit_es_erkolcstan_tajekoztato_2019_20.html">Református hit- és erkölcstan
+                tájékoztató beiratkozáshoz</a></li>
             </ul>
         </div>
     </li>
     <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
-        <a href="#" class="accordion-title">Étkezési információk</a>
+        <a href="#" class="accordion-title" style="box-shadow: inset 0 -1px white;">Étkezési információk</a>
         <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
             <ul class="accordion">
                 <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}><a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a></li>

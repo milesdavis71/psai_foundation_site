@@ -24,58 +24,9 @@
       src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js">
     </script>
     <!-- Cookie pop up vége-->
-<!--jquery átmeneti-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
-    </script>
-<!--jquery átmeneti vége -->
+    <script src="{{root}}assets/js/pdfobject.js"></script>
 
-    <!--script accordionhoz-->
-    <script>
-        $(document).foundation();
-
-        $('.accordion').on('down.zf.accordion', function (e,$panel) {
-            var active = $($panel).attr('id');
-            var panels= localStorage.panels === undefined ? new Array() : JSON.parse(localStorage.panels);
-            if ($.inArray(active,panels)==-1) //check that the element is not in the array
-                panels.push(active);
-            localStorage.panels=JSON.stringify(panels);
-        });
-
-        $('.accordion').on('up.zf.accordion', function (e,$panel){
-            var active = $($panel).attr('id');
-            var panels= localStorage.panels === undefined ? new Array() : JSON.parse(localStorage.panels);
-            var elementIndex=$.inArray(active,panels);
-            if (elementIndex!==-1) //check the array
-            {
-                panels.splice(elementIndex,1); //remove item from array
-            }
-            localStorage.panels=JSON.stringify(panels); //save array on localStorage
-            console.log(active)
-        });
-
-
-        var panels=localStorage.panels === undefined ? new Array() : JSON.parse(localStorage.panels); //get all panels
-
-        for (var i in panels){ //<-- panel is the name of the cookie
-            var panelID = $(panels[i]);
-            console.log(panelID)
-            if ($(panels[i]).hasClass('accordion-content')) // check if this is a panel
-            {
-                //app.accordion.open(this);
-                var panelID = $(panels[i]);
-                //var panelID = $("[data-id='"+ $(panels[i]) + "']");
-
-                //$(".accordion").foundation("down", $("[data-id='"+ panels[i] + "']"));
-                $('.accordion').foundation('down', panelID);
-
-            }
-            z
-        }
-
-    </script>
-
-    <!--script accordionhoz vége-->
 
 
   </head>
@@ -209,6 +160,7 @@
 
 
     <script src="{{root}}assets/js/app.js"></script>
+
 
 
   </body>
