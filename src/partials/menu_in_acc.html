@@ -1,47 +1,272 @@
 <style>
     .current a {
         color: #FFA500;
+        line-height: 1.3rem;
+
     }
     .accordion-title {
         box-shadow: inset 0 -1px #a2e7f6;
-        line-height: 1.3rem;
+    }
+    li {
+        line-height: 1.2rem;
+        margin: .45rem .45rem;
     }
 </style>
 
 <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
     <div style="box-shadow: inset 0 -1px #a2e7f6; line-height: 1.3rem;">
-    <li {{#ifpage 'index'}} class="current"{{/ifpage}} style="padding: 0.3rem 0rem;"><a href="{{root}}index.html"> <i class="fa fa-home" style="font-size: 1.5rem;"></i>&ensp;Hírfolyam</a>
-    </li>
+        <li {{#ifpage 'index'}} class="current"{{/ifpage}} style="padding: 0.3rem 0rem;">
+            <a href="{{root}}index.html"><i class="fas fa-bullhorn"></i>&thinsp;&thinsp;Hírfolyam</a>
+        </li>
     </div>
     <li class="accordion-item {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
-        <a href="#" class="accordion-title">Elérhetőségeink</a>
+        <a href="#" class="accordion-title">&thinsp;&thinsp;<i class="fas fa-map-marker"></i>&thinsp;&thinsp;Elérhetőségeink</a>
         <div class="accordion-content {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
             <ul class="accordion">
-                <li{{#ifpage 'elerhetosegeink'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/elerhetosegeink.html">Elérhetőségeink</a></li>
-                <li{{#ifpage 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}} class="current"{{/ifpage}}><a href="{{root}}elerhetosegeink_helyunk_a_terkepen_ps_bs.html">Helyünk a térképen {{>label}}</a></li>
+                <li{{#ifpage 'elerhetosegeink'}} class="current"{{/ifpage}}>
+                    <a href="{{root}}bemutatkozas/elerhetosegeink.html">Elérhetőségeink</a>
+                </li>
+                <li{{#ifpage 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}} class="current"{{/ifpage}}>
+                    <a href="{{root}}elerhetosegeink_helyunk_a_terkepen_ps_bs.html">Helyünk a térképen {{>label}}</a>
+                </li>
             </ul>
         </div>
     </li>
-    <li class="accordion-item {{#ifpage 'tanaraink_ps_bs' 'hitoktatok_ps_bs_2019_20' 'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'}}is-active{{/ifpage}}" data-accordion-item>
-        <a href="#" class="accordion-title">Bemutatkozás</a>
-        <div class="accordion-content {{#ifpage 'tanaraink_ps_bs' 'hitoktatok_ps_bs_2019_20' 'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'}}is-active{{/ifpage}}" data-tab-content>
+    <li class="accordion-item
+        {{#ifpage
+            'tanaraink_ps_bs'
+            'hitoktatok_ps_bs_2019_20'
+            'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'
+            'pedagogiai_program_2019_20'
+            }}
+            is-active
+        {{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title"><i class="fas fa-chalkboard-teacher"></i> Bemutatkozás</a>
+        <div class="accordion-content
+            {{#ifpage
+                'tanaraink_ps_bs'
+                'hitoktatok_ps_bs_2019_20'
+                'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'
+                'pedagogiai_program_2019_20'
+                }}
+                is-active
+            {{/ifpage}}" data-tab-content>
             <ul class="accordion">
-                <li{{#ifpage 'tanaraink_ps_bs'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/tanaraink_ps_bs.html">Tanáraink {{>label}}</a></li>
-                <li{{#ifpage 'hitoktatok_ps_bs_2019_20'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/hitoktatok_ps_bs_2019_20.html">Hitoktatóink {{>label}}</a></li>
-                <li{{#ifpage 'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'}} class="current"{{/ifpage}}><a href="{{root}}bemutatkozas/reformatus_hit_es_erkolcstan_tajekoztato_2019_20.html">Református hit- és erkölcstan
-                tájékoztató beiratkozáshoz</a></li>
+                <li{{#ifpage 'tanaraink_ps_bs'}} class="current"{{/ifpage}}>
+                    <a href="{{root}}bemutatkozas/tanaraink_ps_bs.html">Tanáraink {{>label}}</a>
+                </li>
+                <li{{#ifpage 'hitoktatok_ps_bs_2019_20'}} class="current"{{/ifpage}}>
+                    <a href="{{root}}bemutatkozas/hitoktatok_ps_bs_2019_20.html">Hitoktatóink {{>label}}</a>
+                </li>
+                <li{{#ifpage 'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'}} class="current"{{/ifpage}}>
+                    <a href="{{root}}bemutatkozas/reformatus_hit_es_erkolcstan_tajekoztato_2019_20.html">Református hit- és erkölcstan tájékoztató beiratkozáshoz</a>
+                </li>
+                <li{{#ifpage 'pedagogiai_program_2019_20'}} class="current"{{/ifpage}}>
+                    <a href="{{root}}bemutatkozas/pedagogiai_program_2019_20.html">Pedagógiai program</a>
+                </li>
+
             </ul>
         </div>
     </li>
     <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
-        <a href="#" class="accordion-title" style="box-shadow: inset 0 -1px white;">Étkezési információk</a>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;Étkezési információk</a>
         <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
             <ul class="accordion">
-                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}><a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a></li>
-                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}><a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a></li>
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                    <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                    <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
             </ul>
         </div>
     </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-list"></i>&ensp;Közzétételi lista</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Beiratkozás, felvétel</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+
+    <div style="box-shadow: inset 0 -1px #a2e7f6; line-height: 1.3rem;">
+        <li {{#ifpage 'index'}} class="current"{{/ifpage}} style="padding: 0.3rem 0rem;">
+        <a href="{{root}}index.html"><i class="fas fa-calendar-alt"></i>&thinsp;&thinsp;A tanév rendje</a>
+        </li>
+    </div>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-users-class"></i>&ensp;Osztályaink</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-table"></i>&ensp;Órarendek</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-users"></i>&ensp;Szülői értekezletek,
+            fogadóórák</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;Tanórán kívüli foglalkozások</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;Versenyeredmények</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;Fotó archívum</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;Adatkezelés</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;Pályázatok</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;Alapítványok</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;Letölthető nyomtatványok</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;e-Ügyintézés</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="accordion-item {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-accordion-item>
+        <a href="#" class="accordion-title">&thinsp;<i class="fas fa-utensils"></i>&ensp;GDPR tájékoztatók</a>
+        <div class="accordion-content {{#ifpage 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}" data-tab-content>
+            <ul class="accordion">
+                <li{{#ifpage 'www.ngsz.hu'}} class="current"{{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+                </li>
+                <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <div style="box-shadow: inset 0 -1px #a2e7f6; line-height: 1.3rem;">
+        <li {{#ifpage 'index'}} class="current"{{/ifpage}} style="padding: 0.3rem 0rem;">
+        <a href="{{root}}index.html"><i class="fas fa-bullhorn"></i>&thinsp;&thinsp;Intézményfenntartó</a>
+        </li>
+    </div>
+    <div style="box-shadow: inset 0 -1px #a2e7f6; line-height: 1.3rem;">
+        <li {{#ifpage 'index'}} class="current"{{/ifpage}} style="padding: 0.3rem 0rem;">
+        <a href="{{root}}index.html"><i class="fas fa-bullhorn"></i>&thinsp;&thinsp;Impresszum</a>
+        </li>
+    </div>
 </ul>
 
 <!--<ul class="accordion" data-accordion>-->
