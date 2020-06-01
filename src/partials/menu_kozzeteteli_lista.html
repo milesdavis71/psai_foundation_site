@@ -1,0 +1,23 @@
+<li class="accordion-item
+        {{#ifpage
+            'tajekoztato_felveteli_lehetosegrol'
+            }}
+            is-active
+        {{/ifpage}}" data-accordion-item>
+    <a href="#" class="accordion-title"><i class="fas fa-list"></i>&thinsp;&thinsp;&thinsp;Közzétételi lista</a>
+    <div class="accordion-content
+    {{#ifpage
+        'tajekoztato_felveteli_lehetosegrol'      
+        }}
+        is-active
+    {{/ifpage}}" data-tab-content>
+        <ul class="accordion">
+            <li{{#ifpage 'tajekoztato_felveteli_lehetosegrol'}} class="current"{{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/tajekoztato_felveteli_lehetosegrol.html" target="_blank">Felvételi lehetőségről szóló tájékoztató</a>
+            </li>
+            <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
+            <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Beiratkozás, felvétel</a>
+            </li>
+        </ul>
+    </div>
+</li>
