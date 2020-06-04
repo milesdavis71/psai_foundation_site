@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+</body>
+</html>
+<script>
+    var n="1 db 36-16 kottafüzet@5 db 14-32 1. osztályos vonalazású füzet@3 db 27-32 négyzetrácsos füzet@1 db vonalas füzet (legyen elütő a többitől, mert üzenőfüzet lesz)@4 csomag írólap@50 db rajzlap@1 db A4-es, papír iratgyűjtő dosszié@színes ceruza (legalább tizenkét színű)@2 db 2B-s és 3 db HB-s grafitceruza (radír nélküli)@1 db piros-kék ceruza@2 db postairon@1 db tartályos hegyező@1 db fehér radír@20 db kék és 20 db rózsaszín vagy piros ásványvizes kupak@1 db vízfesték (legalább 12 színű, lehetőleg Anilinky)@3 db ecset (háromféle vastagságban)@1 db bármilyen margarinos, vagy vajas doboz tetővel, 1 db fagyis doboz tetővel@1 csomag egyszínű gyurma@1 db A/4-es gyurmatábla@1 csomag A/4 színes papír@1 csomag négyzet alakú origami papír@1 doboz számolókorong@1 csomag számolópálcika@2 db dobókocka@1 db kétoldalas tükör@1 db műanyag óra@1 db műanyag hőmérő@1 tubus papírragasztó (Nebuló és/vagy Pritt)@1 doboz zsírkréta (legalább tizenkét színű)@1 db műanyag vonalzó (10-20 cm-es, ami belefér a tolltartóba, nem hajlékony)@tornafelszerelés@fehér zokni, @fehér, ill. iskolai emblémás póló@sötét alsó@tornacipő@kisméretű törölköző@2 db vászonzacskó a torna-, és rajzfelszerelésnek@olló@ivópohár@Kérjük minden eszközre, felszerelésre írják rá gyermekük nevét!@Csányi Erika és Szabó Adrienne tanító nénik";
+    
+    
+
+    //tömb létrehozása, amibe majd később bekerül a két string (férfi/nő), mint változó.
+    var str = [];
+    //„function” (függvény) – valaminek az előállítására, utána zárójelben a paraméter,
+    //aminek az értékén/értékein végre kell hajtani a feladatot. (Ez így egy konstruktor)
+    //ha nem egyetlen változóhoz akarod megírni a funkciót, akkor paramétert kell neki megadni (tablazat),
+    //és a paraméterre meghívni az eseményeket, amiket csinálni akarsz a fügvénnyel.
+    //Amikor meghívod a függvényt, akkor pedig a paraméter helyére kell beírni a változót, amin
+    //dolgoztatni akarod a függvényt.
+    //A zárójelbe majd a string neve (f, n) fog kerülni meghíváskor.
+    //A split beépített metódus már eleve a string tömbbe teszi be a ";" alapján felbontott stringeket.
+    ////Meghíváskor a split beépített metódus végigmegy a stringen, és a szeparátorként megadott karaktereknél (pontosvessző) egy-egy tömböt hoz létre, benne egy substringgel.
+    //A táblkázathoz szükséges kétdimenziós tömb úgy jön létre, hogy a splittel létrehozott 1 dimenziós tömb minden egyes során végigmegy egy for ciklus, és a benn lévő számokat a szpészeknél szétszedi egy-egy tömb elemre, és ebből lesz a majd a táblázat cellkba írandó string.      
+
+function StringFelbontTablCellakra(tablazat)
+    {
+        str = tablazat.split("@");
+    
+        return str;
+    }
+
+    
+    //ez a függvény a „StringFelbontTablCellakra” függvényben létrehozott kétdimenziós tömb
+    //elemei köré teszi a html táblázathoz szükséges tag-eket. A tömbbben létrehozott 
+    function tablazatKiir(str)
+    {
+
+        document.write("<ul>");
+        //a ciklusmagon belül, ahol már történik az első dimenzióban
+        //a sorról sorra bejárás, minden egyes sor elé bekerül egy tr kezdő tag
+        //a magon belül pedig, ahol a második dimenziót járja be a ciklus,
+        //minden egyes 2. dimenziós tömb elem elé és után kerül egy td nyitó
+        //záró tag. A tömb elemeinek megadásánál az első []-ben a sort adjuk meg "i",
+        //a második []-ban a soron belül egy elemet "k".
+
+        for(let i = 0; i<str.length; i++)
+        {  
+                {
+ document.write("<li>"+str[i]+"</li>");
+
+                }
+        }
+
+        document.write("</ul>");
+    }
+
+    //az n stringet feldolgozom az első fügvénnyel, a kapott tömböt beleteszem egy változóba.
+    //A „noFelbontot” változót beleteszem a táblázatkiíró függvénybe, ez már ki is írja az oldalra
+    //a táblázatot... 
+    var noFelbontot = StringFelbontTablCellakra(n);
+    tablazatKiir(noFelbontot);
+    //itt lehet konzolba íratni az első, nő tömböt, mert itt történik meg a példányosítása
+   
+    
+    
+
+</script>
