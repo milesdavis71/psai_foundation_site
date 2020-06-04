@@ -1,4 +1,4 @@
-<li class="accordion-item
+<!-- <li class="accordion-item
         {{#ifpage
             'tajekoztato_felveteli_lehetosegrol'
             }}
@@ -20,4 +20,82 @@
             </li>
         </ul>
     </div>
-</li>
+</li> -->
+
+
+<li>
+    <a href="#"><i class="fas fa-list"></i>&thinsp;&thinsp;&thinsp;Közzétételi lista</a>
+    <ul class="menu vertical nested
+    {{#ifpage
+        'felveteli_tajekoztato'
+        }}
+        is-active
+    {{/ifpage}}">
+      <li>
+        <a href="#">Felvételi lehetőségről<br />szóló tájékoztató</a>
+          <ul class="menu vertical nested
+          {{#ifpage
+            'felveteli_tajekoztato'
+            }}
+            is-active
+        {{/ifpage}}">
+            <li {{#ifpage 'felveteli_tajekoztato'}} class="current" {{/ifpage}}>
+                <a href="{{root}}kozzeteteli_lista/felveteli_tajekoztato.html">Felvételi lehetőségről szóló tájékoztató</a>
+                
+            </li>
+            <li>
+                <a href="#">Beiratkozáskor leadandó nyomtatványok</a>
+            <ul class="menu vertical nested">
+              <li>
+                  <a href="{{root}}assets/beiratkozas/nyilatkozat_felugyeleti_jogrol.pdf" target="_blank">Nyilatkozat felügyeleti<br />jog gyakorlásáról</a>
+              </li>
+              <li>
+                  <a href="{{root}}assets/beiratkozas/nyilatkozat_hit_es_erkolcstanrol.pdf" target="_blank">Nyilatkozat etika,<br />illetve hit- és erkölcstan<br />oktatásról</a>
+              </li>
+            </ul>
+            </li>
+            <li>
+                <a href="{{root}}/beiratkozas/ps_bs_beiratkozasi_korzet.html" target="_blank">Körzetünk</a>
+            </li>
+            <li>
+                <a href="#">Iskolahívogatók</a>
+            <ul class="menu vertical nested">
+              <li>
+                  <a href="{{root}}beiratkozas/iskolahivagato_ps_2019_20.html">Petőfis tájékoztató</a>
+              </li>
+              <li>
+                  <a href="{{root}}beiratkozas/iskolahivagato_bs_2019_20.html">Bálintos tájékoztató</a>
+              </li>
+              <li>
+                  <a href="{{root}}assets/beiratkozas/balintos_bemutatkozas_2018_osz.pdf" target="_blank">Bálintos bemutatkozás</a>
+              </li>
+            </ul>
+            </li>
+          </ul>
+      </li>
+      <li>
+        <a href="#">Beiratkozás ideje,<br />engedélyezett osztályok,<br />csoportok száma</a>
+          <ul class="menu vertical nested">
+            <li>
+            <a href="#">Beiratkozás ideje</a>
+            <ul class="menu vertical nested">
+              <ul class="menu vertical nested">
+                <ul class="menu">
+                  <a href="{{root}}assets/beiratkozas/beiratkozas_ps_2019_20.pdf" target="_blank">Petőfi</a>&emsp;
+                  <a href="{{root}}assets/beiratkozas/beiratkozas_bs_2019_20.pdf" target="_blank">Bálint</a>
+                </ul>
+              </ul>
+            </li>
+
+            </ul>
+            <li>
+            <a href="{{root}}assets/beiratkozas/osztalyok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett osztályok száma</a>
+
+            <li>
+            <a href="{{root}}assets/beiratkozas/csoportok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett csoportok száma</a>
+            </li>
+            </li>
+
+
+          </ul>
+      </li>

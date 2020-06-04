@@ -1,4 +1,6 @@
-<li class="accordion-item
+<li>
+    <a href="#"><i class="fas fa-chalkboard-teacher"></i> Bemutatkozás</a>
+    <ul class="menu vertical nested
         {{#ifpage
             'tanaraink_ps_bs'
             'hitoktatok_ps_bs_2019_20'
@@ -14,27 +16,8 @@
             'taneszkozok_ps_bs_2019_20'
             }}
             is-active
-        {{/ifpage}}" data-accordion-item>
-        <a href="#" class="accordion-title"><i class="fas fa-chalkboard-teacher"></i> Bemutatkozás</a>
-        <div class="accordion-content
-            {{#ifpage
-                'tanaraink_ps_bs'
-                'hitoktatok_ps_bs_2019_20'
-                'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'
-                'pedagogiai_program_2019_20'
-                'ped_prog_mellekletei_ps_bs'
-                'szmsz_ps_bs_2019_20'
-                'kollektiv_szerzodes_ps_bs'
-                'imip'
-                'hazirend_ps_bs'
-                'gyermekvedelem'
-                'tankonyvek_ps_bs_2019_20'
-                'taneszkozok_ps_bs_2019_20'
-                }}
-                is-active
-            {{/ifpage}}" data-tab-content>
-            <ul class="accordion">
-                <li{{#ifpage 'tanaraink_ps_bs'}} class="current"{{/ifpage}}>
+        {{/ifpage}}">
+                <li{{#ifpage 'hitoktatok_ps_bs_2019_20'}} class="current"{{/ifpage}}>
                     <a href="{{root}}bemutatkozas/tanaraink_ps_bs.html">Tanáraink {{>label}}</a>
                 </li>
                 <li{{#ifpage 'hitoktatok_ps_bs_2019_20'}} class="current"{{/ifpage}}>
@@ -70,7 +53,5 @@
                 <li{{#ifpage 'taneszkozok_ps_bs_2019_20'}} class="current"{{/ifpage}}>
                 <a href="{{root}}bemutatkozas/taneszkozok_ps_bs_2019_20.html">Taneszközök{{>label}} </a>
             </li>
-
-            </ul>
-        </div>
-    </li>
+    </ul>
+</li>
