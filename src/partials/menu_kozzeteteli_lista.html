@@ -1,103 +1,65 @@
-<!-- <li class="accordion-item
-        {{#ifpage
-            'tajekoztato_felveteli_lehetosegrol'
-            }}
-            is-active
-        {{/ifpage}}" data-accordion-item>
-    <a href="#" class="accordion-title"><i class="fas fa-list"></i>&thinsp;&thinsp;&thinsp;Közzétételi lista</a>
-    <div class="accordion-content
-    {{#ifpage
-        'tajekoztato_felveteli_lehetosegrol'      
-        }}
-        is-active
-    {{/ifpage}}" data-tab-content>
-        <ul class="accordion">
-            <li{{#ifpage 'tajekoztato_felveteli_lehetosegrol'}} class="current"{{/ifpage}}>
-            <a href="{{root}}kozzeteteli_lista/tajekoztato_felveteli_lehetosegrol.html" target="_blank">Felvételi lehetőségről szóló tájékoztató</a>
-            </li>
-            <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current"{{/ifpage}}>
-            <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Beiratkozás, felvétel</a>
-            </li>
-        </ul>
-    </div>
-</li> -->
-
-
 <li>
-    <a href="#"><i class="fas fa-list"></i>&thinsp;&thinsp;&thinsp;Közzétételi lista</a>
-    <ul class="menu vertical nested
+  <a href="#"><i class="fas fa-list"></i>&thinsp;&thinsp;&thinsp;Közzétételi lista</a>
+  <ul class="menu vertical nested
     {{#ifpage
         'felveteli_tajekoztato'
-        'nyilatkozat_felugyeleti_jog_gyakorlasarol'
+        'beiratkozaskor_leadando_nyomtatvanyok'
+        'ps_bs_beiratkozasi_korzet'
         }}
         is-active
     {{/ifpage}}">
-      <li>
-        <a href="#">Felvételi lehetőségről<br />szóló tájékoztató</a>
-          <ul class="menu vertical nested
+    <li>
+      <a href="#">Felvételi lehetőségről<br />szóló tájékoztató</a>
+      <ul class="menu vertical nested
           {{#ifpage
             'felveteli_tajekoztato'
-            'nyilatkozat_felugyeleti_jog_gyakorlasarol'
+            'beiratkozaskor_leadando_nyomtatvanyok'
+            'ps_bs_beiratkozasi_korzet'
             }}
             is-active
         {{/ifpage}}">
-            <li {{#ifpage 'felveteli_tajekoztato'}} class="current" {{/ifpage}}>
-                <a href="{{root}}kozzeteteli_lista/felveteli_tajekoztato.html">Felvételi lehetőségről szóló tájékoztató</a>
-                
-            </li>
-            <li {{#ifpage 'nyilatkozat_felugyeleti_jog_gyakorlasarol'}} class="current" {{/ifpage}}>
-                <a href="#">Beiratkozáskor leadandó nyomtatványok</a>
-            <ul class="menu vertical nested">
-              <li>
-                  <a href="{{root}}kozzeteteli_lista/nyilatkozat_felugyeleti_jog_gyakorlasarol.html" target="_blank">Nyilatkozat felügyeleti<br />jog gyakorlásáról</a>
-              </li>
-              <li>
-                  <a href="{{root}}assets/beiratkozas/nyilatkozat_hit_es_erkolcstanrol.pdf" target="_blank">Nyilatkozat etika,<br />illetve hit- és erkölcstan<br />oktatásról</a>
-              </li>
-            </ul>
-            </li>
-            <li>
-                <a href="{{root}}/beiratkozas/ps_bs_beiratkozasi_korzet.html" target="_blank">Körzetünk</a>
-            </li>
-            <li>
-                <a href="#">Iskolahívogatók</a>
-            <ul class="menu vertical nested">
-              <li>
-                  <a href="{{root}}beiratkozas/iskolahivagato_ps_2019_20.html">Petőfis tájékoztató</a>
-              </li>
-              <li>
-                  <a href="{{root}}beiratkozas/iskolahivagato_bs_2019_20.html">Bálintos tájékoztató</a>
-              </li>
-              <li>
-                  <a href="{{root}}assets/beiratkozas/balintos_bemutatkozas_2018_osz.pdf" target="_blank">Bálintos bemutatkozás</a>
-              </li>
-            </ul>
-            </li>
-          </ul>
-      </li>
-      <li>
-        <a href="#">Beiratkozás ideje,<br />engedélyezett osztályok,<br />csoportok száma</a>
+        <li {{#ifpage 'felveteli_tajekoztato'}} class="current" {{/ifpage}}>
+          <a href="{{root}}kozzeteteli_lista/felveteli_tajekoztato.html">Felvételi lehetősége</a>
+
+        </li>
+        <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok'}} class="current" {{/ifpage}}>
+          <a href="{{root}}kozzeteteli_lista/beiratkozaskor_leadando_nyomtatvanyok.html">Beiratkozáskor leadandó nyomtatványok</a>
+        </li>
+
+        <li {{#ifpage 'ps_bs_beiratkozasi_korzet'}} class="current" {{/ifpage}}>
+
+          <a href="{{root}}/beiratkozas/ps_bs_beiratkozasi_korzet.html">Körzetünk</a>
+        </li>
+        <li>
+          <a href="{{root}}beiratkozas/iskolahivagato_ps_bs_2020_21.html">Iskolahívogatók {{>label}}</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Beiratkozás ideje,<br />engedélyezett osztályok,<br />csoportok száma</a>
+      <ul class="menu vertical nested">
+        <li>
+          <a href="#">Beiratkozás ideje</a>
           <ul class="menu vertical nested">
-            <li>
-            <a href="#">Beiratkozás ideje</a>
             <ul class="menu vertical nested">
-              <ul class="menu vertical nested">
-                <ul class="menu">
-                  <a href="{{root}}assets/beiratkozas/beiratkozas_ps_2019_20.pdf" target="_blank">Petőfi</a>&emsp;
-                  <a href="{{root}}assets/beiratkozas/beiratkozas_bs_2019_20.pdf" target="_blank">Bálint</a>
-                </ul>
+              <ul class="menu">
+                <a href="{{root}}assets/beiratkozas/beiratkozas_ps_2019_20.pdf" target="_blank">Petőfi</a>&emsp;
+                <a href="{{root}}assets/beiratkozas/beiratkozas_bs_2019_20.pdf" target="_blank">Bálint</a>
               </ul>
-            </li>
-
             </ul>
-            <li>
-            <a href="{{root}}assets/beiratkozas/osztalyok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett osztályok száma</a>
+        </li>
 
-            <li>
-            <a href="{{root}}assets/beiratkozas/csoportok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett csoportok száma</a>
-            </li>
-            </li>
+      </ul>
+    <li>
+      <a href="{{root}}assets/beiratkozas/osztalyok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett osztályok
+        száma</a>
+
+    <li>
+      <a href="{{root}}assets/beiratkozas/csoportok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett csoportok
+        száma</a>
+    </li>
+</li>
 
 
-          </ul>
-      </li>
+</ul>
+</li>
