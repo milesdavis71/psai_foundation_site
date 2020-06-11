@@ -28,6 +28,7 @@
     <ul class="menu vertical nested
     {{#ifpage
         'felveteli_tajekoztato'
+        'nyilatkozat_felugyeleti_jog_gyakorlasarol'
         }}
         is-active
     {{/ifpage}}">
@@ -36,6 +37,7 @@
           <ul class="menu vertical nested
           {{#ifpage
             'felveteli_tajekoztato'
+            'nyilatkozat_felugyeleti_jog_gyakorlasarol'
             }}
             is-active
         {{/ifpage}}">
@@ -43,11 +45,11 @@
                 <a href="{{root}}kozzeteteli_lista/felveteli_tajekoztato.html">Felvételi lehetőségről szóló tájékoztató</a>
                 
             </li>
-            <li>
+            <li {{#ifpage 'nyilatkozat_felugyeleti_jog_gyakorlasarol'}} class="current" {{/ifpage}}>
                 <a href="#">Beiratkozáskor leadandó nyomtatványok</a>
             <ul class="menu vertical nested">
               <li>
-                  <a href="{{root}}assets/beiratkozas/nyilatkozat_felugyeleti_jogrol.pdf" target="_blank">Nyilatkozat felügyeleti<br />jog gyakorlásáról</a>
+                  <a href="{{root}}kozzeteteli_lista/nyilatkozat_felugyeleti_jog_gyakorlasarol.html" target="_blank">Nyilatkozat felügyeleti<br />jog gyakorlásáról</a>
               </li>
               <li>
                   <a href="{{root}}assets/beiratkozas/nyilatkozat_hit_es_erkolcstanrol.pdf" target="_blank">Nyilatkozat etika,<br />illetve hit- és erkölcstan<br />oktatásról</a>
