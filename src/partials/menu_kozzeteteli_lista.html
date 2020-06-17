@@ -6,7 +6,17 @@
         'beiratkozaskor_leadando_nyomtatvanyok'
         'ps_bs_beiratkozasi_korzet'
         'beiratkozas_ideje_ps_bs'
-        }}
+        'fentart_altal_eng_oszt_csop'
+        'teritesi_dij_tandij'
+        'etkezesi_teritesi_dijak'
+        ''
+        ''
+        ''
+        ''
+        ''
+        ''
+        ''
+      }}
         is-active
     {{/ifpage}}">
     <li>
@@ -16,7 +26,19 @@
             'felveteli_tajekoztato'
             'beiratkozaskor_leadando_nyomtatvanyok'
             'ps_bs_beiratkozasi_korzet'
-            beiratkozas_ideje_ps_bs
+            'beiratkozas_ideje_ps_bs'
+            'fentart_altal_eng_oszt_csop'
+            'teritesi_dij_tandij'
+            'etkezesi_teritesi_dijak'
+            ''
+            ''
+            ''
+            ''
+            ''
+            ''
+            ''
+            ''
+            ''
             }}
             is-active
         {{/ifpage}}">
@@ -25,23 +47,34 @@
 
         </li>
         <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok'}} class="current" {{/ifpage}}>
-          <a href="{{root}}kozzeteteli_lista/beiratkozaskor_leadando_nyomtatvanyok.html">Beiratkozáskor leadandó nyomtatványok</a>
+          <a href="{{root}}kozzeteteli_lista/beiratkozaskor_leadando_nyomtatvanyok.html">Beiratkozáskor leadandó
+            nyomtatványok</a>
         </li>
 
         <li {{#ifpage 'ps_bs_beiratkozasi_korzet'}} class="current" {{/ifpage}}>
 
           <a href="{{root}}/beiratkozas/ps_bs_beiratkozasi_korzet.html">Körzetünk</a>
         </li>
-        <li>
+        <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok'}} class="current" {{/ifpage}}>
           <a href="{{root}}beiratkozas/iskolahivagato_ps_bs_2020_21.html">Iskolahívogatók {{>label}}</a>
         </li>
       </ul>
     </li>
     <li {{#ifpage 'beiratkozas_ideje_ps_bs'}} class="current" {{/ifpage}}>
-      <a href="{{root}}kozzeteteli_lista/beiratkozas_ideje_ps_bs.html">Beiratkozás ideje,<br />engedélyezett osztályok,<br />csoportok száma</a>
+      <a href="{{root}}kozzeteteli_lista/beiratkozas_ideje_ps_bs.html">Beiratkozás ideje,<br />engedélyezett
+        osztályok,<br />csoportok száma</a>
     <li>
-</li>
+    <li {{#ifpage 'fentart_altal_eng_oszt_csop'}} class="current" {{/ifpage}}>
+      <a href="{{root}}kozzeteteli_lista/fentart_altal_eng_oszt_csop.html">A fentartó által engedélyezett osztályok,
+        csoportok száma</a>
+    </li>
+    <li {{#ifpage 'teritesi_dij_tandij'}} class="current" {{/ifpage}}>
+      <a href="{{root}}kozzeteteli_lista/teritesi_dij_tandij.html">Térítési díj, tandíj</a>
+    </li>
+    <li {{#ifpage 'etkezesi_teritesi_dijak'}} class="current" {{/ifpage}}>
+      <a href="{{root}}kozzeteteli_lista/etkezesi_teritesi_dijak.html">Étkezési térítési díjak (Petőfi/Bálint)</a>
+    </li>
 
 
-</ul>
+  </ul>
 </li>

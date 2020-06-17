@@ -138,7 +138,7 @@
 
 
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-{{#ifpage 'index' 'hirfolyam_2016_17' 'hirfolyam_2017_18' 'hirfolyam_2018_19'  }}
+{{#ifpage 'index' 'hirfolyam_2016_17' 'hirfolyam_2017_18' 'hirfolyam_2018_19' }}
 {{> startdiv}}
 {{> head_slider}}
 {{> body}}
@@ -146,8 +146,15 @@
 
 {{/ifpage}}
 
+{{#ifpage 'befiz_idopontok_arak_ps_bs' 'teritesi_dij_tandij'}}
+{{> startdiv}}
+{{> body}}
+    {{> rightcolumn}}
 
-{{#unlesspage 'index' 'hirfolyam_2016_17' 'hirfolyam_2017_18' 'hirfolyam_2018_19'}}
+{{/ifpage}}
+
+
+{{#unlesspage 'index' 'hirfolyam_2016_17' 'hirfolyam_2017_18' 'hirfolyam_2018_19' 'befiz_idopontok_arak_ps_bs' 'teritesi_dij_tandij'}}
 
 {{> body}}
     {{/unlesspage}}
