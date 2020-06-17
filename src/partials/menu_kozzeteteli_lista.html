@@ -5,6 +5,7 @@
         'felveteli_tajekoztato'
         'beiratkozaskor_leadando_nyomtatvanyok'
         'ps_bs_beiratkozasi_korzet'
+        'beiratkozas_ideje_ps_bs'
         }}
         is-active
     {{/ifpage}}">
@@ -15,6 +16,7 @@
             'felveteli_tajekoztato'
             'beiratkozaskor_leadando_nyomtatvanyok'
             'ps_bs_beiratkozasi_korzet'
+            beiratkozas_ideje_ps_bs
             }}
             is-active
         {{/ifpage}}">
@@ -35,29 +37,9 @@
         </li>
       </ul>
     </li>
+    <li {{#ifpage 'beiratkozas_ideje_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}kozzeteteli_lista/beiratkozas_ideje_ps_bs.html">Beiratkozás ideje,<br />engedélyezett osztályok,<br />csoportok száma</a>
     <li>
-      <a href="#">Beiratkozás ideje,<br />engedélyezett osztályok,<br />csoportok száma</a>
-      <ul class="menu vertical nested">
-        <li>
-          <a href="#">Beiratkozás ideje</a>
-          <ul class="menu vertical nested">
-            <ul class="menu vertical nested">
-              <ul class="menu">
-                <a href="{{root}}assets/beiratkozas/beiratkozas_ps_2019_20.pdf" target="_blank">Petőfi</a>&emsp;
-                <a href="{{root}}assets/beiratkozas/beiratkozas_bs_2019_20.pdf" target="_blank">Bálint</a>
-              </ul>
-            </ul>
-        </li>
-
-      </ul>
-    <li>
-      <a href="{{root}}assets/beiratkozas/osztalyok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett osztályok
-        száma</a>
-
-    <li>
-      <a href="{{root}}assets/beiratkozas/csoportok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett csoportok
-        száma</a>
-    </li>
 </li>
 
 
