@@ -14,7 +14,7 @@
     </p>
     <div class="responsive-embed">
         <div id="example1" style="height: 85vh; width: 100vw;"></div>
-        <script src="{{root}}assets/js/pdfproject.min.js"></script>
+        {{>pdfviewer}}
         <script>PDFObject.embed("{{root}}assets/beiratkozas/beiratkozas_ps_2019_20.pdf", "#example1");</script>
 
     </div>
@@ -33,7 +33,7 @@
     </p>
     <div class="responsive-embed">
         <div id="example2" style="height: 85vh; width: 100vw;"></div>
-        <script src="{{root}}assets/js/pdfproject.min.js"></script>
+        {{>pdfviewer}}
         <script>PDFObject.embed("{{root}}assets/beiratkozas/beiratkozas_bs_2019_20.pdf", "#example2");</script>
     </div>
     {{>tabs_content3}}

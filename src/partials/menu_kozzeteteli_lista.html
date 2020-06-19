@@ -9,9 +9,9 @@
         'fentart_altal_eng_oszt_csop'
         'teritesi_dij_tandij'
         'etkezesi_teritesi_dijak'
-        ''
-        ''
-        ''
+        'nyilvanos_vizsgalat'
+        'nyitvatartas'
+        'esemenynaptar_ps_bs_2019_20'
         ''
         ''
         ''
@@ -26,19 +26,6 @@
             'felveteli_tajekoztato'
             'beiratkozaskor_leadando_nyomtatvanyok'
             'ps_bs_beiratkozasi_korzet'
-            'beiratkozas_ideje_ps_bs'
-            'fentart_altal_eng_oszt_csop'
-            'teritesi_dij_tandij'
-            'etkezesi_teritesi_dijak'
-            ''
-            ''
-            ''
-            ''
-            ''
-            ''
-            ''
-            ''
-            ''
             }}
             is-active
         {{/ifpage}}">
@@ -74,7 +61,14 @@
     <li {{#ifpage 'etkezesi_teritesi_dijak'}} class="current" {{/ifpage}}>
       <a href="{{root}}kozzeteteli_lista/etkezesi_teritesi_dijak.html">Étkezési térítési díjak (Petőfi/Bálint)</a>
     </li>
+    <li{{#ifpage 'nyitvatartas'}} class="current" {{/ifpage}}>
+      <a href="{{root}}kozzeteteli_lista/nyitvatartas.html">Nyitvatartás</a>
+    </li>
+    <li{{#ifpage 'esemenynaptar_ps_bs_2019_20'}} class="current" {{/ifpage}}>
+      <a href="{{root}}esemenynaptar_ps_bs_2019_20.html">Eseménynaptárak {{>label}}</a>
+    </li>
+</li>
 
 
-  </ul>
+</ul>
 </li>
