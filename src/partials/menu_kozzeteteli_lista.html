@@ -12,7 +12,7 @@
         'nyilvanos_vizsgalat'
         'nyitvatartas'
         'esemenynaptar_ps_bs_2019_20'
-        ''
+        'intezmenyi_tanfelugyelet_eredmenye_2018'
         ''
         ''
         ''
@@ -66,6 +66,27 @@
     </li>
     <li{{#ifpage 'esemenynaptar_ps_bs_2019_20'}} class="current" {{/ifpage}}>
       <a href="{{root}}esemenynaptar_ps_bs_2019_20.html">Eseménynaptárak {{>label}}</a>
+    </li>
+    <li>
+      <a href="#">Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése</a>
+      <ul class="menu vertical nested
+          {{#ifpage
+            'intezmenyi_tanfelugyelet_eredmenye_2018'
+            }}
+            is-active
+        {{/ifpage}}">
+        <li {{#ifpage 'intezmenyi_tanfelugyelet_eredmenye_2018'}} class="current" {{/ifpage}}>
+          <a href="{{root}}kozzeteteli_lista/intezmenyi_tanfelugyelet_eredmenye_2018.html">Intézményi tanfelügyelet eredménye 2018</a>
+
+        </li>
+        <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok'}} class="current" {{/ifpage}}>
+          <a href="{{root}}kozzeteteli_lista/beiratkozaskor_leadando_nyomtatvanyok.html">Intézményvezetői tanfelügyelet eredménye 2018</a>
+        </li>
+
+        <li {{#ifpage 'ps_bs_beiratkozasi_korzet'}} class="current" {{/ifpage}}>
+          <a href="{{root}}/beiratkozas/ps_bs_beiratkozasi_korzet.html">Pedagógus tanfelügyeletének eredménye 2016</a>
+        </li>
+      </ul>
     </li>
 </li>
 
