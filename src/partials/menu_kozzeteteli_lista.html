@@ -3,8 +3,9 @@
   <ul class="menu vertical nested
     {{#ifpage
         'felveteli_tajekoztato'
-        'beiratkozaskor_leadando_nyomtatvanyok'
+        'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
         'ps_bs_beiratkozasi_korzet'
+        'iskolahivagato_ps_bs_kozzetetel'
         'beiratkozas_ideje_ps_bs'
         'fentart_altal_eng_oszt_csop'
         'teritesi_dij_tandij'
@@ -34,17 +35,6 @@
         'osztalyozo_vizsgak_kovetelmenyei'
         'tanulmanyok_alatti_vizsgak_tervezett_rendje'
         'osztalyozo_vizsgak_ertekelesi_rendje'
-        ''
-        ''
-        ''
-        ''
-        ''
-        ''
-        ''
-        ''
-        ''
-        ''
-
       }}
         is-active
     {{/ifpage}}">
@@ -53,7 +43,8 @@
       <ul class="menu vertical nested
           {{#ifpage
             'felveteli_tajekoztato'
-            'beiratkozaskor_leadando_nyomtatvanyok'
+            'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
+            'iskolahivagato_ps_bs_kozzetetel'
             'ps_bs_beiratkozasi_korzet'
             }}
             is-active
@@ -62,8 +53,8 @@
           <a href="{{root}}kozzeteteli_lista/felveteli_tajekoztato.html">Felvételi lehetősége</a>
 
         </li>
-        <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok'}} class="current" {{/ifpage}}>
-          <a href="{{root}}kozzeteteli_lista/beiratkozaskor_leadando_nyomtatvanyok.html">Beiratkozáskor leadandó
+        <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'}} class="current" {{/ifpage}}>
+          <a href="{{root}}beiratkozas/beiratkozaskor_leadando_nyomtatvanyok_kozzetetel.html">Beiratkozáskor leadandó
             nyomtatványok</a>
         </li>
 
@@ -71,8 +62,8 @@
 
           <a href="{{root}}/beiratkozas/ps_bs_beiratkozasi_korzet.html">Körzetünk</a>
         </li>
-        <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok'}} class="current" {{/ifpage}}>
-          <a href="{{root}}beiratkozas/iskolahivagato_ps_bs_2020_21.html">Iskolahívogatók {{>label}}</a>
+        <li {{#ifpage 'iskolahivagato_ps_bs_kozzetetel'}} class="current" {{/ifpage}}>
+          <a href="{{root}}beiratkozas/iskolahivagato_ps_bs_kozzetetel.html">Iskolahívogatók {{>label}}</a>
         </li>
       </ul>
     </li>
@@ -211,8 +202,7 @@
 
         <li {{#ifpage 'osztalyozo_vizsgak_ertekelesi_rendje'}} class="current" {{/ifpage}}>
 
-          <a href="{{root}}/kozzeteteli_lista/osztalyozo_vizsgak_ertekelesi_rendje.html">Osztályozó vizsgák
-            értékelési rendje}</a>
+          <a href="{{root}}/kozzeteteli_lista/osztalyozo_vizsgak_ertekelesi_rendje.html">Osztályozó vizsgák értékelési rendje</a>
         </li>
       </ul>
     </li>

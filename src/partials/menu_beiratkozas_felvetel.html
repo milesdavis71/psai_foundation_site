@@ -2,11 +2,11 @@
   <a href="#"><i class="fas fa-pencil"></i>&thinsp;&thinsp;&thinsp;Beiratkozás, felvétel</a>
   <ul class="menu vertical nested
     {{#ifpage
-        ''
-        ''
-        ''
-        ''
-        ''
+        '1_2020'
+        'tajekoztato_beiratkozasrol'
+        'beiratkozaskor_leadando_nyomtatvanyok'
+        'engedelyezett_osztalyok_csoportok_szama_ps_bs'
+        'iskolahivagato_ps_bs'
         ''
         ''
         ''
@@ -18,23 +18,20 @@
     {{/ifpage}}">
 
 
-    <li {{#ifpage 'beiratkozas_ideje_ps_bs'}} class="current" {{/ifpage}}>
-      <a href="{{root}}kozzeteteli_lista/beiratkozas_ideje_ps_bs.html">A 2020/21-es tanév elsősei {{>label}}</a>
+    <li {{#ifpage '1_2020'}} class="current" {{/ifpage}}>
+      <a href="{{root}}osztalyaink/1_2020.html">A 2020/21-es tanév elsősei {{>label}}</a>
     </li>
-    <li {{#ifpage 'fentart_altal_eng_oszt_csop'}} class="current" {{/ifpage}}>
-      <a href="{{root}}kozzeteteli_lista/fentart_altal_eng_oszt_csop.html">Tájékoztató a beiratkozásról</a>
+    <li {{#ifpage 'tajekoztato_beiratkozasrol'}} class="current" {{/ifpage}}>
+      <a href="{{root}}beiratkozas/tajekoztato_beiratkozasrol.html">Tájékoztató a beiratkozásról</a>
     </li>
-    <li {{#ifpage 'teritesi_dij_tandij'}} class="current" {{/ifpage}}>
-      <a href="{{root}}kozzeteteli_lista/teritesi_dij_tandij.html">Beiratkozáskor leadandó nyomtatványok</a>
+    <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok'}} class="current" {{/ifpage}}>
+      <a href="{{root}}beiratkozas/beiratkozaskor_leadando_nyomtatvanyok.html">Beiratkozáskor leadandó nyomtatványok</a>
     </li>
-    <li {{#ifpage 'etkezesi_teritesi_dijak'}} class="current" {{/ifpage}}>
-      <a href="{{root}}kozzeteteli_lista/etkezesi_teritesi_dijak.html">Engedélyezett osztályok száma</a>
+    <li {{#ifpage 'engedelyezett_osztalyok_csoportok_szama_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}beiratkozas/engedelyezett_osztalyok_csoportok_szama_ps_bs.html">Engedélyezett osztályok és csoportok száma</a>
     </li>
-    <li {{#ifpage 'nyitvatartas'}} class="current" {{/ifpage}}>
-      <a href="{{root}}kozzeteteli_lista/nyitvatartas.html">Engedélyezett csoportok száma</a>
-    </li>
-    <li {{#ifpage 'esemenynaptar_ps_bs_2019_20'}} class="current" {{/ifpage}}>
-      <a href="{{root}}esemenynaptar_ps_bs_2019_20.html">Iskolahívogatók</a>
+    <li {{#ifpage 'iskolahivagato_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}beiratkozas/iskolahivagato_ps_bs.html">Iskolahívogatók</a>
     </li>
   </ul>
 </li>

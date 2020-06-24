@@ -16,12 +16,13 @@
 </style>
 
 <ul class="vertical menu accordion-menu" data-accordion-menu>
-  <li {{#ifpage 'index'}} class="current"{{/ifpage}} style="padding: 0.3rem 0rem;">
+  <li {{#ifpage 'index'}} class="current" {{/ifpage}} style="padding: 0.3rem 0rem;">
     <a href="{{root}}index.html"><i class="fas fa-home fa-lg"></i>&thinsp;&thinsp;Főoldal</a>
-</li>
+  </li>
   <li>
     <a href="#">&thinsp;&thinsp;<i class="fas fa-map-marker-alt"></i>&thinsp;&thinsp;Elérhetőségeink</a>
-    <ul class="menu vertical nested {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}">
+    <ul
+      class="menu vertical nested {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}">
       <li {{#ifpage 'elerhetosegeink'}} class="current" {{/ifpage}}>
         <a href="{{root}}bemutatkozas/elerhetosegeink.html">Címek, e-mailcímek, telefonszámok</a>
       </li>
@@ -34,15 +35,23 @@
   <li>
     <a href="#">&thinsp;<i class="fas fa-utensils"></i>&ensp;Étkezési információk</a>
     <ul class="menu vertical nested {{#ifpage 'kozetkeztetes' 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}">
-      <li{{#ifpage 'www.ngsz.hu'}} class="current" {{/ifpage}}>
+      <li {{#ifpage 'www.ngsz.hu'}} class="current" {{/ifpage}}>
         <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
       </li>
-      <li{{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current" {{/ifpage}}>
+      <li {{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current" {{/ifpage}}>
         <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
       </li>
     </ul>
   </li>
   {{>menu_kozzeteteli_lista}}
   {{>menu_beiratkozas_felvetel}}
-</ul>
+  <li {{#ifpage 'tanev_rendje_2019_20'}} class="current" {{/ifpage}}>
+    <a href="{{root}}tanev_rendje_2019_20.html">&thinsp;<i class="fas fa-calendar-alt"></i>&thinsp;&thinsp;&thinsp;A tanév rendje</a>
+  </li>
 
+  <li {{#ifpage 'osztalyaink_ps_bs'}} class="current" {{/ifpage}}>
+    <a href="{{root}}bemutatkozas/osztalyaink_ps_bs.html"><i class="fas fa-users-class"></i>&ensp;Osztályaink {{> label}} </a>
+  </li>
+ 
+
+</ul>
