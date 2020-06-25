@@ -1,0 +1,22 @@
+<li>
+  <a href="#">&thinsp;<i class="fas fa-camera"></i>&ensp;Fotó archívum</a>
+  <ul class="menu vertical nested
+  {{#ifpage
+    'galeriak_2017_18_ps_bs'
+    'galeriak_2018_19_ps_bs'
+    'galeriak_2019_20_ps_bs'
+    
+    }}
+    is-active
+  {{/ifpage}}">
+    <li {{#ifpage 'galeriak_2017_18_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}galeriak/galeriak_2017_18_ps_bs.html">2017–2018 {{>label}}</a>
+    </li>
+    <li {{#ifpage 'galeriak_2018_19_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}galeriak/galeriak_2018_19_ps_bs.html">2018–2019 {{>label}}</a>
+    </li>
+    <li {{#ifpage 'galeriak_2019_20_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}galeriak/galeriak_2019_20_ps_bs.html">2019–2020 {{>label}}</a>
+    </li>
+  </ul>
+</li>

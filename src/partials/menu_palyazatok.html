@@ -1,0 +1,30 @@
+<li>
+  <a href="#">&thinsp;&thinsp;<i class="fas fa-file-alt"></i>&ensp;Pályázatok</a>
+  <ul class="menu vertical nested
+  {{#ifpage
+    'EFOP_4_1_3'
+    'versenyeredmenyek_2017_18_ps_bs'
+    'versenyeredmenyek_2016_17_ps_bs'
+    'versenyeredmenyek_2015_16_ps_bs'
+    'versenyeredmenyek_2014_15_ps_bs'
+    
+    }}
+    is-active
+  {{/ifpage}}">
+    <li {{#ifpage 'EFOP_4_1_3'}} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/EFOP_4_1_3.html">EFOP-4.1.3 &ensp;<span class="label" style="color: #1779ba"> PS</a>
+    </li>
+    <li {{#ifpage 'versenyeredmenyek_2017_18_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/versenyeredmenyek_2017_18_ps_bs.html">Határtalanul {{>label}}</a>
+    </li>
+    <li {{#ifpage 'versenyeredmenyek_2016_17_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/versenyeredmenyek_2016_17_ps_bs.html">Comenius projekt (PS/BS)</a>
+    </li>
+    <li {{#ifpage 'versenyeredmenyek_2015_16_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/versenyeredmenyek_2015_16_ps_bs.html">Mi iskolánk {{>label}}</a>
+    </li>
+    <li {{#ifpage 'versenyeredmenyek_2014_15_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/versenyeredmenyek_2014_15_ps_bs.html">TIOP 2008 {{>label}}</a>
+    </li>
+  </ul>
+</li>

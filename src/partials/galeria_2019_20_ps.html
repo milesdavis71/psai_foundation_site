@@ -1,16 +1,14 @@
 {{> hover}}
 
-<div class="cell medium-9 medium-cell-block-y">
-  {{> vissza}}
 
-  <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola<br />
-    <small>Fotógalériák 2019–2020</small></h3>
-  <hr>
+<h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola<br />
+  <small>Fotógalériák 2019–2020</small></h3>
+<hr>
 
-  <div class="grid-x grid-margin-x">
-    <?php
+<div class="grid-x grid-margin-x">
+  <?php
       //set main directory
-      $mainDir = '../../../assets/img/galeriak/2019_20/bs/';
+      $mainDir = '../../../assets/img/galeriak/2019_20/ps/';
 
       //gets sub directories of PDFS directory
       $subDirectories = scandir($mainDir);
@@ -56,9 +54,3 @@
   }
   }
   ?>
-</div>
-
-
-{{> vissza}}
-
-</div>
