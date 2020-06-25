@@ -2,18 +2,16 @@
 
     {{>tabs_ul}}
     {{>tabs_content1}}
-    <div id="example1" style="height: 85vh; width: 100vw;"></div>
-    {{>pdfviewer}}
-    <script>PDFObject.embed("{{root}}assets/orarend/ps_2019_20_2_felev.pdf", "#example1");</script>
+    <div class="responsive-embed">
+        <div id="example1" style="height: 85vh; width: 100vw;"></div>
+        {{>pdfviewer}}
+        <script>PDFObject.embed("{{root}}assets/orarend/ps_2019_20_2_felev.pdf", "#example1");</script>
+    </div>
     {{>tabs_content2}}
-    <div id="example1" style="height: 85vh; width: 100vw;"></div>
-    {{>pdfviewer}}
-    <script>PDFObject.embed("{{root}}assets/orarend/bs_2019_20_1_felev.pdf", "#example1");</script>
+    <div class="responsive-embed">
+        <div id="example2" style="height: 85vh; width: 100vw;"></div>
+        {{>pdfviewer}}
+        <script>PDFObject.embed("{{root}}assets/orarend/bs_2019_20_1_felev.pdf", "#example2");</script>
+    </div>
     {{>tabs_content3}}
-
-
-
-
-
-</div>
 </div>

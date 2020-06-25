@@ -54,8 +54,24 @@
   </li>
   
   <li {{#ifpage 'orarendek_ps_bs'}} class="current" {{/ifpage}}>
-    <a href="{{root}}orarendek_ps_bs.html"><i class="fas fa-users-class"></i>&ensp;Órarendek {{> label}} </a>
+    <a href="{{root}}orarendek_ps_bs.html">&thinsp;<i class="fas fa-table"></i>&ensp;Órarendek {{> label}} </a>
   </li>
+  <li>
+    <a href="#"><i class="fas fa-users"></i>&ensp;Szülői értekezletek, fogadóórák</a>
+    <ul
+      class="menu vertical nested {{#ifpage 'szuloi_ertekezletek_ps_bs' 'fogadoorak_ps_bs' 'egyeni_fogadoorak_ps_bs'}}is-active{{/ifpage}}">
+      <li {{#ifpage 'szuloi_ertekezletek_ps_bs'}} class="current" {{/ifpage}}>
+        <a href="{{root}}szuloi_ertekezlet_fogadoora/szuloi_ertekezletek_ps_bs.html">Szülői értekezletek {{>label}}</a>
+      </li>
+      <li {{#ifpage 'fogadoorak_ps_bs'}} class="current" {{/ifpage}}>
+        <a href="{{root}}szuloi_ertekezlet_fogadoora/fogadoorak_ps_bs.html">Fogadóórák {{>label}}</a>
+      </li>
+      <li {{#ifpage 'egyeni_fogadoorak_ps_bs'}} class="current" {{/ifpage}}>
+        <a href="{{root}}szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html">Egyéni fogadóórák {{>label}}</a>
+      </li>
+    </ul>
+  </li>
+  
   
 
 </ul>
