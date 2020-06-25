@@ -35,6 +35,8 @@
         'osztalyozo_vizsgak_kovetelmenyei'
         'tanulmanyok_alatti_vizsgak_tervezett_rendje'
         'osztalyozo_vizsgak_ertekelesi_rendje'
+        'osztalyok_szama_es_tanulok_letszama'
+        
       }}
         is-active
     {{/ifpage}}">
@@ -69,7 +71,7 @@
     </li>
     <li {{#ifpage 'beiratkozas_ideje_ps_bs'}} class="current" {{/ifpage}}>
       <a href="{{root}}kozzeteteli_lista/beiratkozas_ideje_ps_bs.html">Beiratkozás ideje,<br />engedélyezett
-        osztályok,<br />csoportok száma</a>
+        osztályok,<br />csoportok száma {{> label}}</a>
     </li>
     <li {{#ifpage 'fentart_altal_eng_oszt_csop'}} class="current" {{/ifpage}}>
       <a href="{{root}}kozzeteteli_lista/fentart_altal_eng_oszt_csop.html">A fentartó által engedélyezett osztályok,
@@ -130,10 +132,10 @@
     </li>
     <li {{#ifpage 'pedagogusok_iskolai_vegzettsege'}} class="current" {{/ifpage}}>
       <a href="{{root}}bemutatkozas/pedagogusok_iskolai_vegzettsege.html">Pedagógusok iskolai végzettsége,
-        szakképzettsége</a>
+        szakképzettsége {{> label}}</a>
     </li>
     <li {{#ifpage 'noksosok_szama_szakkepzettsege'}} class="current" {{/ifpage}}>
-      <a href="{{root}}bemutatkozas/noksosok_szama_szakkepzettsege.html">NOKS-osok száma, szakképzettsége</a>
+      <a href="{{root}}bemutatkozas/noksosok_szama_szakkepzettsege.html">NOKS-osok száma, szakképzettsége  {{> label}}</a>
     </li>
     <li {{#ifpage 'kompetenciameres_eredmenyei'}} class="current" {{/ifpage}}>
       <a href="{{root}}kozzeteteli_lista/kompetenciameres_eredmenyei.html">Országos mérés-értékelés évenkénti
@@ -186,7 +188,6 @@
             'osztalyozo_vizsgak_kovetelmenyei'
             'tanulmanyok_alatti_vizsgak_tervezett_rendje'
             'osztalyozo_vizsgak_ertekelesi_rendje'
-            ''
             }}
             is-active
         {{/ifpage}}">
@@ -207,11 +208,7 @@
       </ul>
     </li>
     <li {{#ifpage 'osztalyok_szama_es_tanulok_letszama'}} class="current" {{/ifpage}}>
-      <a href="{{root}}kozzeteteli_lista/osztalyok_szama_es_tanulok_letszama.html">Osztályok száma és tanulók létszáma</a>
+      <a href="{{root}}kozzeteteli_lista/osztalyok_szama_es_tanulok_letszama.html">Osztályok száma és tanulók létszáma {{> label}}</a>
     </li>
-
-
-
-
   </ul>
 </li>
