@@ -34,13 +34,16 @@
   {{>menu_bemutatkozas}}
   <li>
     <a href="#">&thinsp;<i class="fas fa-utensils"></i>&ensp;Étkezési információk</a>
-    <ul class="menu vertical nested {{#ifpage 'kozetkeztetes' 'befiz_idopontok_arak_ps_bs'}}is-active{{/ifpage}}">
+    <ul class="menu vertical nested {{#ifpage 'kozetkeztetes' 'elsos_szulok_tajekoztatasa_kozetkeztetesrol'}}is-active{{/ifpage}}">
       <li {{#ifpage 'www.ngsz.hu'}} class="current" {{/ifpage}}>
         <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
       </li>
-      <li {{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current" {{/ifpage}}>
-        <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+      <li {{#ifpage 'elsos_szulok_tajekoztatasa_kozetkeztetesrol'}} class="current" {{/ifpage}}>
+        <a href="{{root}}elsos_szulok_tajekoztatasa_kozetkeztetesrol.html">Elsős szülők tájékoztatása közétkeztetésről</a>
       </li>
+      <!-- <li {{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current" {{/ifpage}}>
+        <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak</a>
+      </li> -->
     </ul>
   </li>
   {{>menu_kozzeteteli_lista}}
