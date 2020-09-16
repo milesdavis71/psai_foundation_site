@@ -6,6 +6,8 @@
         'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
         'ps_bs_beiratkozasi_korzet'
         'iskolahivagato_ps_bs_kozzetetel'
+        'iskolahivogato_bs_kozzetetel'
+        'bemutatkozas_bs_kozzetetel'
         'beiratkozas_ideje_ps_bs'
         'fentart_altal_eng_oszt_csop'
         'teritesi_dij_tandij'
@@ -63,7 +65,12 @@
 
           <a href="{{root}}/beiratkozas/ps_bs_beiratkozasi_korzet.html">Körzetünk</a>
         </li>
-        <li {{#ifpage 'iskolahivagato_ps_bs_kozzetetel'}} class="current" {{/ifpage}}>
+        <li {{#ifpage
+              'iskolahivagato_ps_bs_kozzetetel'
+              'iskolahivogato_ps'
+              'iskolahivogato_bs'
+              'bemutatkozas_ps'
+              'bemutatkozas_bs'}} class="current" {{/ifpage}}>
           <a href="{{root}}beiratkozas/iskolahivagato_ps_bs_kozzetetel.html">Iskolahívogatók {{>label}}</a>
         </li>
       </ul>
@@ -83,7 +90,8 @@
       <a href="{{root}}kozzeteteli_lista/etkezesi_teritesi_dijak.html">Étkezési térítési díjak (Petőfi/Bálint)</a>
     </li>
     <li {{#ifpage 'nyilvanos_vizsgalat'}} class="current" {{/ifpage}}>
-      <a href="{{root}}kozzeteteli_lista/nyilvanos_vizsgalat.html">Fenntartói értékelés, nyilvános megállapításokat tartalmazó vizsgálatok</a>
+      <a href="{{root}}kozzeteteli_lista/nyilvanos_vizsgalat.html">Fenntartói értékelés, nyilvános megállapításokat
+        tartalmazó vizsgálatok</a>
     </li>
     <li {{#ifpage 'nyitvatartas'}} class="current" {{/ifpage}}>
       <a href="{{root}}kozzeteteli_lista/nyitvatartas.html">Nyitvatartás rendje</a>
