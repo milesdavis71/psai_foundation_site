@@ -2,6 +2,7 @@
   <a href="#">&thinsp;<i class="fas fa-award"></i>&ensp;&thinsp;Versenyeredmények</a>
   <ul class="menu vertical nested
   {{#ifpage
+    'versenyeredmenyek_2019_20_ps_bs'
     'versenyeredmenyek_2018_19_ps_bs'
     'versenyeredmenyek_2017_18_ps_bs'
     'versenyeredmenyek_2016_17_ps_bs'
@@ -11,6 +12,9 @@
     }}
     is-active
   {{/ifpage}}">
+    <li {{#ifpage 'versenyeredmenyek_2019_20_ps_bs'}} class="current" {{/ifpage}}>
+      <a href="{{root}}versenyeredmenyek/versenyeredmenyek_2019_20_ps_bs.html">2019–2020 {{>label}}</a>
+    </li>
     <li {{#ifpage 'versenyeredmenyek_2018_19_ps_bs'}} class="current" {{/ifpage}}>
       <a href="{{root}}versenyeredmenyek/versenyeredmenyek_2018_19_ps_bs.html">2018–2019 {{>label}}</a>
     </li>
