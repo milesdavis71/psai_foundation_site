@@ -1,13 +1,12 @@
 <h5 class="text-center">Osztályaink</h5>
 <hr style="height:1px; border:none; color:#3fa9f5; background-color:#3fa9f5; margin-top: -0.5px;">
-<ul class="accordion" data-accordion>
-  <!-- 1. osztály -->
+<ul class="accordion" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="deeplinked-accordion">  <!-- 1. osztály -->
   <li class="accordion-item" data-accordion-item>
     <!-- Accordion tab title -->
-    <a href="{{root}}bemutatkozas/osztalyaink_ps_bs.html#1a" class="accordion-title text-center">1. osztály</a>
+    <a href="#1a" class="accordion-title text-center">1. osztály</a>
 
     <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-    <div class="accordion-content" id="be" data-tab-content>
+    <div class="accordion-content" data-tab-content id="1a">
       {{> osztaly_1a}}
     </div>
   </li>
