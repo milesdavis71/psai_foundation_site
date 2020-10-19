@@ -163,7 +163,7 @@ function reload(done) {
 function watch() {
   gulp.watch(PATHS.assets, copy);
   gulp.watch('src/pages/**/*.html').on('all', gulp.series(pages, browser.reload));
-// php-t figyeli (galéria fájlok)
+  // php-t figyeli (galéria fájlok)
   gulp.watch('src/pages/**/*.php').on('all', gulp.series(pages, browser.reload));
 
   gulp.watch('src/{layouts,partials}/**/*.html').on('all', gulp.series(resetPages, pages, browser.reload));
