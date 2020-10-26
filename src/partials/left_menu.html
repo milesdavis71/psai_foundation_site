@@ -34,15 +34,26 @@
   {{>menu_bemutatkozas}}
   <li>
     <a href="#">&thinsp;<i class="fas fa-utensils"></i>&ensp;Étkezési információk</a>
-    <ul class="menu vertical nested {{#ifpage 'kozetkeztetes' 'elsos_szulok_tajekoztatasa_kozetkeztetesrol'}}is-active{{/ifpage}}">
+    <ul
+      class="menu vertical nested
+      {{#ifpage
+        'kozetkeztetes'
+        'elsos_szulok_tajekoztatasa_kozetkeztetesrol'
+        'befiz_idopontok_arak_ps_bs'
+        'befiz_idopontok_ngsz'
+      }}is-active{{/ifpage}}">
       <li {{#ifpage 'www.ngsz.hu'}} class="current" {{/ifpage}}>
         <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
       </li>
       <li {{#ifpage 'elsos_szulok_tajekoztatasa_kozetkeztetesrol'}} class="current" {{/ifpage}}>
-        <a href="{{root}}elsos_szulok_tajekoztatasa_kozetkeztetesrol.html">Elsős szülők tájékoztatása közétkeztetésről</a>
+        <a href="{{root}}elsos_szulok_tajekoztatasa_kozetkeztetesrol.html">Elsős szülők tájékoztatása
+          közétkeztetésről</a>
       </li>
-      <li {{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current" {{/ifpage}}>
-        <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak {{>label}}</a> 
+      <!-- <li {{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current" {{/ifpage}}>
+        <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak {{>label}}</a>
+      </li> -->
+      <li {{#ifpage 'befiz_idopontok_ngsz'}} class="current" {{/ifpage}}>
+        <a href="{{root}}befiz_idopontok_ngsz.html">Befizetési időpontok az NGSZ-nél</a>
       </li>
     </ul>
   </li>
@@ -88,10 +99,10 @@
       nyomtatványok</a>
   </li>
   <li>
-    
-    
-    
-    
+
+
+
+
 
     <a href="#">&thinsp;<i class="fas fa-at"></i>&ensp;e-Ügyintézés</a>
     <ul class="menu vertical nested {{#ifpage 'leendo_elsosok_szulei_reszere' 'e_ugyintezes' ''}}is-active{{/ifpage}}">
@@ -102,15 +113,18 @@
         <a href="{{root}}e_ugyintezes/e_ugyintezes.html">Általános tájékoztató</a>
       </li>
       <li {{#ifpage ''}} class="current" {{/ifpage}}>
-        <a href="https://tudasbazis.ekreta.hu/pages/viewpage.action?pageId=2424949&preview=/2424949/11829263/KR%C3%89TA%20rendszer%20%C3%A1ttekint%C3%A9se.pptx" target="_blank">A KRÉTA rendszer használata</a>
+        <a href="https://tudasbazis.ekreta.hu/pages/viewpage.action?pageId=2424949&preview=/2424949/11829263/KR%C3%89TA%20rendszer%20%C3%A1ttekint%C3%A9se.pptx"
+          target="_blank">A KRÉTA rendszer használata</a>
       </li>
     </ul>
   </li>
   <li>
     <a href="#">&thinsp;<i class="fas fa-lock"></i>&ensp;GDPR tájékoztatók</a>
-    <ul class="menu vertical nested {{#ifpage 'tanuloi_es_torv_kepvis_tajekoztato' 'munkavallaloi_tajekoztato'}}is-active{{/ifpage}}">
+    <ul
+      class="menu vertical nested {{#ifpage 'tanuloi_es_torv_kepvis_tajekoztato' 'munkavallaloi_tajekoztato'}}is-active{{/ifpage}}">
       <li {{#ifpage 'tanuloi_es_torv_kepvis_tajekoztato'}} class="current" {{/ifpage}}>
-        <a href="{{root}}gdpr_tajekoztatok/tanuloi_es_torv_kepvis_tajekoztato.html">Tanulói és törv. képviselő tájékoztató</a>
+        <a href="{{root}}gdpr_tajekoztatok/tanuloi_es_torv_kepvis_tajekoztato.html">Tanulói és törv. képviselő
+          tájékoztató</a>
       </li>
       <li {{#ifpage 'munkavallaloi_tajekoztato'}} class="current" {{/ifpage}}>
         <a href="{{root}}gdpr_tajekoztatok/munkavallaloi_tajekoztato.html">Munkavállalói tájékoztató</a>
@@ -118,7 +132,8 @@
     </ul>
   </li>
   <li {{#ifpage 'kk.gov.hu'}} class="current" {{/ifpage}}>
-    <a href="http://kk.gov.hu/szeged" target="_blank">&thinsp;&thinsp;<i class="fas fa-building"></i>&thinsp;&thinsp;Intézményfenntartó</a>
+    <a href="http://kk.gov.hu/szeged" target="_blank">&thinsp;&thinsp;<i
+        class="fas fa-building"></i>&thinsp;&thinsp;Intézményfenntartó</a>
   </li>
   <li {{#ifpage 'impresszum'}} class="current" {{/ifpage}}>
     <a href="{{root}}impresszum.html"><i class="fas fa-user-cog"></i>&thinsp;&thinsp;Impresszum</a>
