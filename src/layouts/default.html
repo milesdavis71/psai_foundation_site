@@ -101,21 +101,11 @@
               Sándor Tagiskola</font> honlapja</strong>
           <a href="{{root}}index.html"><img src="{{root}}assets/img/logo_bs.jpg" style="margin-top: 1.2rem"></a></h5>
         <p class="text-center show-for-large" style="margin-top: -2.2rem">
-    
           Az intézmény fenntartója a Szegedi Tankerületi Központ
         </p>
 
-    
-    
-    
-    
-    
-    
         <span class="show-for-large">
-    
           <img src="{{root}}assets/img/csik_bottom.jpg" style="margin-top: -2rem; margin-left: 7px; padding-right: 20px" ;>
-    
-    
         </span>
 
 <style type="text/css">
@@ -130,21 +120,18 @@
       <div class="top-bar hide-for-large-only" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
         <div class="top-bar-left">
           {{> left_menu}}
-
         </div>
       </div>
-
     </div>
 
 
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
 {{#ifpage 'index' 'hirfolyam_2016_17' 'hirfolyam_2017_18' 'hirfolyam_2018_19' 'hirfolyam_2019_20'}}
 {{> startdiv}}
 {{> head_slider}}
 {{> body}}
     {{> rightcolumn}}
-
 {{/ifpage}}
 
 {{#ifpage
@@ -159,9 +146,7 @@
 {{> startdiv}}
 {{> body}}
     {{> rightcolumn}}
-
 {{/ifpage}}
-
 
 {{#unlesspage
   'index'
@@ -177,17 +162,6 @@
 
 {{> body}}
     {{/unlesspage}}
-    
-
-
-    
-
-
-
-
     <script src="{{root}}assets/js/app.js"></script>
-
-
-
   </body>
 </html>
