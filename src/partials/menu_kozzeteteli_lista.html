@@ -7,7 +7,9 @@
         'ps_bs_beiratkozasi_korzet'
         'iskolahivagato_ps_bs_kozzetetel'
         'iskolahivogato_bs_kozzetetel'
+        'iskolahivogato_ps_kozzetetel'
         'bemutatkozas_bs_kozzetetel'
+        'bemutatkozas_ps_kozzetetel'
         'beiratkozas_ideje_ps_bs'
         'fentart_altal_eng_oszt_csop'
         'teritesi_dij_tandij'
@@ -45,7 +47,11 @@
           {{#ifpage
             'felveteli_tajekoztato'
             'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
-            'iskolahivagato_ps_bs_kozzetetel'
+            'iskolahivogato_ps_bs_kozzetetel'
+            'iskolahivogato_bs_kozzetetel'
+            'iskolahivogato_ps_kozzetetel'
+            'bemutatkozas_bs_kozzetetel'
+            'bemutatkozas_ps_kozzetetel'
             'ps_bs_beiratkozasi_korzet'
             }}
             is-active
@@ -65,10 +71,10 @@
         </li>
         <li {{#ifpage
               'iskolahivagato_ps_bs_kozzetetel'
-              'iskolahivogato_ps'
-              'iskolahivogato_bs'
-              'bemutatkozas_ps'
-              'bemutatkozas_bs'}} class="current" {{/ifpage}}>
+              'iskolahivogato_ps_kozzetetel'
+              'iskolahivogato_bs_kozzetetel'
+              'bemutatkozas_ps_kozzetetel'
+              'bemutatkozas_bs_kozzetetel'}} class="current" {{/ifpage}}>
           <a href="{{root}}beiratkozas/iskolahivagato_ps_bs_kozzetetel.html">Iskolahívogatók {{>label}}</a>
         </li>
       </ul>
