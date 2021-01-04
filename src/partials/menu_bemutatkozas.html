@@ -2,6 +2,7 @@
     <a href="#"><i class="fas fa-chalkboard-teacher"></i> Bemutatkozás</a>
     <ul class="menu vertical nested
         {{#ifpage
+            'bemutatkozas_ps_bs'
             'tanaraink_ps_bs'
             'hitoktatok_ps_bs'
             'reformatus_hit_es_erkolcstan_tajekoztato_2019_20'
@@ -17,6 +18,9 @@
             }}
             is-active
         {{/ifpage}}">
+                <li{{#ifpage 'bemutatkozas_ps_bs'}} class="current"{{/ifpage}}>
+                    <a href="{{root}}bemutatkozas/bemutatkozas_ps_bs.html">Bemutatkozás {{>label}}</a>
+                </li>
                 <li{{#ifpage 'tanaraink_ps_bs'}} class="current"{{/ifpage}}>
                     <a href="{{root}}bemutatkozas/tanaraink_ps_bs.html">Tanáraink {{>label}}</a>
                 </li>
