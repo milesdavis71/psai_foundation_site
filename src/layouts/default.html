@@ -1,168 +1,174 @@
 {{!-- This is the base layout for your project, and will be used on every page. --}}
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Cache cleaner eleje -->
-    <meta http-equiv="Cache-Control" content="no-cache" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <!--<meta http-equiv="expires" content="Fri, 16 Jan 2020 1:00:00 GMT" />-->
-    <!-- Cache cleaner vége -->
-    <title>Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{root}}assets/img/psbs_favicon.ico" />
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
-    <link rel="stylesheet" href="{{root}}assets/css/motion-ui.css">
-    <link rel="stylesheet" href="{{root}}assets/fontawesome/css/all.min.css">
 
-    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent-->
-    <script async="" type="text/javascript">
-      window.cookieconsent_options = { "message": "Weboldalunk használatával jóváhagyod a cookie-k használatát a cookie-kkal kapcsolatos irányelv értelmében.", "dismiss": "Bezár", "learnMore": "További információk.", "link": null, "theme": "dark-bottom" };
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Cache cleaner eleje -->
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <!--<meta http-equiv="expires" content="Fri, 16 Jan 2020 1:00:00 GMT" />-->
+  <!-- Cache cleaner vége -->
+  <title>Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola</title>
+  <link rel="shortcut icon" type="image/x-icon" href="{{root}}assets/img/psbs_favicon.ico" />
+  <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  <link rel="stylesheet" href="{{root}}assets/css/motion-ui.css">
+  <link rel="stylesheet" href="{{root}}assets/fontawesome/css/all.min.css">
+
+  <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent-->
+  <script async="" type="text/javascript">
+    window.cookieconsent_options = { "message": "Weboldalunk használatával jóváhagyod a cookie-k használatát a cookie-kkal kapcsolatos irányelv értelmében.", "dismiss": "Bezár", "learnMore": "További információk.", "link": null, "theme": "dark-bottom" };
+  </script>
+  <script async="" type="text/javascript"
+    src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js">
     </script>
-    <script async="" type="text/javascript"
-      src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js">
-    </script>
-    <!-- Cookie pop up vége-->
+  <!-- Cookie pop up vége-->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139991230-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139991230-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-139991230-1');
-</script>
-  </head>
-  <body>
-    <style type="text/css">
-      /* .container {
+    gtag('config', 'UA-139991230-1');
+  </script>
+</head>
+
+<body>
+  <style type="text/css">
+    /* .container {
       @include xy-grid-container;
 
     } */
-    
-    
-      #fb {
-        background-color: #3b5998;
-        box-shadow: 0 -5px 0 #3b5998, 0 5px 0 #3b5998;
-      }
-    
-      #kreta {
-        background-color: #22aed1;
-        box-shadow: 0 -1.7px 0 #22aed1, 0 1.7px 0 #22aed1;
-      }
-    </style>
-    
-    <!-- START Top Bar small -->
 
-    <div class="data-sticky-container show-for-small-only" data-sticky-container>
-      <div class="sticky" data-sticky data-sticky-on="small" data-options="marginTop:0;" style="width:100%">
-        <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
-          <div class="title-bar-left">
-            <button class="menu-icon" id="menuicon" type="button" data-toggle></button>
-            <strong>Menü</strong><strong>│</strong><a href="{{root}}index.html"><i class="fas fa-home fa-lg"></i></a>
+
+    #fb {
+      background-color: #3b5998;
+      box-shadow: 0 -5px 0 #3b5998, 0 5px 0 #3b5998;
+    }
+
+    #kreta {
+      background-color: #22aed1;
+      box-shadow: 0 -1.7px 0 #22aed1, 0 1.7px 0 #22aed1;
+    }
+  </style>
+
+  <!-- START Top Bar small -->
+
+  <div class="data-sticky-container show-for-small-only" data-sticky-container>
+    <div class="sticky" data-sticky data-sticky-on="small" data-options="marginTop:0;" style="width:100%">
+      <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+        <div class="title-bar-left">
+          <button class="menu-icon" id="menuicon" type="button" data-toggle></button>
+          <strong>Menü</strong><strong>│</strong><a href="{{root}}index.html"><i class="fas fa-home fa-lg"></i></a>
+        </div>
+
+        <div class="title-bar-right">
+          <a href=https://www.facebook.com/petofiszeged target="_blank" id="fb" style="color: white"><i
+              class="fab fa-facebook-f">&thinsp;</i><strong>PS</strong></a>&emsp;
+          <a href=https://www.facebook.com/balintszeged/ target="_blank" id="fb" style="color: white"><i
+              class="fab fa-facebook-f fa-lg">&thinsp;</i><strong>BS</strong></a>
+        </div>&emsp;
+        <a href="https://klik200218001.e-kreta.hu" target="_blank" id="kreta" style="color: white; line-height: 1.5rem">
+          <img src="{{root}}assets/img/kreta_logo_small.png">&thinsp;<strong>PS</strong></a>&emsp;
+        <a href="https://klik200218003.e-kreta.hu" target="_blank" id="kreta"
+          style="color: white; line-height: 1.5rem"><img src="{{root}}assets/img/kreta_logo_small.png">
+          <strong>BS</strong></a>&thinsp;
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- END Top Bar small -->
+
+
+  <span class="show-for-small-only">
+    <p></p>
+  </span>
+  <div class="grid-container">
+    <div class="grid-y medium-grid-frame">
+      <span class="show-for-large">
+        <img src="{{root}}assets/img/csik.jpg">
+      </span>
+
+      <h5 class="text-center show-for-large" style="margin-top: -1rem">
+
+        <a href="{{root}}index.html"><img src="{{root}}assets/img/logo_ps.jpg" style="margin-top: 1.2rem"></a>
+
+        <strong>A <font color="#3fa9f5">Szegedi Petőfi Sándor Általános Iskola</font> és a <font color="#f7931e">Bálint
+            Sándor Tagiskola</font> honlapja</strong>
+        <a href="{{root}}index.html"><img src="{{root}}assets/img/logo_bs.jpg" style="margin-top: 1.2rem"></a>
+      </h5>
+      <p class="text-center show-for-large" style="margin-top: -2.2rem">
+        Az intézmény fenntartója a Szegedi Tankerületi Központ
+      </p>
+
+      <span class="show-for-large">
+        <img src="{{root}}assets/img/csik_bottom.jpg" style="margin-top: -2rem; margin-left: 7px; padding-right: 20px"
+          ;>
+      </span>
+
+      <style type="text/css">
+        .menutd {
+          font-size: 0.9rem;
+        }
+      </style>
+
+      <div class="cell medium-auto medium-cell-block-container">
+        <div class="grid-x grid-padding-x">
+          <div class="cell medium-3 medium-cell-block-y" id="becsuk">
+            <div class="top-bar hide-for-large-only" id="example-animated-menu"
+              data-animate="hinge-in-from-top hinge-out-from-top">
+              <div class="top-bar-left">
+                {{> left_menu}}
+              </div>
+            </div>
           </div>
 
-          <div class="title-bar-right">
-            <a href=https://www.facebook.com/petofiszeged target="_blank" id="fb" style="color: white"><i
-                class="fab fa-facebook-f">&thinsp;</i><strong>PS</strong></a>&emsp;
-            <a href=https://www.facebook.com/balintszeged/ target="_blank" id="fb" style="color: white"><i
-                class="fab fa-facebook-f fa-lg">&thinsp;</i><strong>BS</strong></a>
-          </div>&emsp;
-          <a href="https://klik200218001.e-kreta.hu" target="_blank" id="kreta" style="color: white; line-height: 1.5rem">
-            <img src="{{root}}assets/img/kreta_logo_small.png">&thinsp;<strong>PS</strong></a>&emsp;
-          <a href="https://klik200218003.e-kreta.hu" target="_blank" id="kreta"
-            style="color: white; line-height: 1.5rem"><img src="{{root}}assets/img/kreta_logo_small.png">
-            <strong>BS</strong></a>&thinsp;
-        </div>
-    
-      </div>
-    </div>
-    
-    
-    <!-- END Top Bar small -->
-    
-    
-    <span class="show-for-small-only">
-      <p></p>
-    </span>
-    <div class="grid-container">
-      <div class="grid-y medium-grid-frame">
-        <span class="show-for-large">
-          <img src="{{root}}assets/img/csik.jpg">
-        </span>
-    
-        <h5 class="text-center show-for-large" style="margin-top: -1rem">
-    
-          <a href="{{root}}index.html"><img src="{{root}}assets/img/logo_ps.jpg" style="margin-top: 1.2rem"></a>
-    
-          <strong>A <font color="#3fa9f5">Szegedi Petőfi Sándor Általános Iskola</font> és a <font color="#f7931e">Bálint
-              Sándor Tagiskola</font> honlapja</strong>
-          <a href="{{root}}index.html"><img src="{{root}}assets/img/logo_bs.jpg" style="margin-top: 1.2rem"></a></h5>
-        <p class="text-center show-for-large" style="margin-top: -2.2rem">
-          Az intézmény fenntartója a Szegedi Tankerületi Központ
-        </p>
-
-        <span class="show-for-large">
-          <img src="{{root}}assets/img/csik_bottom.jpg" style="margin-top: -2rem; margin-left: 7px; padding-right: 20px" ;>
-        </span>
-
-<style type="text/css">
-  .menutd {
-    font-size: 0.9rem;
-  }
-</style>
-
-<div class="cell medium-auto medium-cell-block-container">
-  <div class="grid-x grid-padding-x">
-    <div class="cell medium-3 medium-cell-block-y" id="becsuk">
-      <div class="top-bar hide-for-large-only" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
-        <div class="top-bar-left">
-          {{> left_menu}}
-        </div>
-      </div>
-    </div>
 
 
+          {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+          {{#ifpage 'index' 'hirfolyam_2016_17' 'hirfolyam_2017_18' 'hirfolyam_2018_19' 'hirfolyam_2019_20'}}
+          {{> startdiv}}
+          {{> head_slider}}
+          {{> body}}
+          {{> rightcolumn}}
+          {{/ifpage}}
 
-{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-{{#ifpage 'index' 'hirfolyam_2016_17' 'hirfolyam_2017_18' 'hirfolyam_2018_19' 'hirfolyam_2019_20'}}
-{{> startdiv}}
-{{> head_slider}}
-{{> body}}
-    {{> rightcolumn}}
-{{/ifpage}}
+          {{#ifpage
+          'befiz_idopontok_arak_ps_bs'
+          'befiz_idopontok_ngsz'
+          'teritesi_dij_tandij'
+          'fentart_altal_eng_oszt_csop'
+          'nyilvanos_vizsgalat'
+          'nyitvatartas'
+          'iskolakert'
+          'ntp'
+          }}
+          {{> startdiv}}
+          {{> body}}
+          {{> rightcolumn}}
+          {{/ifpage}}
 
-{{#ifpage
-  'befiz_idopontok_arak_ps_bs'
-  'befiz_idopontok_ngsz'
-  'teritesi_dij_tandij'
-  'fentart_altal_eng_oszt_csop'
-  'nyilvanos_vizsgalat'
-  'nyitvatartas'
-  'iskolakert'
-  'ntp'
-}}
-{{> startdiv}}
-{{> body}}
-    {{> rightcolumn}}
-{{/ifpage}}
+          {{#unlesspage
+          'index'
+          'hirfolyam_2016_17'
+          'hirfolyam_2017_18'
+          'hirfolyam_2018_19'
+          'hirfolyam_2019_20'
+          'teritesi_dij_tandij'
+          'fentart_altal_eng_oszt_csop'
+          'nyilvanos_vizsgalat'
+          'nyitvatartas'
+          }}
 
-{{#unlesspage
-  'index'
-  'hirfolyam_2016_17'
-  'hirfolyam_2017_18'
-  'hirfolyam_2018_19'
-  'hirfolyam_2019_20'
-  'teritesi_dij_tandij'
-  'fentart_altal_eng_oszt_csop'
-  'nyilvanos_vizsgalat'
-  'nyitvatartas'
-}}
+          {{> body}}
+          {{/unlesspage}}
+          <script src="{{root}}assets/js/app.js"></script>
+</body>
 
-{{> body}}
-    {{/unlesspage}}
-    <script src="{{root}}assets/js/app.js"></script>
-  </body>
 </html>
