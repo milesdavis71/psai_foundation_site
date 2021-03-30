@@ -28,7 +28,6 @@
     </ul>
   </div>
 </div>
-  {{> vissza}}
 
   <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola<br />
     <small>Fotógalériák 2019–2020</small></h3>
@@ -84,8 +83,5 @@
   }
   ?>
   </div>
-
-
-  {{> vissza}}
 
 </div>

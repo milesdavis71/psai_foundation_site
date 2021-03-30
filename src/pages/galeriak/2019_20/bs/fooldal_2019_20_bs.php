@@ -29,7 +29,6 @@
   </div>
 </div>
 
-{{> vissza}}
 
   <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola<br />
     Bálint Sándor Tagiskola<br>
@@ -88,6 +87,5 @@
   </div>
 
 
-  {{> vissza}}
 
 </div>
