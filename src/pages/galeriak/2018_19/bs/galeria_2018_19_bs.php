@@ -2,7 +2,8 @@
   {{> vissza2}}
 
 
-  <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola
+  <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola<br />
+    Bálint Sándor Tagiskola<br>
     <small>
       <?php echo $_POST["title"]; ?>
     </small></h3>
@@ -14,7 +15,7 @@
       <div class="gg-box dark" id='square'>
     <?php
       //set main directory
-      $mainDir = '../../../assets/img/galeriak/2020_21/ps/';
+      $mainDir = '../../../assets/img/galeriak/2018_19/bs/';
 
       //gets sub directories of PDFS directory
       $subDirectories = scandir($mainDir);

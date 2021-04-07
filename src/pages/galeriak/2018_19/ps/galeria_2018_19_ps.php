@@ -14,7 +14,7 @@
       <div class="gg-box dark" id='square'>
     <?php
       //set main directory
-      $mainDir = '../../../assets/img/galeriak/2020_21/ps/';
+      $mainDir = '../../../assets/img/galeriak/2018_19/ps/';
 
       //gets sub directories of PDFS directory
       $subDirectories = scandir($mainDir);
