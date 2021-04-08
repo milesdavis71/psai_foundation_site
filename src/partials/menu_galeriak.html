@@ -2,14 +2,18 @@
   <a href="#">&thinsp;<i class="fas fa-camera"></i>&ensp;Fotó archívum</a>
   <ul class="menu vertical nested
   {{#ifpage
-    'galeriak_2017_18_ps_bs'
-    'galeriak_2018_19_ps_bs'
+    'fooldal_2017_18_ps'
+    'fooldal_2017_18_bs'
+    'fooldal_2019_20_ps'
     'fooldal_2018_19_ps'
     'fooldal_2018_19_bs'
     'fooldal_2019_20_ps'
     'fooldal_2019_20_bs'
     'fooldal_2020_21_ps'
     'fooldal_2020_21_bs'
+    
+    'galeria_2017_18_ps'
+    'galeria_2017_18_bs'
     'galeria_2018_19_ps'
     'galeria_2018_19_bs'
     'galeria_2019_20_ps'
@@ -21,8 +25,9 @@
     }}
     is-active
   {{/ifpage}}">
-    <li {{#ifpage 'galeriak_2017_18_ps_bs' }} class="current" {{/ifpage}}>
-      <a href="{{root}}galeriak/galeriak_2017_18_ps_bs.html">2017–2018 {{>label}}</a>
+    <li {{#ifpage 'fooldal_2017_18_ps' 'galeria_2017_18_ps' 'fooldal_2017_18_bs' 'galeria_2017_18_bs' }} class="current"
+      {{/ifpage}}>
+      <a href="{{root}}galeriak/2017_18/ps/fooldal_2017_18_ps.php">2017–2018 {{>label}}</a>
     </li>
     <li {{#ifpage 'fooldal_2018_19_ps' 'galeria_2018_19_ps' 'fooldal_2018_19_bs' 'galeria_2018_19_bs' }} class="current"
       {{/ifpage}}>
