@@ -1,42 +1,45 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 </head>
+
 <body>
 </body>
+
 </html>
 <script>
-	var n="Az én világom 4.\nNyelvtan és helyesírás 4.\nA mi világunk 4.\nHétszínvilág olvasókönyv 4.\nProject 1.\nNegyedik daloskönyvem 4.\nElső atlaszom\nNyelvtan és helyesírás munkafüzet 4.\nNegyedik matematikakönyvem 4.\nNegyedik matematika munkafüzetem 4.\nSzámoljunk! 4.\nMatematika felmérőfüzet 4.\nHétszínvilág munkafüzet 4.\nA mi világunk munkafüzet 4.\nFogalmazás munkafüzet 4. évfolyam\nSzövegértést fejl gyak.\nMunkafüzet a Negyedik daloskönyvemhez\nProject 1. mf";
+    var n = "Az én világom 4.\nNyelvtan és helyesírás 4.\nA mi világunk 4.\nHétszínvilág olvasókönyv 4.\nProject 1.\nNegyedik daloskönyvem 4.\nElső atlaszom\nNyelvtan és helyesírás munkafüzet 4.\nNegyedik matematikakönyvem 4.\nNegyedik matematika munkafüzetem 4.\nSzámoljunk! 4.\nMatematika felmérőfüzet 4.\nHétszínvilág munkafüzet 4.\nA mi világunk munkafüzet 4.\nFogalmazás munkafüzet 4. évfolyam\nSzövegértést fejl gyak.\nMunkafüzet a Negyedik daloskönyvemhez\nProject 1. mf";
 
 
 
 
-	function tablazatFelbont(n){
-		str = n.split("\n");
-		return str
-	}
+    function tablazatFelbont(n) {
+        str = n.split("\n");
+        return str
+    }
 
-	function tablazatKiir(str){
-		document.write("<table border=1>");
+    function tablazatKiir(str) {
+        document.write("<table border=1>");
         document.write("<ul>");
 
-        for(let i = 0; i<str.length; i++){
+        for (let i = 0; i < str.length; i++) {
 
-					document.write("<li>"+str[i]+"</li>");
+            document.write("<li>" + str[i] + "</li>");
 
-		}
+        }
         document.write("</ul>");
 
         document.write("</table>");
-	}
+    }
 
 
-	var noFelbontot = tablazatFelbont(n);
-	tablazatKiir(noFelbontot);
+    var noFelbontot = tablazatFelbont(n);
+    tablazatKiir(noFelbontot);
 
 
-	document.write("</table>");
+    document.write("</table>");
     // Requiring fs module in which
     // writeFile function is defined.
     const fs = require('fs')
