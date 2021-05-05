@@ -6,6 +6,5 @@ dist
 *.swp
 .cache
 .idea
-*.mp4
 package-lock.json
 package.json
