@@ -1,17 +1,19 @@
 <div class="cell medium-9 medium-cell-block-y">
   <h4 class="text-center">Comenius Iskola együttműködés</h4>
 
-  <ul class="tabs" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" data-tabs id="deeplinked-tabs">
-    <li class="tabs-title is-active"><a href="#panel1d" aria-selected="true" style="color: orange;">A projekt leírása</a></li>
+  <ul class="tabs" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true"
+    data-deep-link-smudge-delay="500" data-tabs id="deeplinked-tabs">
+    <li class="tabs-title is-active"><a href="#panel1d" aria-selected="true" style="color: orange;">A projekt
+        leírása</a></li>
     <li class="tabs-title"><a href="#panel2d">Projektfilmek</a></li>
   </ul>
-  
- 
+
+
   {{>tabs_content1}}
- <div class="responsive-embed">
-  <div id="example1" style="height: 85vh; width: 100vw;"></div>
-  {{>pdfviewer}}
-  <script>PDFObject.embed("{{root}}assets/palyazatok/comenius_projekt/comenius_projekt.pdf", "#example1");</script>
+  <div class="responsive-embed">
+    <div id="example1" style="height: 85vh; width: 100vw;"></div>
+    {{>pdfviewer}}
+    <script>PDFObject.embed("{{root}}assets/palyazatok/comenius_projekt/comenius_projekt.pdf", "#example1");</script>
   </div>
   {{>tabs_content2}}
   <div class="grid-x grid-margin-x">
@@ -53,18 +55,14 @@
       <p class="text-center">
         Projektfilm 2009–2010 – Második rész
       </p>
-      <div class="responsive-embed">
+      <!-- <div class="responsive-embed">
         <video width="400" poster="{{root}}assets/comenius_projekt/projektfilm_2009_2010_2.jpg" controls>
           <source src="{{root}}assets/comenius_projekt/projektfilm_2009_2010_2.mp4" type="video/mp4">
-      </div>
+      </div> -->
 
 
     </div>
     <div class="cell auto"></div>
   </div>
- 
+
   {{>tabs_content3}}
-
-
-
- 
