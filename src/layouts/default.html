@@ -135,7 +135,25 @@
 
 
           {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-          {{#ifpage 'index' 'hirfolyam_2016_17' 'hirfolyam_2017_18' 'hirfolyam_2018_19' 'hirfolyam_2019_20'}}
+          {{#ifpage
+          'index'
+          'hirfolyam_2016_17'
+          'hirfolyam_2017_18'
+          'hirfolyam_2018_19'
+          'hirfolyam_2019_20'
+          'teritesi_dij_tandij'
+          'fentart_altal_eng_oszt_csop'
+          'nyilvanos_vizsgalat'
+          'nyitvatartas'
+          'muveszeti_oktatas_ps_bs_kozzetetel'
+          'osztalyok_szama_es_tanulok_letszama'
+          'beiratkozaskor_leadando_nyomtatvanyok'
+          'bemutatkozas_iskolahivagato_ps_bs_beiratkozas'
+          'tanev_rendje_2020_21'
+          'szuloi_ertekezletek_ps_bs'
+          'fogadoorak_ps_bs'
+          'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
+          }}
           {{> startdiv}}
           {{> head_slider}}
           {{> body}}
@@ -145,10 +163,6 @@
           {{#ifpage
           'befiz_idopontok_arak_ps_bs'
           'befiz_idopontok_ngsz'
-          'teritesi_dij_tandij'
-          'fentart_altal_eng_oszt_csop'
-          'nyilvanos_vizsgalat'
-          'nyitvatartas'
           'iskolakert'
           'ntp'
           }}
@@ -159,12 +173,21 @@
 
           {{#unlesspage
           'index'
+          'befiz_idopontok_ngsz'
           'hirfolyam_2016_17'
           'hirfolyam_2017_18'
           'hirfolyam_2018_19'
           'hirfolyam_2019_20'
-          'teritesi_dij_tandij'
           'fentart_altal_eng_oszt_csop'
+          'muveszeti_oktatas_ps_bs_kozzetetel'
+          'osztalyok_szama_es_tanulok_letszama'
+          'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
+          'beiratkozaskor_leadando_nyomtatvanyok'
+          'bemutatkozas_iskolahivagato_ps_bs_beiratkozas'
+          'tanev_rendje_2020_21'
+          'szuloi_ertekezletek_ps_bs'
+          'fogadoorak_ps_bs'
+          'teritesi_dij_tandij'
           'nyilvanos_vizsgalat'
           'nyitvatartas'
           }}
