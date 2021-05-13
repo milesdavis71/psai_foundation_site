@@ -18,6 +18,7 @@
             'gyermekvedelem'
             'tankonyvek_ps_bs'
             'taneszkozok_ps_bs'
+            'kek_ter_program'
             }}
             is-active
         {{/ifpage}}">
@@ -63,5 +64,10 @@
                                                 <a href="{{root}}bemutatkozas/taneszkozok_ps_bs.html">Taneszközök{{>label}}
                                                 </a>
                                                 </li>
-                                                </ul>
-                                                </li>
+                                                <li{{#ifpage 'kek_ter_program' }} class="current" {{/ifpage}}>
+                                                    <a href="{{root}}bemutatkozas/kek_ter_program.html">Kék tér
+                                                        program
+                                                    </a>
+                                                    </li>
+                                                    </ul>
+                                                    </li>
