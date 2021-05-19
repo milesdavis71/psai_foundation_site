@@ -203,7 +203,19 @@
 
         </div>
         <div class="cell auto"></div>
+        <hr>
+        <div id="example1" style="height: 85vh; width: 100vw"></div>
+        {{>pdfviewer}}
+        <script>
+            PDFObject.embed(
+                "{{root}}assets/oko_munkaterv.pdf",
+                "#example1"
+            );
+        </script>
+
     </div>
+
+
 
 </div>
 </div>
