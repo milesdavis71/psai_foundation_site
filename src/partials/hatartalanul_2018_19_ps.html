@@ -1,146 +1,145 @@
 <style type="text/css">
-.card:hover {
-  box-shadow: 0 0 30px rgba(33,33,33,.3); 
-}
+  .card:hover {
+    box-shadow: 0 0 30px rgba(33, 33, 33, .3);
+  }
+</style>
+<script type="text/javascript">
+  //
+  // No external JavaScript libraries are used or required
+  // Plugins used are autoprefixer and babel
+  //
+  (() => {
+    'use strict';
 
-   </style>
-   <script type="text/javascript">
-     //
-     // No external JavaScript libraries are used or required
-     // Plugins used are autoprefixer and babel
-     //
-     (() => {
-       'use strict';
-
-       // Create object literal with project variables
-       const galleryVariables = {
-         galleryAuthor: document.querySelector('.js-modal-author'),
-         galleryButton: document.querySelector('.js-close-button'),
-         galleryLinks: document.querySelectorAll('a[data-toggle="galleryModal"]'),
-         
+    // Create object literal with project variables
+    const galleryVariables = {
+      galleryAuthor: document.querySelector('.js-modal-author'),
+      galleryButton: document.querySelector('.js-close-button'),
+      galleryLinks: document.querySelectorAll('a[data-toggle="galleryModal"]'),
 
 
-         galleryModal: document.querySelector('.js-gallery-reveal'),
-         galleryOverlay: document.querySelector('.js-gallery-overlay'),
-         galleryPreview: document.querySelector('.js-modal-preview'),
-         galleryPreviewAuthor: document.querySelector('.js-modal-author')
-       }
 
-       // Fade in function
-       const fadeIn = (element) => {
-         // Create variable with initial opacity
-         let elementOpacity = 0.1;
+      galleryModal: document.querySelector('.js-gallery-reveal'),
+      galleryOverlay: document.querySelector('.js-gallery-overlay'),
+      galleryPreview: document.querySelector('.js-modal-preview'),
+      galleryPreviewAuthor: document.querySelector('.js-modal-author')
+    }
 
-         // Create timer for fadeIn function
-         let timer = setInterval(() => {
-           if (elementOpacity >= 1) {
-             // Reset interval
-             clearInterval(timer);
-           }
+    // Fade in function
+    const fadeIn = (element) => {
+      // Create variable with initial opacity
+      let elementOpacity = 0.1;
 
-           // Set element opacity to elementOpacity
-           element.style.opacity = elementOpacity;
+      // Create timer for fadeIn function
+      let timer = setInterval(() => {
+        if (elementOpacity >= 1) {
+          // Reset interval
+          clearInterval(timer);
+        }
 
-           // Increase value of elementOpacity
-           elementOpacity += elementOpacity * 0.1;
+        // Set element opacity to elementOpacity
+        element.style.opacity = elementOpacity;
 
-           // Show element
-           element.style.display = 'block';
-         }, 15);
-       }
+        // Increase value of elementOpacity
+        elementOpacity += elementOpacity * 0.1;
 
-       // Fade out function
-       const fadeOut = (element) => {
-         // Create variable with initial opacity
-         let elementOpacity = 1;
+        // Show element
+        element.style.display = 'block';
+      }, 15);
+    }
 
-         // Create timer for fadeOut function
-         let timer = setInterval(() => {
-           if (elementOpacity <= 0.1) {
-             // Reset interval
-             clearInterval(timer);
+    // Fade out function
+    const fadeOut = (element) => {
+      // Create variable with initial opacity
+      let elementOpacity = 1;
 
-             // Hide element
-             element.style.display = 'none';
-           }
+      // Create timer for fadeOut function
+      let timer = setInterval(() => {
+        if (elementOpacity <= 0.1) {
+          // Reset interval
+          clearInterval(timer);
 
-           // Set element opacity to elementOpacity
-           element.style.opacity = elementOpacity;
+          // Hide element
+          element.style.display = 'none';
+        }
 
-           // Decrease value of elementOpacity
-           elementOpacity -= elementOpacity * 0.1;
-         }, 15);
-       }
+        // Set element opacity to elementOpacity
+        element.style.opacity = elementOpacity;
 
-       // Open reveal dialog by clicking on images
-       for (let x = 0, y = galleryVariables.galleryLinks.length; x < y; x++) {
-         // Add event listener for image containers
-         galleryVariables.galleryLinks[x].addEventListener('click', (e) => {
-           e.preventDefault();
+        // Decrease value of elementOpacity
+        elementOpacity -= elementOpacity * 0.1;
+      }, 15);
+    }
 
-           // Get clicked image
-           let image = e.target;
+    // Open reveal dialog by clicking on images
+    for (let x = 0, y = galleryVariables.galleryLinks.length; x < y; x++) {
+      // Add event listener for image containers
+      galleryVariables.galleryLinks[x].addEventListener('click', (e) => {
+        e.preventDefault();
 
-           // Get src of the image
-           let imageSrc = image.getAttribute('src');
+        // Get clicked image
+        let image = e.target;
 
-           // Get alt of the image
-           let imageAlt = image.getAttribute('alt');
+        // Get src of the image
+        let imageSrc = image.getAttribute('src');
 
-           // Set alt attribute of preview image to clicked image
-           galleryVariables.galleryPreview.setAttribute('alt', imageAlt);
+        // Get alt of the image
+        let imageAlt = image.getAttribute('alt');
 
-           // Set src attribute of preview image to clicked image
-           galleryVariables.galleryPreview.setAttribute('src', imageSrc);
+        // Set alt attribute of preview image to clicked image
+        galleryVariables.galleryPreview.setAttribute('alt', imageAlt);
 
-           // Set preview headline to alt of clicked phot
-           galleryVariables.galleryPreviewAuthor.textContent = imageAlt;
-           
-           // Avoid openning modal unless its content is loaded
-           if (galleryVariables.galleryPreview.getAttribute('src').length > 0 && galleryVariables.galleryPreview.getAttribute('alt').length > 0 && galleryVariables.galleryPreviewAuthor.textContent.length > 0) {
-             // Add Foundation class to hide overflow
-             document.body.classList.add('is-reveal-open');
+        // Set src attribute of preview image to clicked image
+        galleryVariables.galleryPreview.setAttribute('src', imageSrc);
 
-             // Show modal dialog
-             galleryVariables.galleryModal.style.display = 'block';
+        // Set preview headline to alt of clicked phot
+        galleryVariables.galleryPreviewAuthor.textContent = imageAlt;
 
-             // Show modal overlay (fade it in)
-             fadeIn(galleryVariables.galleryOverlay);
-           }
-         });
-       }
+        // Avoid openning modal unless its content is loaded
+        if (galleryVariables.galleryPreview.getAttribute('src').length > 0 && galleryVariables.galleryPreview.getAttribute('alt').length > 0 && galleryVariables.galleryPreviewAuthor.textContent.length > 0) {
+          // Add Foundation class to hide overflow
+          document.body.classList.add('is-reveal-open');
 
-       // Close reveal dialog
-       galleryVariables.galleryButton.addEventListener('click', (e) => {
-         e.preventDefault();
+          // Show modal dialog
+          galleryVariables.galleryModal.style.display = 'block';
 
-         // Hide modal overlay (fade it out)
-         fadeOut(galleryVariables.galleryOverlay);
-         
-         // Wait before overlay fades out
-         setTimeout(() => {
-           // Hide modal dialog
-           galleryVariables.galleryModal.style.display = 'none';
-           
-           // Reset alt attribute of preview image
-           galleryVariables.galleryPreview.setAttribute('alt', '');
+          // Show modal overlay (fade it in)
+          fadeIn(galleryVariables.galleryOverlay);
+        }
+      });
+    }
 
-           // Reset src attribute of preview image
-           galleryVariables.galleryPreview.setAttribute('src', '');
+    // Close reveal dialog
+    galleryVariables.galleryButton.addEventListener('click', (e) => {
+      e.preventDefault();
 
-           // Reset text for preview headline
-           galleryVariables.galleryPreviewAuthor.textContent = '';
+      // Hide modal overlay (fade it out)
+      fadeOut(galleryVariables.galleryOverlay);
 
-           // Remove Foundation class to hide overflow
-           document.body.classList.remove('is-reveal-open');
-         }, 250);
-       });
-     })();
+      // Wait before overlay fades out
+      setTimeout(() => {
+        // Hide modal dialog
+        galleryVariables.galleryModal.style.display = 'none';
 
-   </script>
+        // Reset alt attribute of preview image
+        galleryVariables.galleryPreview.setAttribute('alt', '');
 
-  <h3 class="text-center">Magyar írók, költők nyomában Erdély területén</h3>
-  <hr>
+        // Reset src attribute of preview image
+        galleryVariables.galleryPreview.setAttribute('src', '');
+
+        // Reset text for preview headline
+        galleryVariables.galleryPreviewAuthor.textContent = '';
+
+        // Remove Foundation class to hide overflow
+        document.body.classList.remove('is-reveal-open');
+      }, 250);
+    });
+  })();
+
+</script>
+
+<h3 class="text-center">Magyar írók, költők nyomában Erdély területén</h3>
+<hr>
 <p>
   Az öt napos tanulmányi kirándulás alatt a következő programokat valósítottuk meg:
 </p>
@@ -167,8 +166,8 @@
     </div>
     <!-- modal -->
     <div class="large js-gallery-reveal gallery-reveal reveal" id="galleryModal19" data-reveal data-overlay="true">
-      <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/1_1_arad.jpg"
-        alt="" />
+      <img class="js-modal-preview modal-preview"
+        src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/1_1_arad.jpg" alt="" />
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -192,8 +191,8 @@
     </div>
     <!-- modal -->
     <div class="large js-gallery-reveal gallery-reveal reveal" id="galleryModal20" data-reveal data-overlay="true">
-      <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/1_2_mariaadna.jpg"
-        alt="" />
+      <img class="js-modal-preview modal-preview"
+        src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/1_2_mariaadna.jpg" alt="" />
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -217,8 +216,8 @@
     </div>
     <!-- modal -->
     <div class="large js-gallery-reveal gallery-reveal reveal" id="galleryModal21" data-reveal data-overlay="true">
-      <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/1_3_deva.jpg"
-        alt="" />
+      <img class="js-modal-preview modal-preview"
+        src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/1_3_deva.jpg" alt="" />
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -260,8 +259,8 @@
     </div>
     <!-- modal -->
     <div class="large js-gallery-reveal gallery-reveal reveal" id="galleryModal22" data-reveal data-overlay="true">
-      <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/2_1_aranyosfo.jpg"
-        alt="" />
+      <img class="js-modal-preview modal-preview"
+        src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/2_1_aranyosfo.jpg" alt="" />
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -398,8 +397,8 @@
     </div>
     <!-- modal -->
     <div class="large js-gallery-reveal gallery-reveal reveal" id="galleryModal27" data-reveal data-overlay="true">
-      <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/3_3_torda.jpg"
-        alt="" />
+      <img class="js-modal-preview modal-preview"
+        src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/3_3_torda.jpg" alt="" />
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -442,8 +441,8 @@
     </div>
     <!-- modal -->
     <div class="large js-gallery-reveal gallery-reveal reveal" id="galleryModal28" data-reveal data-overlay="true">
-      <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/4_1_bogako.jpg"
-        alt="" />
+      <img class="js-modal-preview modal-preview"
+        src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/4_1_bogako.jpg" alt="" />
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -467,8 +466,8 @@
     </div>
     <!-- modal -->
     <div class="large js-gallery-reveal gallery-reveal reveal" id="galleryModal29" data-reveal data-overlay="true">
-      <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/4_2_bogako.jpg"
-        alt="" />
+      <img class="js-modal-preview modal-preview"
+        src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/4_2_bogako.jpg" alt="" />
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -544,8 +543,8 @@
     </div>
     <!-- modal -->
     <div class="large js-gallery-reveal gallery-reveal reveal" id="galleryModal31" data-reveal data-overlay="true">
-      <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/5_1_kiskoh_medvebarlang.jpg"
-        alt="" />
+      <img class="js-modal-preview modal-preview"
+        src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/5_1_kiskoh_medvebarlang.jpg" alt="" />
       <button class="close-button" data-close aria-label="Close reveal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -619,18 +618,15 @@
 
 
 
-<div class="grid-x grid-margin-x"  style="margin-top: -2rem;">
+<div class="grid-x grid-margin-x" style="margin-top: -2rem;">
   <div class="cell auto"></div>
   <div class="cell small-9 large-6">
     <div class="responsive-embed">
-      <iframe src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/slideshow_video.mp4" frameborder="0"
-        allowfullscreen></iframe>
+      <video controls>
+        <source src="{{root}}assets/img/palyazatok/ps/hatartalanul/2018_19/slideshow_video.mp4" frameborder="0"
+          allowfullscreen autoplay=""></iframe>
     </div>
-  
+
   </div>
   <div class="cell auto"></div>
 </div>
-
-
-
-

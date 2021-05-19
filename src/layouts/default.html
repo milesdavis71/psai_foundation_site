@@ -134,33 +134,13 @@
 
 
 
-          {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+          {{!-- 3 hasábos sliderrel --}}
           {{#ifpage
           'index'
           'hirfolyam_2016_17'
           'hirfolyam_2017_18'
           'hirfolyam_2018_19'
           'hirfolyam_2019_20'
-          'teritesi_dij_tandij'
-          'fentart_altal_eng_oszt_csop'
-          'nyilvanos_vizsgalat'
-          'nyitvatartas'
-          'muveszeti_oktatas_ps_bs_kozzetetel'
-          'osztalyok_szama_es_tanulok_letszama'
-          'beiratkozaskor_leadando_nyomtatvanyok'
-          'bemutatkozas_iskolahivagato_ps_bs_beiratkozas'
-          'tanev_rendje_2020_21'
-          'szuloi_ertekezletek_ps_bs'
-          'fogadoorak_ps_bs'
-          'egyeni_fogadoorak_ps_bs'
-          'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
-          'muveszeti_oktatas_ps_bs'
-          'iskolakert'
-          'ntp'
-          'tiop_2008_ps_bs'
-          'mi_iskolank_ps_bs'
-          'letoltheto_nyomtatvanyok'
-          'e_ugyintezes'
           }}
           {{> startdiv}}
           {{> head_slider}}
@@ -168,46 +148,102 @@
           {{> rightcolumn}}
           {{/ifpage}}
 
+
+          {{!-- 3 hasábos slider nélkül --}}
           {{#ifpage
-          'befiz_idopontok_arak_ps_bs'
+          'felekezetek_bemutatkozasa'
+          'felveteli_tajekoztato'
+          'beiratkozaskor_leadando_nyomtatvanyok'
+          'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
+          'iskolahivagato_ps_bs_kozzetetel'
+          'teritesi_dij_tandij'
+          'nyilvanos_vizsgalat'
+          'nyitvatartas'
+          'esemenynaptar_ps_bs'
+          'evismetles'
+          'fentart_altal_eng_oszt_csop'
+          'egyeni_fejlesztes_ps_bs_kozzetetel'
+          'egyeni_fejlesztes_ps_bs'
+          'muveszeti_oktatas_ps_bs_kozzetetel'
+          'muveszeti_oktatas_ps_bs'
+          'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
+          'szaktargyi_korrepetalasok_ps_bs'
+          'hetvegi_hazi_feladatok_dolgozatok_szabalyai'
+          'tanulmanyok_alatti_vizsgak_tervezett_rendje'
+          'osztalyok_szama_es_tanulok_letszama'
+          'beiratkozaskor_leadando_nyomtatvanyok'
+          'bemutatkozas_iskolahivagato_ps_bs_beiratkozas'
+          'szuloi_ertekezletek_ps_bs'
+          'fogadoorak_ps_bs'
+          'egyeni_fogadoorak_ps_bs'
+          'tanev_rendje_2020_21'
+          'muveszeti_oktatas_ps_bs'
+          'ntp'
+          'mi_iskolank_ps_bs'
+          'tiop_2008_ps_bs'
+          'alapitvanyok_ps_bs'
+          'letoltheto_nyomtatvanyok'
+          'e_ugyintezes'
           'kek_ter_program'
           'befiz_idopontok_ngsz'
+          'iskolakert'
           }}
           {{> startdiv}}
           {{> body}}
           {{> rightcolumn}}
           {{/ifpage}}
 
+
+          {{!-- 2 hasábos slider nélkül Előző kettő KIZÁRÁSA --}}
+
           {{#unlesspage
+
           'index'
-          'kek_ter_program'
-          'befiz_idopontok_ngsz'
           'hirfolyam_2016_17'
           'hirfolyam_2017_18'
           'hirfolyam_2018_19'
           'hirfolyam_2019_20'
-          'fentart_altal_eng_oszt_csop'
-          'muveszeti_oktatas_ps_bs_kozzetetel'
-          'osztalyok_szama_es_tanulok_letszama'
-          'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
-          'beiratkozaskor_leadando_nyomtatvanyok'
-          'bemutatkozas_iskolahivagato_ps_bs_beiratkozas'
-          'tanev_rendje_2020_21'
-          'szuloi_ertekezletek_ps_bs'
-          'fogadoorak_ps_bs'
-          'egyeni_fogadoorak_ps_bs'
           'muveszeti_oktatas_ps_bs'
-          'iskolakert'
           'ntp'
-          'tiop_2008_ps_bs'
           'mi_iskolank_ps_bs'
-          'letoltheto_nyomtatvanyok'
+
+          'felekezetek_bemutatkozasa'
+          'felveteli_tajekoztato'
+          'beiratkozaskor_leadando_nyomtatvanyok'
+          'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
+          'iskolahivagato_ps_bs_kozzetetel'
           'teritesi_dij_tandij'
           'nyilvanos_vizsgalat'
           'nyitvatartas'
+          'esemenynaptar_ps_bs'
+          'evismetles'
+          'fentart_altal_eng_oszt_csop'
+          'egyeni_fejlesztes_ps_bs_kozzetetel'
+          'egyeni_fejlesztes_ps_bs'
+          'muveszeti_oktatas_ps_bs_kozzetetel'
+          'muveszeti_oktatas_ps_bs'
+          'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
+          'szaktargyi_korrepetalasok_ps_bs'
+          'hetvegi_hazi_feladatok_dolgozatok_szabalyai'
+          'tanulmanyok_alatti_vizsgak_tervezett_rendje'
+          'osztalyok_szama_es_tanulok_letszama'
+          'beiratkozaskor_leadando_nyomtatvanyok'
+          'bemutatkozas_iskolahivagato_ps_bs_beiratkozas'
+          'szuloi_ertekezletek_ps_bs'
+          'fogadoorak_ps_bs'
+          'egyeni_fogadoorak_ps_bs'
+          'tanev_rendje_2020_21'
+          'muveszeti_oktatas_ps_bs'
+          'ntp'
+          'tiop_2008_ps_bs'
+          'alapitvanyok_ps_bs'
+          'letoltheto_nyomtatvanyok'
           'e_ugyintezes'
-          }}
+          'kek_ter_program'
+          'befiz_idopontok_ngsz'
+          'iskolakert'
 
+          }}
           {{> body}}
           {{/unlesspage}}
           <script src="{{root}}assets/js/app.js"></script>
