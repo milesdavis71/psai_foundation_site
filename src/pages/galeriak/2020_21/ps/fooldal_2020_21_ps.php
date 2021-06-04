@@ -63,7 +63,7 @@
         $cim=$_POST['title'];
         }
         echo '<form action="galeria_2020_21_ps.php" method="post">
-          <img src="' . $file . '">
+          <img  src="' . $file . '">
           <div class="card-section">
 
             <p class="text-center">'.$albumcim.'</p>
