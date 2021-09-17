@@ -37,14 +37,19 @@
     <ul class="menu vertical nested
       {{#ifpage
         'kozetkeztetes'
+        'kozetkeztetes-etlap'
         'elsos_szulok_tajekoztatasa_kozetkeztetesrol'
         'befiz_idopontok_arak_ps_bs'
         'befiz_idopontok_ngsz'
         'befiz_idopontok_ngsz_unnepi'
         'befiz_ingyen_kedvezm_ngsz_tajekoztato'
       }}is-active{{/ifpage}}">
+      <li {{#ifpage 'kozetkeztetes' }} class="current" {{/ifpage}}>
+        <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Közétkeztetés – NGSZ weboldad</a>
+      </li>
       <li {{#ifpage 'www.ngsz.hu' }} class="current" {{/ifpage}}>
-        <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Étkezés – NGSZ információk</a>
+        <a href="https://ngsz.hu/2021/01/01/kozetkeztetes/#kozetkeztetes-etlap" target="_blank">Közétkeztetés –
+          étlapok</a>
       </li>
       <li {{#ifpage 'elsos_szulok_tajekoztatasa_kozetkeztetesrol' }} class="current" {{/ifpage}}>
         <a href="{{root}}elsos_szulok_tajekoztatasa_kozetkeztetesrol.html">Elsős szülők tájékoztatása
