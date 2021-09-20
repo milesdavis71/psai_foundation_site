@@ -44,6 +44,10 @@
         'befiz_idopontok_ngsz_unnepi'
         'befiz_ingyen_kedvezm_ngsz_tajekoztato'
       }}is-active{{/ifpage}}">
+      <li {{#ifpage 'befiz_idopontok_ngsz' }} class="current" {{/ifpage}}>
+        <a href="{{root}}befiz_idopontok_ngsz.html">Befizetési időpontok az NGSZ-nél</a>
+      </li>
+
       <li {{#ifpage 'kozetkeztetes' }} class="current" {{/ifpage}}>
         <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Közétkeztetés – NGSZ weboldad</a>
       </li>
@@ -62,9 +66,6 @@
       <!-- <li {{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current" {{/ifpage}}>
         <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak {{>label}}</a>
       </li> -->
-      <li {{#ifpage 'befiz_idopontok_ngsz' }} class="current" {{/ifpage}}>
-        <a href="{{root}}befiz_idopontok_ngsz.html">Befizetési időpontok az NGSZ-nél</a>
-      </li>
     </ul>
   </li>
   {{>menu_kozzeteteli_lista}}
