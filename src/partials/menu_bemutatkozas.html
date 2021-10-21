@@ -16,6 +16,7 @@
             'gyermekvedelem'
             'tankonyvek_ps_bs'
             'taneszkozok_ps_bs'
+            'regisztralt_tehetsegpont'
             'kek_ter_program'
             }}
             is-active
@@ -65,10 +66,16 @@
                                                     <a href="{{root}}bemutatkozas/taneszkozok_ps_bs.html">Taneszközök{{>label}}
                                                     </a>
                                                     </li>
-                                                    <li{{#ifpage 'kek_ter_program' }} class="current" {{/ifpage}}>
-                                                        <a href="{{root}}bemutatkozas/kek_ter_program.html">Kék tér
-                                                            program
+                                                    <li{{#ifpage 'regisztralt_tehetsegpont' }} class="current"
+                                                        {{/ifpage}}>
+                                                        <a href="{{root}}bemutatkozas/regisztralt_tehetsegpont.html">Regisztrált
+                                                            tehetségpont
                                                         </a>
                                                         </li>
-                                                        </ul>
-                                                        </li>
+                                                        <li{{#ifpage 'kek_ter_program' }} class="current" {{/ifpage}}>
+                                                            <a href="{{root}}bemutatkozas/kek_ter_program.html">Kék tér
+                                                                program
+                                                            </a>
+                                                            </li>
+                                                            </ul>
+                                                            </li>
