@@ -31,7 +31,7 @@
       </div>
     </div>
   </div>
-  <form data-abide validate>
+  <form data-abide novalidate method="post" action="mail.php">
     <h4 class="text-center">
       <small>Regisztráció</small>
     </h4>
@@ -45,7 +45,7 @@
           <div class="callout success">
             <span>Versenyző adatai (minden mező kitöltése kötelező)</span>
             <label class="text-left">Vezetéknév
-              <input type="text" placeholder="Kovács" aria-describedby="example1Hint1"
+              <input type="text" placeholder="Kovács" name="name" aria-describedby="example1Hint1"
                 aria-errormessage="example1Error1" required pattern="alpha">
               <span class="form-error">
                 Kötelező mező, szám nem írható be.
@@ -74,7 +74,7 @@
               </select>
             </label>
             <label class="text-left">Az előadott mese címe
-              <input type="text" placeholder="A három kismalac" aria-describedby="example1Hint1"
+              <input type="text" placeholder="A három kismalac" name="mese_cime" aria-describedby="example1Hint1"
                 aria-errormessage="example1Error1" required pattern="alpha_numeric">
               <span class="form-error">
                 Kötelező mező.
@@ -100,7 +100,7 @@
               </span>
             </label>
             <label class="text-left">e-mail cím
-              <input type="text" placeholder="xxx@yyy.com" aria-describedby="example1Hint4"
+              <input type="text" placeholder="xxx@yyy.com" name="mail" aria-describedby="example1Hint4"
                 aria-errormessage="example1Error4" required pattern="email">
               <span class="form-error">
                 Kötelező mező, adjon meg érvényes e-mail címet.
@@ -122,5 +122,9 @@
       </div>
     </div>
   </form>
-
+  <script>
+    $(document).ready(function () {
+      $(document).foundation();
+    })
+  </script>
 </div>
