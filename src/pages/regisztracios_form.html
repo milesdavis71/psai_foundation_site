@@ -49,20 +49,33 @@
           <div class="callout success">
             <span>Versenyző adatai (minden mező kitöltése kötelező)</span>
             <label class="text-left">Vezetéknév
-              <input type="text" placeholder="Kovács" name="name" aria-describedby="example1Hint1"
+              <input type="text" placeholder="Kovács" name="first_name" aria-describedby="example1Hint1"
                 aria-errormessage="example1Error1" required pattern="alpha">
               <span class="form-error">
                 Kötelező mező, szám nem írható be.
               </span>
             </label>
             <label class="text-left">Keresztnév
-              <input type="text" placeholder="Péter" aria-describedby="example1Hint2" aria-errormessage="example1Error2"
-                required pattern="alpha">
+              <input type="text" placeholder="Péter" name="last_name" aria-describedby="example1Hint2"
+                aria-errormessage="example1Error2" required pattern="alpha">
               <span class="form-error">
                 Kötelező mező, szám nem írható be.
               </span>
             </label>
-            <label class="text-left">Iskola
+            <label class="text-left">Az előadott mese címe
+              <input type="text" placeholder="A három kismalac" name="mese_cime">
+              <span class="form-error">
+                Kötelező mező.
+              </span>
+            </label>
+            <label class="text-left">e-mail cím
+              <input type="text" placeholder="xxx@yyy.com" name="email" aria-describedby="example1Hint4"
+                aria-errormessage="example1Error4" required pattern="email">
+              <span class="form-error">
+                Kötelező mező, adjon meg érvényes e-mail címet.
+              </span>
+            </label>
+            <!-- <label class="text-left">Iskola
               <input type="text" placeholder="Kosztolányi Dezső Általános Iskola" aria-describedby="example1Hint3"
                 aria-errormessage="example1Error3" required pattern="alpha">
               <span class="form-error">
@@ -83,11 +96,11 @@
               <span class="form-error">
                 Kötelező mező.
               </span>
-            </label>
+            </label> -->
             <!-- <p class="help-text" id="example1Hint1">Szám nem írható be.</p> -->
           </div>
 
-          <div class="callout success">
+          <!-- <div class="callout success">
             <span>Felkészítő tanár adatai (minden mező kitöltése kötelező)</span>
             <label class="text-left">Vezetéknév
               <input type="text" placeholder="Nagy" aria-describedby="example1Hint3" aria-errormessage="example1Error3"
@@ -110,8 +123,8 @@
                 Kötelező mező, adjon meg érvényes e-mail címet.
               </span>
             </label>
-            <!-- <p class="help-text" id="example1Hint1">Szám nem írható be.</p> -->
-          </div>
+            
+          </div> -->
         </div>
       </div>
     </div>

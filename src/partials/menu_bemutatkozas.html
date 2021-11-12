@@ -18,6 +18,7 @@
             'taneszkozok_ps_bs'
             'regisztralt_tehetsegpont'
             'kek_ter_program'
+            'keve_program'
             }}
             is-active
         {{/ifpage}}">
@@ -77,5 +78,10 @@
                                                                 program
                                                             </a>
                                                             </li>
-                                                            </ul>
-                                                            </li>
+                                                            <li{{#ifpage 'keve_program' }} class="current" {{/ifpage}}>
+                                                                <a href="{{root}}palyazatok/keve_program.html">KEVE
+                                                                    program
+                                                                </a>
+                                                                </li>
+                                                                </ul>
+                                                                </li>
