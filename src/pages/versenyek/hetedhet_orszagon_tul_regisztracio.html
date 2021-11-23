@@ -36,7 +36,7 @@
       </div>
     </div>
   </div>
-  <form data-abide novalidate method="post" action="mail.php">
+  <form data-abide novalidate method="post" action="{{root}}assets/php/mail.php">
     <h4 class="text-center">
       <small>Regisztráció</small>
     </h4>
@@ -50,14 +50,14 @@
           <div class="callout success">
             <span>Versenyző adatai (minden mező kitöltése kötelező)</span>
             <label class="text-left">Vezetéknév
-              <input type="text" placeholder="Kovács" name="first_name" aria-describedby="example1Hint1"
+              <input type="text" placeholder="Kovács" name="vez_nev_tan" aria-describedby="example1Hint1"
                 aria-errormessage="example1Error1" required pattern="alpha">
               <span class="form-error">
                 Kötelező mező, szám nem írható be.
               </span>
             </label>
             <label class="text-left">Keresztnév
-              <input type="text" placeholder="Péter" name="last_name" aria-describedby="example1Hint2"
+              <input type="text" placeholder="Péter" name="ker_nev_tan" aria-describedby="example1Hint2"
                 aria-errormessage="example1Error2" required pattern="alpha">
               <span class="form-error">
                 Kötelező mező, szám nem írható be.
@@ -93,27 +93,43 @@
           <div class="callout success">
             <span>Felkészítő pedagógus adatai (minden mező kitöltése kötelező)</span>
             <label class="text-left">Vezetéknév
-              <input type="text" placeholder="Nagy" name="ped_vez_nev" aria-describedby="example1Hint5"
+              <input type="text" placeholder="Nagy" name="vez_nev_ped" aria-describedby="example1Hint5"
                 aria-errormessage="example1Error5" required pattern="alpha">
               <span class="form-error">
                 Kötelező mező, szám nem írható be.
               </span>
             </label>
             <label class="text-left">Keresztnév
-              <input type="text" placeholder="Angéla" name="ped_ker_nev" aria-describedby="example1Hint56"
+              <input type="text" placeholder="Angéla" name="ker_nev_ped" aria-describedby="example1Hint56"
                 aria-errormessage="example1Error6" required pattern="alpha">
               <span class="form-error">
                 Kötelező mező, szám nem írható be.
               </span>
             </label>
+          </div>
+          <div class="callout success">
+            <span>Kapcsolattartó adatai (minden mező kitöltése kötelező)</span>
+            <label class="text-left">Vezetéknév
+              <input type="text" placeholder="Nagy" name="vez_nev_kapcs" aria-describedby="example1Hint7"
+                aria-errormessage="example1Error7" required pattern="alpha">
+              <span class="form-error">
+                Kötelező mező, szám nem írható be.
+              </span>
+            </label>
+            <label class="text-left">Keresztnév
+              <input type="text" placeholder="Angéla" name="ker_nev_kapcs" aria-describedby="example1Hint8"
+                aria-errormessage="example1Error8" required pattern="alpha">
+              <span class="form-error">
+                Kötelező mező, szám nem írható be.
+              </span>
+            </label>
             <label class="text-left">e-mail cím
-              <input type="text" placeholder="xxx@yyy.com" name="email" aria-describedby="example1Hint7"
-                aria-errormessage="example1Error7" required pattern="email">
+              <input type="text" placeholder="xxx@yyy.com" name="email" aria-describedby="example1Hint9"
+                aria-errormessage="example1Error9" required pattern="email">
               <span class="form-error">
                 Kötelező mező, adjon meg érvényes e-mail címet.
               </span>
             </label>
-
           </div>
         </div>
       </div>
