@@ -139,13 +139,22 @@
     </div>
 
     <div class="grid-container">
-      <p>Az Adatvédelmi szabályzatot kötelező elfogadni.</p>
-      <p><a href="http://localhost:8000">Adatvédelmi szabályzat</a></p>
-      <input type="checkbox" name="" value="" id="" required><label for="">Elfogadom az Adatvédelmi szabályzat</label>
+      <p>Az Adatkezelési tájékoztatót kötelező elfogadni.</p>
+      <div class="reveal" id="exampleModal1" data-reveal>
+        {{>jarasi_mesemond_vers_adatkez_tajekozt}}
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><button class="hollow button medium" data-open="exampleModal1">Az Adatkezelési tájékoztató
+          megnyitása</button></p>
+
+      <input type="checkbox" name="" value="" id="" required><label for="">Elolvastam az Adatkezelési
+        tájékoztatót</label>
       <div class="grid-x grid-margin-x">
         <div class="cell auto"></div>
         <div class="cell large-3">
-          <button class="button expanded" type="submit" value="Submit">Elküldés</button>
+          <button class="button expanded" type="submit" value="Submit"><strong>Elküldés</strong></button>
         </div>
         <div class="cell auto"></div>
       </div>
