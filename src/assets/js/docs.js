@@ -4151,7 +4151,7 @@
       // TODO a PATH átírása erre:
       //  ./assets/json/search.json
 
-      $.getJSON("./data/search.json", function (data, status) {
+      $.getJSON("./assets/json/search.json", function (data, status) {
         async(
           data.filter(function (elem, i, arr) {
             var name = elem.name.toLowerCase();
