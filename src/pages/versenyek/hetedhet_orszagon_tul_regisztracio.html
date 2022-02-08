@@ -151,6 +151,15 @@
 
       <input type="checkbox" name="" value="" id="" required><label for="">Elolvastam az Adatkezelési
         tájékoztatót</label>
+
+      <script>
+        function printPdf() {
+          printJS({ printable: "{{root}}assets/img/print.pdf", type: "pdf", targetStyle: "*" });
+        }
+      </script>
+
+      <a onclick="printPdf()">Nyomtatás</a>
+
       <div class="grid-x grid-margin-x">
         <div class="cell auto"></div>
         <div class="cell large-3">
