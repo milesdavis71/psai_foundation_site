@@ -4148,8 +4148,8 @@
     source: function (query, sync, async) {
       query = query.toLowerCase();
 
-      // TODO a PATH átírása erre:
-      //  ./assets/json/search.json
+      // TODO a zub developból átvenni a keresőmenü CSS-ét
+      // megbeszélni a helyét Szilvivel.
 
       $.getJSON("./assets/json/search.json", function (data, status) {
         async(
