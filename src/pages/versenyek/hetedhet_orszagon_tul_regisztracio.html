@@ -39,136 +39,179 @@
       </div>
     </div>
   </div>
-  <form data-abide novalidate method="post" action="{{root}}assets/php/mail.php">
+  <div class="callout">
+    <form data-abide novalidate method="post" action="{{root}}assets/php/mail.php">
+      <h4 class="text-center">
+        <small>Regisztráció</small>
+      </h4>
+
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell small-12">
+            <div data-abide-error class="alert callout" style="display: none;">
+              <p><i class="fi-alert"></i> Hibásan kitöltött mezők.</p>
+            </div>
+            <div class="callout success">
+              <span>Versenyző adatai (minden mező kitöltése kötelező)</span>
+              <label class="text-left">Vezetéknév
+                <input type="text" placeholder="Kovács" name="vez_nev_tan" aria-describedby="example1Hint1"
+                  aria-errormessage="example1Error1" required pattern="alpha">
+                <span class="form-error">
+                  Kötelező mező, szám nem írható be.
+                </span>
+              </label>
+              <label class="text-left">Keresztnév
+                <input type="text" placeholder="Péter" name="ker_nev_tan" aria-describedby="example1Hint2"
+                  aria-errormessage="example1Error2" required pattern="alpha">
+                <span class="form-error">
+                  Kötelező mező, szám nem írható be.
+                </span>
+              </label>
+              <label class="text-left">Az előadott mese címe
+                <input type="text" placeholder="A három kismalac" name="mese_cime" aria-describedby="example1Hint3"
+                  aria-errormessage="example1Error3" required>
+                <span class="form-error">
+                  Kötelező mező.
+                </span>
+              </label>
+              <label class="text-left">Iskola neve
+                <input type="text" placeholder="Kosztolányi Dezső Általános Iskola" name="iskola_neve"
+                  aria-describedby="example1Hint4" aria-errormessage="example1Error4" required> <span
+                  class="form-error">
+                  Kötelező mező.
+                </span>
+              </label>
+              <label class="text-left">Hányadik osztályba jár?
+                <select name="osztaly" id="select" required>
+                  <option value="" selected='selected'></option>
+                  <option value="2 osztály">2. osztály</option>
+                  <option value="3 osztály">3. osztály</option>
+                  <option value="4 osztály">4. osztály</option>
+                </select>
+                <span class="form-error">
+                  Kötelező mező.
+                </span>
+              </label>
+
+            </div>
+
+            <div class="callout success">
+              <span>Felkészítő pedagógus adatai (minden mező kitöltése kötelező)</span>
+              <label class="text-left">Vezetéknév
+                <input type="text" placeholder="Nagy" name="vez_nev_ped" aria-describedby="example1Hint5"
+                  aria-errormessage="example1Error5" required pattern="alpha">
+                <span class="form-error">
+                  Kötelező mező, szám nem írható be.
+                </span>
+              </label>
+              <label class="text-left">Keresztnév
+                <input type="text" placeholder="Angéla" name="ker_nev_ped" aria-describedby="example1Hint56"
+                  aria-errormessage="example1Error6" required pattern="alpha">
+                <span class="form-error">
+                  Kötelező mező, szám nem írható be.
+                </span>
+              </label>
+            </div>
+            <div class="callout success">
+              <span>Kapcsolattartó adatai (minden mező kitöltése kötelező)</span>
+              <label class="text-left">Vezetéknév
+                <input type="text" placeholder="Nagy" name="vez_nev_kapcs" aria-describedby="example1Hint7"
+                  aria-errormessage="example1Error7" required pattern="alpha">
+                <span class="form-error">
+                  Kötelező mező, szám nem írható be.
+                </span>
+              </label>
+              <label class="text-left">Keresztnév
+                <input type="text" placeholder="Angéla" name="ker_nev_kapcs" aria-describedby="example1Hint8"
+                  aria-errormessage="example1Error8" required pattern="alpha">
+                <span class="form-error">
+                  Kötelező mező, szám nem írható be.
+                </span>
+              </label>
+              <label class="text-left">e-mail cím
+                <input type="text" placeholder="xxx@yyy.com" name="email" aria-describedby="example1Hint9"
+                  aria-errormessage="example1Error9" required pattern="email">
+                <span class="form-error">
+                  Kötelező mező, adjon meg érvényes e-mail címet.
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <p>Az Adatkezelési tájékoztatót kötelező elfogadni.</p>
+        <div class="reveal" id="exampleModal1" data-reveal>
+          {{>jarasi_mesemond_vers_adatkez_tajekozt}}
+          <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="grid-x grid-margin-x">
+          <div class="cell auto"></div>
+          <div class="cell large-3">
+            <button class="hollow button medium" data-open="exampleModal1">Az Adatkezelési tájékoztató
+              megnyitása</button>
+          </div>
+          <div class="cell auto"></div>
+        </div>
+
+
+        <input type="checkbox" name="" value="" id="" required><label for="">Elolvastam az Adatkezelési
+          tájékoztatót</label>
+
+
+
+        <div class="grid-x grid-margin-x">
+          <div class="cell auto"></div>
+          <div class="cell large-3">
+            <button class="button expanded" type="submit" value="Submit"><strong>Elküldés</strong></button>
+          </div>
+          <div class="cell auto"></div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="callout">
     <h4 class="text-center">
-      <small>Regisztráció</small>
+      <small>Hozzájáruló nyilatkozat letöltése, kinyomtatása</small>
     </h4>
-
-    <div class="grid-container">
-      <div class="grid-x grid-margin-x">
-        <div class="cell small-12">
-          <div data-abide-error class="alert callout" style="display: none;">
-            <p><i class="fi-alert"></i> Hibásan kitöltött mezők.</p>
-          </div>
-          <div class="callout success">
-            <span>Versenyző adatai (minden mező kitöltése kötelező)</span>
-            <label class="text-left">Vezetéknév
-              <input type="text" placeholder="Kovács" name="vez_nev_tan" aria-describedby="example1Hint1"
-                aria-errormessage="example1Error1" required pattern="alpha">
-              <span class="form-error">
-                Kötelező mező, szám nem írható be.
-              </span>
-            </label>
-            <label class="text-left">Keresztnév
-              <input type="text" placeholder="Péter" name="ker_nev_tan" aria-describedby="example1Hint2"
-                aria-errormessage="example1Error2" required pattern="alpha">
-              <span class="form-error">
-                Kötelező mező, szám nem írható be.
-              </span>
-            </label>
-            <label class="text-left">Az előadott mese címe
-              <input type="text" placeholder="A három kismalac" name="mese_cime" aria-describedby="example1Hint3"
-                aria-errormessage="example1Error3" required>
-              <span class="form-error">
-                Kötelező mező.
-              </span>
-            </label>
-            <label class="text-left">Iskola neve
-              <input type="text" placeholder="Kosztolányi Dezső Általános Iskola" name="iskola_neve"
-                aria-describedby="example1Hint4" aria-errormessage="example1Error4" required> <span class="form-error">
-                Kötelező mező.
-              </span>
-            </label>
-            <label class="text-left">Hányadik osztályba jár?
-              <select name="osztaly" id="select" required>
-                <option value="" selected='selected'></option>
-                <option value="2 osztály">2. osztály</option>
-                <option value="3 osztály">3. osztály</option>
-                <option value="4 osztály">4. osztály</option>
-              </select>
-              <span class="form-error">
-                Kötelező mező.
-              </span>
-            </label>
-
-          </div>
-
-          <div class="callout success">
-            <span>Felkészítő pedagógus adatai (minden mező kitöltése kötelező)</span>
-            <label class="text-left">Vezetéknév
-              <input type="text" placeholder="Nagy" name="vez_nev_ped" aria-describedby="example1Hint5"
-                aria-errormessage="example1Error5" required pattern="alpha">
-              <span class="form-error">
-                Kötelező mező, szám nem írható be.
-              </span>
-            </label>
-            <label class="text-left">Keresztnév
-              <input type="text" placeholder="Angéla" name="ker_nev_ped" aria-describedby="example1Hint56"
-                aria-errormessage="example1Error6" required pattern="alpha">
-              <span class="form-error">
-                Kötelező mező, szám nem írható be.
-              </span>
-            </label>
-          </div>
-          <div class="callout success">
-            <span>Kapcsolattartó adatai (minden mező kitöltése kötelező)</span>
-            <label class="text-left">Vezetéknév
-              <input type="text" placeholder="Nagy" name="vez_nev_kapcs" aria-describedby="example1Hint7"
-                aria-errormessage="example1Error7" required pattern="alpha">
-              <span class="form-error">
-                Kötelező mező, szám nem írható be.
-              </span>
-            </label>
-            <label class="text-left">Keresztnév
-              <input type="text" placeholder="Angéla" name="ker_nev_kapcs" aria-describedby="example1Hint8"
-                aria-errormessage="example1Error8" required pattern="alpha">
-              <span class="form-error">
-                Kötelező mező, szám nem írható be.
-              </span>
-            </label>
-            <label class="text-left">e-mail cím
-              <input type="text" placeholder="xxx@yyy.com" name="email" aria-describedby="example1Hint9"
-                aria-errormessage="example1Error9" required pattern="email">
-              <span class="form-error">
-                Kötelező mező, adjon meg érvényes e-mail címet.
-              </span>
-            </label>
-          </div>
+    <script>
+      function printPdfSzulo() {
+        printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf", type: "pdf", targetStyle: "*" });
+      }
+      function printPdfPed() {
+        printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf", type: "pdf", targetStyle: "*" });
+      }
+    </script>
+    <div class="grid-x grid-margin-x">
+      <div class="cell large-6">
+        <div class="callout secondary">
+          <p class="text-center">
+            Szülői, tanulóra vonatkozó hozzájáruló nyilatkozat nyomtatása, letöltése
+          </p>
+          <p class="text-center">
+            <a onclick="printPdfSzulo()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
+            <a href="{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf" target="_blank" download><i
+                class="fas fa-download"></i>&thinsp;Letöltés</a>
+          </p>
+        </div>
+      </div>
+      <div class="cell large-6">
+        <div class="callout secondary">
+          <p class="text-center" style="line-height: 180%;">
+            Pedagógusra vonatkozó hozzájáruló nyilatkozat<br>nyomtatása, letöltése
+          </p>
+          <p class="text-center">
+            <a onclick="printPdfPed()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
+            <a href="{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf" target="_blank"
+              download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
+          </p>
         </div>
       </div>
     </div>
-
-    <div class="grid-container">
-      <p>Az Adatkezelési tájékoztatót kötelező elfogadni.</p>
-      <div class="reveal" id="exampleModal1" data-reveal>
-        {{>jarasi_mesemond_vers_adatkez_tajekozt}}
-        <button class="close-button" data-close aria-label="Close modal" type="button">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <p><button class="hollow button medium" data-open="exampleModal1">Az Adatkezelési tájékoztató
-          megnyitása</button></p>
-
-      <input type="checkbox" name="" value="" id="" required><label for="">Elolvastam az Adatkezelési
-        tájékoztatót</label>
-
-      <script>
-        function printPdf() {
-          printJS({ printable: "{{root}}assets/img/print.pdf", type: "pdf", targetStyle: "*" });
-        }
-      </script>
-
-      <a onclick="printPdf()">Nyomtatás</a>
-
-      <div class="grid-x grid-margin-x">
-        <div class="cell auto"></div>
-        <div class="cell large-3">
-          <button class="button expanded" type="submit" value="Submit"><strong>Elküldés</strong></button>
-        </div>
-        <div class="cell auto"></div>
-      </div>
-    </div>
-  </form>
+  </div>
   <script>
     $(document).ready(function () {
       $(document).foundation();
