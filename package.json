@@ -12,7 +12,6 @@
   "dependencies": {
     "foundation-sites": "^6.6.0",
     "imagemin-jpegtran": "^7.0.0",
-    "jquery": "^3.6.0",
     "motion-ui": "^2.0.3",
     "save": "^2.4.0",
     "what-input": "^5.2.10"
@@ -23,7 +22,7 @@
     "@babel/register": "^7.13.14",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.2.2",
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^3.3.1",
