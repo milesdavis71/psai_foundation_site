@@ -2,43 +2,44 @@
   {
     "type": "oldal",
     "name": "Bemutatkozás PS/BS",
-    "description": "Az iskolák bemutatkozása.",
+    "description": "A központ és a tagintézmény bemutatkozása.",
     "link": "bemutatkozas/bemutatkozas_ps_bs.html",
-    "tags": []
+    "tags": ["tagiskola", "központ", "bálint", "petőfi"]
   },
   {
     "type": "oldal",
     "name": "Tanáraink",
-    "description": "Foundation is tested across many browsers and devices, and works back as far as IE9 and Android 2.",
-    "link": "compatibility.html",
-    "tags": ["support", "browser"]
+    "description": "A Petőfis és a Bálintos tanárok aktuális listája",
+    "link": "bemutatkozas/tanaraink_ps_bs.html",
+    "tags": ["központ", "tagiskola", "petőfi", "bálint"]
   },
   {
     "type": "oldal",
     "name": "Hitoktatóink",
-    "description": "Foundation includes a handful of helpful float classes to add common positioning behaviors to elements.",
-    "link": "float-classes.html",
-    "tags": []
+    "description": "A Petőfis és a Bálintos hitoktatók aktuális listája",
+    "link": "bemutatkozas/hitoktatok_ps_bs.html",
+    "tags": ["református", "katolikus", "petőfi", "bálint", "tanár"]
   },
   {
     "type": "oldal",
-    "name": "Pedagógiai program",
-    "description": "We built Foundation for Sites to be the most advanced responsive front-end framework in the world.",
-    "link": "index.html",
-    "tags": ["index", "home"]
+    "name": "Felekezetek bemutatkozása",
+    "description": "",
+    "link": "bemutatkozas/hitoktatok_ps_bs.html",
+    "tags": ["katolikus", "református"]
   },
+  {
+    "type": "oldal",
+    "name": "Iskolapszichológusok bemutatkozása",
+    "description": "",
+    "link": "bemutatkozas/hitoktatok_ps_bs.html",
+    "tags": []
+  },
+
   {
     "type": "oldal",
     "name": "SZMSZ",
-    "description": "There are many ways to install Foundation, but if you're just getting started, we have a few suggestions.",
-    "link": "installation.html",
-    "tags": []
-  },
-  {
-    "type": "page",
-    "name": "JavaScript Utilities",
-    "description": "Our JavaScript Utility Libraries are easy to use and super helpful.",
-    "link": "javascript-utilities.html",
-    "tags": []
+    "description": "Szervezeti és működési szabályzat.",
+    "link": "bemutatkozas/szmsz_ps_bs.html",
+    "tags": ["szervezeti", "működési", "szabályzat"]
   }
 ]

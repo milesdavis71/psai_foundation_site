@@ -138,8 +138,17 @@
 
 
           {{!-- 3 hasábos sliderrel --}}
+
           {{#ifpage
           'index'
+          }}
+          {{> start_searchdiv}}
+          {{> head_slider}}
+          {{> body}}
+          {{> rightcolumn}}
+          {{/ifpage}}
+
+          {{#ifpage
           'hirfolyam_2016_17'
           'hirfolyam_2017_18'
           'hirfolyam_2018_19'
