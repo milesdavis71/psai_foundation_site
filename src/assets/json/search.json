@@ -1,6 +1,14 @@
 [
   {
     "type": "oldal",
+    "name": "Címek, e-mailcímek, telefonszámok",
+    "description": "A központ és a tagintézmény elérhetőségei.",
+    "link": "bemutatkozas/elerhetosegeink.html",
+    "tags": ["email", "cím", "petőfi", "bálint"]
+  },
+
+  {
+    "type": "oldal",
     "name": "Bemutatkozás PS/BS",
     "description": "A központ és a tagintézmény bemutatkozása.",
     "link": "bemutatkozas/bemutatkozas_ps_bs.html",
@@ -34,12 +42,95 @@
     "link": "bemutatkozas/hitoktatok_ps_bs.html",
     "tags": []
   },
-
+  {
+    "type": "oldal",
+    "name": "Pedagógiai program",
+    "description": "Pedagógiai program",
+    "link": "bemutatkozas/pedagogiai_program.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Pedagógiai program 2021",
+    "description": "Pedagógiai program_2021",
+    "link": "bemutatkozas/pedagogiai_program_2021.html",
+    "tags": []
+  },
   {
     "type": "oldal",
     "name": "SZMSZ",
     "description": "Szervezeti és működési szabályzat.",
     "link": "bemutatkozas/szmsz_ps_bs.html",
     "tags": ["szervezeti", "működési", "szabályzat"]
+  },
+  {
+    "type": "oldal",
+    "name": "Kollektív szerződés",
+    "description": "Kollektív szerződés",
+    "link": "bemutatkozas/kollektiv_szerzodes_ps_bs.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "IMIP",
+    "description": "Iskolai minőségirányítási program",
+    "link": "bemutatkozas/imip.html",
+    "tags": ["minőségirányítás", "program"]
+  },
+  {
+    "type": "oldal",
+    "name": "Házirend",
+    "description": "Házirend",
+    "link": "bemutatkozas/hazirend.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Gyermekvédelem",
+    "description": "Házirend",
+    "link": "bemutatkozas/hazirend.html",
+    "tags": ["gyermekveszélyeztetés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Gyermekvédelem",
+    "description": "Házirend",
+    "link": "bemutatkozas/hazirend.html",
+    "tags": ["gyermekveszélyeztetés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Tankönyvek",
+    "description": "A központ és a tagintézmény tankönyvlistája",
+    "link": "bemutatkozas/tankonyvek_ps_bs.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Taneszközök",
+    "description": "A központ és a tagintézmény taneszközlistája",
+    "link": "bemutatkozas/taneszkozok_ps_bs.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Regisztrált tehetségpont",
+    "description": "A Szegedi Petőfi Sándor Általános Iskola 2021. április 21-től Regisztrált Tehetségpont",
+    "link": "bemutatkozas/regisztralt_tehetsegpont.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Kék tér program",
+    "description": "A Csongrád Megyei Rendőr-főkapitányság komplex prevenciós programja",
+    "link": "bemutatkozas/kek_ter_program.html",
+    "tags": ["prevenció", "program"]
+  },
+  {
+    "type": "oldal",
+    "name": "KEVE program",
+    "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
+    "link": "palyazatok/keve_program.html",
+    "tags": ["kerékpáros", "gyalogos", "közelkedés"]
   }
 ]
