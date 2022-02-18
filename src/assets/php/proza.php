@@ -9,7 +9,7 @@
     $ker_nev_tan = $_POST['ker_nev_tan'];
     $mese_cime = $_POST['mese_cime'];
     $iskola_neve = $_POST['iskola_neve'];
-    $osztaly = $_POST['osztaly'];
+    $korcsoport = $_POST['korcsoport'];
     
     // Felkészítő pedagógus
     $vez_nev_ped = $_POST['vez_nev_ped'];
@@ -21,16 +21,16 @@
     $email = $_POST['email'];
     
        
-    $subject = "Új jelentkező";
-    $subject2 = "Sikeres jelentkezés";
+    $subject = "Új jelentkező | prózamondó verseny";
+    $subject2 = "Sikeres jelentkezés a járási prózamondó versenyre";
     
     $message1 .= "<p><strong>Versenyző neve:</strong> </td><td>" . $vez_nev_tan ." ".$ker_nev_tan . "</p>";
     $message1 .= "<p><strong>Mese címe:</strong> </td><td>" . $mese_cime . "</p>";
     $message1 .= "<p><strong>Iskola:</strong> </td><td>" . $iskola_neve . "</p>";
-    $message1 .= "<p><strong>Évfolyam:</strong> </td><td>" . $osztaly . "</p>";
+    $message1 .= "<p><strong>Korcsoport:</strong> </td><td>" . $korcsoport . "</p>";
     $message1 .= "<p><strong>Felkészítő pedagógus:</strong> </td><td>" . $vez_nev_ped ." ".$ker_nev_ped . "</p>";
     $message1 .= "<p><strong>Kapcsolattartó:</strong> </td><td>" . $vez_nev_kapcs ." ".$ker_nev_kapcs . "</p>";
-    $message1 .= "<p><strong>Kapcsolattartó:</strong> </td><td>" . $vez_nev_kapcs ." ".$ker_nev_kapcs . "</p>";
+    $message1 .= "<p><strong>Kapcsolattartó e-mail címe:</strong> </td><td>" . $email . "</p>";
     
 
     
@@ -43,9 +43,9 @@
     $message2 .= "<tr><td><strong>Versenyző neve:</strong> </td><td>" . $vez_nev_tan ." ".$ker_nev_tan . "</td></tr>";
     $message2 .= "<tr><td><strong>Mese címe:</strong> </td><td>" . $mese_cime . "</td></tr>";
     $message2 .= "<tr><td><strong>Iskola:</strong> </td><td>" . $iskola_neve . "</td></tr>";
-    $message2 .= "<tr><td><strong>Évfolyam:</strong> </td><td>" . $osztaly . "</td></tr>";
+    $message2 .= "<tr><td><strong>Korcsoport:</strong> </td><td>" . $korcsoport . "</td></tr>";
     $message2 .= "<tr><td><strong>Felkészítő pedagógus:</strong> </td><td>" . $vez_nev_ped ." ".$ker_nev_ped . "</td></tr>";
-    $message2 .= "<tr><td><strong>Kapcsolattartó:</strong> </td><td>" . $vez_nev_kapcs ." ".$ker_nev_kapcs . "</td></tr>";
+    $message2 .= "<tr><td><strong>Kapcsolattartó:</strong> </td><td>" . $vez_nev_kapcs ." ".$ker_nev_kapcs . " ".$email ."</td></tr>";
     $message2 .= "</table>";
     $message2 .= "<p><p>";
     $message2 .= "<p>Köszönjük regisztrációját!<br>Szeretettel várjuk Önöket a versenyen!<p>";
@@ -63,14 +63,14 @@
    
 
 // címlista készítése
-$filename = "cimlista.csv";
+$filename = "cimlista_proza.csv";
 // fájl írása
 $file = fopen($filename, "a");
 // if (filesize($filename) === 0){
 //     fwrite($file, $name, $visitor_email, $mese_cime);
 // }
 
-fwrite($file, "\r\n".$vez_nev_tan. ";" .$ker_nev_tan. ";" .$mese_cime. ";" .$iskola_neve. ";" .$osztaly. ";" .$vez_nev_ped. ";" .$ker_nev_ped. ";" .$vez_nev_kapcs. ";" .$ker_nev_kapcs. ";" .$email);
+fwrite($file, "\r\n".$vez_nev_tan. ";" .$ker_nev_tan. ";" .$mese_cime. ";" .$iskola_neve. ";" .$korcsoport. ";" .$vez_nev_ped. ";" .$ker_nev_ped. ";" .$vez_nev_kapcs. ";" .$ker_nev_kapcs. ";" .$email);
 // }
 fclose($file);
 

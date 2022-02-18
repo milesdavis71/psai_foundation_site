@@ -1,23 +1,23 @@
 <div class="cell medium-9 medium-cell-block-y">
-  <!-- <script>
-    Abide.defaults.patterns.alpha = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
-    Abide.defaults.patterns.alpha_numeric = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
-  </script> -->
+  <script>
+    // Abide.defaults.patterns.alpha = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
+    // Abide.defaults.patterns.alpha_numeric = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
+  </script>
 
   <!-- jarasi_mesemondo_verseny -->
   <p class="text-center">
-    <img src="{{root}}assets/img/versenyek/jarasi_mesemondo_verseny.jpg" alt="">
+    <img src="{{root}}assets/img/versenyek/jarasi_prozamondo_verseny.jpg" alt="">
   </p>
-  <h4 class="text-center"><em>„Hetedhét országon túl…”</em> járási mesemondó verseny
+  <h4 class="text-center"><em>„Szép beszéd”</em> járási prózamondó verseny
     <hr style="margin: 0.5rem 0.4rem;">
   </h4>
   <div class="grid-container">
     <div class="grid-x grid-margin-x">
       <div class="cell small-12">
-
         <p>
-          A Szegedi Petőfi Sándor Általános Iskola az idei tanévben is megrendezi a „Szép beszéd” járási prózamondó
-          versenyt, amelyre szeretettel várjuk az érdeklődő tanulókat és felkészítőiket.
+          Iskolánk, a Szegedi Petőfi Sándor Általános Iskola az idei tanévben is megrendezi a <em>„Hetedhét országon
+            túl…"</em>
+          járási mesemondó versenyt, melyre szeretettel várjuk a mesemondó gyerekeket és felkészítőjüket.
         </p>
         <p>
           Az elődeinktől örökölt nyelvet felelősséggel kell továbbadnunk a felnövekvő nemzedéknek. A magyar nyelv
@@ -26,19 +26,22 @@
         </p>
         <p>
         <ul>
-          <li>A 2. 3. és 4. osztályosok külön kategóriában versenyeznek.</li>
-          <li>A tanulóknak előzetes felkészülés alapján, egy szabadon választott mesét kell előadniuk. A szöveg
-            terjedelme
-            lehetőleg ne haladja meg az egy gépelt oldalt.</li>
-          <li>Minden évfolyamon egy-egy tanuló jelentkezését várjuk (500 fő feletti iskola esetén két tanuló).</li>
+          <li>A versenyzőknek egy szabadon választott irodalmi művet vagy annak részletét kell kívülről elmondaniuk az
+            előző évek gyakorlatához hasonlóan (monda, elbeszélés vagy regényrészlet).</li>
+          <li>Kérjük, a versenyzők mesével <strong>ne</strong> készüljenek!</li>
+          <li>A szöveg terjedelme lehetőleg ne haladja meg az egy gépelt oldalt!</li>
+          <li>A verseny két kategóriában folyik, 5-6. és 7-8. osztályos korcsoportban.</li>
+          <li>• Iskolánként legfeljebb 4 tanuló jelentkezését várjuk mindkét kategóriában.</li>
         </ul>
         </p>
         {{> jarasi_verseny_jelentkezesi_adatok}}
+
+        <p><em>Szeretettel várjuk versenyünkre a tehetséges prózamondókat!</em></p>
       </div>
     </div>
   </div>
   <div class="callout">
-    <form data-abide novalidate method="post" action="{{root}}assets/php/mese.php">
+    <form data-abide novalidate method="post" action="{{root}}assets/php/proza.php">
       <h4 class="text-center">
         <small>Regisztráció</small>
       </h4>
@@ -79,12 +82,11 @@
                   Kötelező mező.
                 </span>
               </label>
-              <label class="text-left">Hányadik osztályba jár?
-                <select name="osztaly" id="select" required>
+              <label class="text-left">Melyik korcsoportba tartozik?
+                <select name="korcsoport" id="select" required>
                   <option value="" selected='selected'></option>
-                  <option value="2 osztály">2. osztály</option>
-                  <option value="3 osztály">3. osztály</option>
-                  <option value="4 osztály">4. osztály</option>
+                  <option value="1. korcsoport">5–6. osztály</option>
+                  <option value="2. korcsoport">7–8. osztály</option>
                 </select>
                 <span class="form-error">
                   Kötelező mező.
@@ -141,7 +143,7 @@
       <div class="grid-container">
         <p>Az Adatkezelési tájékoztatót kötelező elfogadni.</p>
         <div class="reveal" id="exampleModal1" data-reveal>
-          {{>jarasi_mesemond_vers_adatkez_tajekozt}}
+          {{>jarasi_prozamond_vers_adatkez_tajekozt}}
           <button class="close-button" data-close aria-label="Close modal" type="button">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -177,10 +179,10 @@
     </h4>
     <script>
       function printPdfSzulo() {
-        printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf", type: "pdf", targetStyle: "*" });
+        printJS({ printable: "{{root}}assets/versenyek/szep_beszed/hozzájáruló_nyilatkozat_szulo_proza.pdf", type: "pdf", targetStyle: "*" });
       }
       function printPdfPed() {
-        printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf", type: "pdf", targetStyle: "*" });
+        printJS({ printable: "{{root}}assets/versenyek/szep_beszed/hozzájáruló_nyilatkozat_pedagogus_proza.pdf", type: "pdf", targetStyle: "*" });
       }
     </script>
     <div class="grid-x grid-margin-x">
@@ -191,8 +193,8 @@
           </p>
           <p class="text-center">
             <a onclick="printPdfSzulo()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
-            <a href="{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf" target="_blank" download><i
-                class="fas fa-download"></i>&thinsp;Letöltés</a>
+            <a href="{{root}}assets/versenyek/szep_beszed/hozzájáruló_nyilatkozat_szulo_proza.pdf" target="_blank"
+              download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
           </p>
         </div>
       </div>
@@ -203,7 +205,7 @@
           </p>
           <p class="text-center">
             <a onclick="printPdfPed()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
-            <a href="{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf" target="_blank"
+            <a href="{{root}}assets/versenyek/szep_beszed/hozzájáruló_nyilatkozat_pedagogus_proza.pdf" target="_blank"
               download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
           </p>
         </div>
