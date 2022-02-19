@@ -36,7 +36,7 @@
     
     $message2 .= "<body><html>";
     $message2 .= "<h4>Kedves " . $vez_nev_kapcs ." ".$ker_nev_kapcs ."!</h4>";
-    $message2 .= "<p>A Szegedi Petőfi Sándor Általános Iskola „Hetedhét országon túl…” járási mesemondó versenyére megérkezett jelentkezése, a következő adatokkal:<p>";
+    $message2 .= "<p>A Szegedi Petőfi Sándor Általános Iskola Szép beszéd” járási prózamondó versenyére megérkezett jelentkezése, a következő adatokkal:<p>";
     $message2 .= '<table>&nbsp;</table>';
     $message2 .= '<table rules="all" style="border-color: #666;" cellpadding="20">';
     // $message2 .= "<tr style='background: #eee;'><td><strong>Érdeklődő:</strong> </td><td>" . $_POST['name'] . "</td></tr>";
