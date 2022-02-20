@@ -25,7 +25,7 @@
     $subject2 = "Sikeres jelentkezés a járási prózamondó versenyre";
     
     $message1 .= "<p><strong>Versenyző neve:</strong> </td><td>" . $vez_nev_tan ." ".$ker_nev_tan . "</p>";
-    $message1 .= "<p><strong>Mese címe:</strong> </td><td>" . $mese_cime . "</p>";
+    $message1 .= "<p><strong>Az irodalmi mű címe:</strong> </td><td>" . $mese_cime . "</p>";
     $message1 .= "<p><strong>Iskola:</strong> </td><td>" . $iskola_neve . "</p>";
     $message1 .= "<p><strong>Korcsoport:</strong> </td><td>" . $korcsoport . "</p>";
     $message1 .= "<p><strong>Felkészítő pedagógus:</strong> </td><td>" . $vez_nev_ped ." ".$ker_nev_ped . "</p>";
@@ -41,7 +41,7 @@
     $message2 .= '<table rules="all" style="border-color: #666;" cellpadding="20">';
     // $message2 .= "<tr style='background: #eee;'><td><strong>Érdeklődő:</strong> </td><td>" . $_POST['name'] . "</td></tr>";
     $message2 .= "<tr><td><strong>Versenyző neve:</strong> </td><td>" . $vez_nev_tan ." ".$ker_nev_tan . "</td></tr>";
-    $message2 .= "<tr><td><strong>Mese címe:</strong> </td><td>" . $mese_cime . "</td></tr>";
+    $message2 .= "<tr><td><strong>Az irodalmi mű címe:</strong> </td><td>" . $mese_cime . "</td></tr>";
     $message2 .= "<tr><td><strong>Iskola:</strong> </td><td>" . $iskola_neve . "</td></tr>";
     $message2 .= "<tr><td><strong>Korcsoport:</strong> </td><td>" . $korcsoport . "</td></tr>";
     $message2 .= "<tr><td><strong>Felkészítő pedagógus:</strong> </td><td>" . $vez_nev_ped ." ".$ker_nev_ped . "</td></tr>";
