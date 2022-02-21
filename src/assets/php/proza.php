@@ -49,7 +49,7 @@
     $message2 .= "</table>";
     $message2 .= "<p><p>";
     $message2 .= "<p>Köszönjük regisztrációját!<br>Szeretettel várjuk Önöket a versenyen!<p>";
-    $message2 .= "<p><em>Iskola vezetőség</em><p>";
+    $message2 .= "<p><em>Iskolavezetőség</em><p>";
     $message2 .= "</body></html>";
 
     $headers = "From:" . $from;
