@@ -8,7 +8,7 @@
   <p class="text-center">
     <img src="{{root}}assets/img/versenyek/jarasi_mesemondo_verseny.jpg" alt="">
   </p>
-  <h4 class="text-center"><em>„Hetedhét országon túl…”</em> járási mesemondó verseny
+  <h4 class="text-center">Regisztráció a <em>„Hetedhét országon túl…”</em> járási mesemondó versenyre
     <hr style="margin: 0.5rem 0.4rem;">
   </h4>
   <div class="grid-container">
@@ -16,24 +16,28 @@
       <div class="cell small-12">
 
         <p>
-          A Szegedi Petőfi Sándor Általános Iskola az idei tanévben is megrendezi a <em>„Hetedhét országon túl…”</em>
-          járási mesemondó versenyt, amelyre szeretettel várjuk az érdeklődő tanulókat és felkészítőiket.
+          Iskolánk, a Szegedi Petőfi Sándor Általános Iskola az idei tanévben is megrendezi a <em>„Hetedhét országon
+            túl…"</em>
+          járási mesemondó versenyt, melyre szeretettel várjuk a mesemondó gyerekeket és felkészítőjüket.
         </p>
         <p>
-          Az elődeinktől örökölt nyelvet felelősséggel kell továbbadnunk a felnövekvő nemzedéknek. A magyar nyelv
-          ápolására, annak szép használatára késztet e nemes vetélkedő. Hagyományainknak megfelelően e szellemben
-          rendezzük meg a találkozót.
+          <em>A versenyt az aktuálisan érvényben lévő járványügyi szabályok maximális betartásával bonyolítjuk le.</em>
         </p>
+
+        <p><em>Versenyünk célja:</em> A szép, tiszta kiejtésre és kifejező előadásra nevelés.</p>
         <p>
         <ul>
           <li>A 2., 3. és 4. osztályosok külön kategóriában versenyeznek.</li>
           <li>A tanulóknak előzetes felkészülés alapján, egy szabadon választott mesét kell előadniuk. A szöveg
             terjedelme
             lehetőleg ne haladja meg az egy gépelt oldalt.</li>
-          <li>Minden évfolyamon egy-egy tanuló jelentkezését várjuk (500 fő feletti iskola esetén két tanuló).</li>
+          <li>Minden évfolyamból iskolánként 1–1 tanuló jelentkezését várjuk (500 fő feletti iskola esetén 2
+            tanuló).</li>
         </ul>
         </p>
-        {{> jarasi_verseny_jelentkezesi_adatok}}
+        {{> jarasi_versenyek_jelentkezes_kozos}}
+        <p>Szeretettel várjuk versenyünkre a tehetséges mesemondókat! Minden kollégának és versenyzőnek eredményes
+          felkészülést és jó munkát kívánunk!</p>
       </div>
     </div>
   </div>
@@ -175,6 +179,9 @@
     <h4 class="text-center">
       <small>Hozzájáruló nyilatkozat letöltése, kinyomtatása</small>
     </h4>
+    {{>jarasi_versenyek_hozz_nyil_vissza}}
+
+
     <script>
       function printPdfSzulo() {
         printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf", type: "pdf", targetStyle: "*" });
