@@ -132,5 +132,82 @@
     "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
     "link": "palyazatok/keve_program.html",
     "tags": ["kerékpáros", "gyalogos", "közelkedés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Befizetési időpontok az NGSZ-nél",
+    "description": "Az aktuális hónap befizetési időpontjai az NGSZ-nél.",
+    "link": "befiz_idopontok_ngsz.html",
+    "tags": ["ebéd", "étkezés", "közétkeztetés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Közétkeztetés",
+    "description": "Átirányítás az NGSZ weboldalára",
+    "link": "https://ngsz.hu/2021/01/01/kozetkeztetes/",
+    "tags": ["Nevelési és Kulturális Intézmények Gazdasági Szolgálata"]
+  },
+  {
+    "type": "oldal",
+    "name": "Közétkeztetés – étlapok",
+    "description": "Átirányítás az NGSZ weboldalára étlapok aloldalára",
+    "link": "https://ngsz.hu/2021/01/01/kozetkeztetes/#kozetkeztetes-etlap",
+    "tags": ["NGSZ", "étkezés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Elsős szülők tájékoztatása közétkeztetésről",
+    "description": "Az intézményváltáshoz kapcsolódó fontosabb információk a közétkeztetés vonatkozásában.",
+    "link": "elsos_szulok_tajekoztatasa_kozetkeztetesrol.html",
+    "tags": ["NGSZ", "étkezés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Tájékoztatás ingyenes és kedvezményes étkezési térítési díj benyújtásáról",
+    "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
+    "link": "befiz_ingyen_kedvezm_ngsz_tajekoztato.html",
+    "tags": ["NGSZ", "étkezés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Felvételi lehetősége",
+    "description": "A tanuló felvétele. Az iskolaváltás és a tanuló átvételének szabályai.",
+    "link": "kozzeteteli_lista/felveteli_tajekoztato.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Beiratkozáskor leadandó nyomtatványok",
+    "description": "Beiratkozáskor leadandó nyomtatványok.",
+    "link": "beiratkozas/beiratkozaskor_leadando_nyomtatvanyok_kozzetetel.html",
+    "tags": ["letöltés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Körzetünk",
+    "description": "A Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola beiskolázási körzete",
+    "link": "beiratkozas/ps_bs_beiratkozasi_korzet.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "KEVE program",
+    "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
+    "link": "palyazatok/keve_program.html",
+    "tags": ["kerékpáros", "gyalogos", "közelkedés"]
+  },
+  {
+    "type": "oldal",
+    "name": "KEVE program",
+    "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
+    "link": "palyazatok/keve_program.html",
+    "tags": ["kerékpáros", "gyalogos", "közelkedés"]
+  },
+  {
+    "type": "oldal",
+    "name": "KEVE program",
+    "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
+    "link": "palyazatok/keve_program.html",
+    "tags": ["kerékpáros", "gyalogos", "közelkedés"]
   }
 ]
