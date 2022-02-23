@@ -131,7 +131,7 @@
     "name": "KEVE program",
     "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
     "link": "palyazatok/keve_program.html",
-    "tags": ["kerékpáros", "gyalogos", "közelkedés"]
+    "tags": ["kerékpáros", "gyalogos", "közlekedés"]
   },
   {
     "type": "oldal",
@@ -191,23 +191,30 @@
   },
   {
     "type": "oldal",
-    "name": "KEVE program",
-    "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
-    "link": "palyazatok/keve_program.html",
-    "tags": ["kerékpáros", "gyalogos", "közelkedés"]
+    "name": "Bemutatkozás, Iskolahívogató | Székhely",
+    "description": "Bemutatkozás, Iskolahívogató | Székhely",
+    "link": "kozzeteteli_lista/iskolahivagato_ps_bs_kozzetetel.html#panel1d",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Bemutatkozás, Iskolahívogató | Tagiskola",
+    "description": "Bemutatkozás, Iskolahívogató | Tagiskola",
+    "link": "kozzeteteli_lista/iskolahivagato_ps_bs_kozzetetel.html#panel2d",
+    "tags": ["Bálint", "iskola"]
   },
   {
     "type": "oldal",
     "name": "KEVE program",
     "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
     "link": "palyazatok/keve_program.html",
-    "tags": ["kerékpáros", "gyalogos", "közelkedés"]
+    "tags": ["kerékpáros", "gyalogos", "közlekedés"]
   },
   {
     "type": "oldal",
     "name": "KEVE program",
     "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
     "link": "palyazatok/keve_program.html",
-    "tags": ["kerékpáros", "gyalogos", "közelkedés"]
+    "tags": ["kerékpáros", "gyalogos", "közlekedés"]
   }
 ]
