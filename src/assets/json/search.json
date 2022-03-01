@@ -205,16 +205,135 @@
   },
   {
     "type": "oldal",
-    "name": "KEVE program",
-    "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
-    "link": "palyazatok/keve_program.html",
-    "tags": ["kerékpáros", "gyalogos", "közlekedés"]
+    "name": "Bemutatkozás | Székhely",
+    "description": "Bemutatkozás | Székhely",
+    "link": "bemutatkozas/bemutatkozas_ps_bs.html",
+    "tags": ["Petőfi", "iskola"]
   },
   {
     "type": "oldal",
-    "name": "KEVE program",
-    "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
-    "link": "palyazatok/keve_program.html",
-    "tags": ["kerékpáros", "gyalogos", "közlekedés"]
+    "name": "Bemutatkozás | Tagiskola",
+    "description": "Bemutatkozás | Tagiskola",
+    "link": "bemutatkozas_ps_bs.html#panel2d",
+    "tags": ["Bálint", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Székhely",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_ps_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "pdf",
+    "name": "Iskolahívogató | Székhely",
+    "description": "Bemutatkozás | Tagiskola",
+    "link": "assets/beiratkozas/iskolahivogato_bs.pdf",
+    "tags": ["Bálint", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "pdf",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Bemutatkozás | Tagiskola",
+    "link": "assets/beiratkozas/iskolahivogato_bs.pdf",
+    "tags": ["Bálint", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Engedélyezett osztályok, csoportok száma, beiratkozás ideje",
+    "description": "Engedélyezett osztályok, csoportok száma, beiratkozás ideje",
+    "link": "kozzeteteli_lista/tajekoztato_beiratkozasrol_kozzetetel.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "A fenntartó által engedélyezett osztályok, csoportok száma",
+    "description": "A fenntartó által engedélyezett osztályok, csoportok száma",
+    "link": "kozzeteteli_lista/fentart_altal_eng_oszt_csop.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Térítési díj, tandíj",
+    "description": "Térítési díj, tandíj",
+    "link": "kozzeteteli_lista/teritesi_dij_tandij.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolahívogató | Tagiskola",
+    "description": "Iskolahívogató | Székhely",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+    "tags": ["Petőfi", "iskola"]
   }
 ]
