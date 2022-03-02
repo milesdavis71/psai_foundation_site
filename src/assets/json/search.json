@@ -268,72 +268,205 @@
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Étkezési térítési díjak (Petőfi/Bálint)",
+    "description": "Étkezési térítési díjak táblázat",
+    "link": "kozzeteteli_lista/etkezesi_teritesi_dijak.html",
+    "tags": []
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Fenntartói értékelés, nyilvános megállapításokat tartalmazó vizsgálatok",
+    "description": "Fenntartói értékelés, nyilvános megállapításokat tartalmazó vizsgálatok",
+    "link": "kozzeteteli_lista/nyilvanos_vizsgalat.html",
+    "tags": []
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Nyitvatartás rendje",
+    "description": "Az intézmény nyitvatartása, az iskolában tartózkodás rendje",
+    "link": "kozzeteteli_lista/nyitvatartas.html",
+    "tags": ["szorgalmi időben", "szünetekben", "ügyeleti rend"]
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Eseménynaptárak Székhely/Tagiskola",
+    "description": "Eseménynaptárak Székhely/Tagiskola",
+    "link": "esemenynaptar_ps_bs.html",
+    "tags": ["Petőfi", "Bálint"]
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Eseménynaptár – Székhely",
+    "description": "Eseménynaptár – Székhely",
+    "link": "esemenynaptar_ps_bs.html",
+    "tags": ["Petőfi"]
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Eseménynaptár – Tagiskola",
+    "description": "Eseménynaptár – Tagiskola",
+    "link": "esemenynaptar_ps_bs.html#panel2d",
+    "tags": ["Bálint"]
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Intézményi tanfelügyelet eredménye 2018",
+    "description": "IskolIntézményi tanfelügyelet eredménye 2018",
+    "link": "kozzeteteli_lista/intezmenyi_tanfelugyelet_eredmenye_2018.html",
+    "tags": ["Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése"]
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Intézményvezetői tanfelügyelet eredménye 2018",
+    "description": "Intézményvezetői tanfelügyelet eredménye 2018",
+    "link": "kozzeteteli_lista/intezmenyvezetoi_tanfelugyelet_eredmenye_2018.html",
+    "tags": ["Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése"]
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Pedagógus tanfelügyeletének eredménye 2016",
+    "description": "Pedagógus tanfelügyeletének eredménye 2016",
+    "link": "kozzeteteli_lista/pedagogus_tanfelugyeletenek_eredmenye_2016.html",
+    "tags": ["Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése"]
   },
   {
     "type": "oldal",
-    "name": "Iskolahívogató | Tagiskola",
-    "description": "Iskolahívogató | Székhely",
-    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
-    "tags": ["Petőfi", "iskola"]
+    "name": "Kompetencia- és teljesítményalapú értékelési rendszer helyi szabályzata (Petőfi Sándor Általános Iskola)",
+    "description": "Kompetencia- és teljesítményalapú értékelési rendszer helyi szabályzata (Petőfi Sándor Általános Iskola)",
+    "link": "kozzeteteli_lista/kompetencia_es_teljesitmenyalapu_ertekelesi_rendszer_helyi_szabalyzata.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Pedagógusok iskolai végzettsége, szakképzettsége PS/BS",
+    "description": "Pedagógusok iskolai végzettsége, szakképzettsége PS/BS",
+    "link": "bemutatkozas/pedagogusok_iskolai_vegzettsege.html",
+    "tags": ["Petőfi", "Bálint"]
+  },
+  {
+    "type": "oldal",
+    "name": "Pedagógusok iskolai végzettsége, szakképzettsége | Székhely",
+    "description": "Pedagógusok iskolai végzettsége, szakképzettsége | Székhely",
+    "link": "bemutatkozas/pedagogusok_iskolai_vegzettsege.html",
+    "tags": ["Petőfi"]
+  },
+  {
+    "type": "oldal",
+    "name": "Pedagógusok iskolai végzettsége, szakképzettsége | Tagiskola",
+    "description": "Iskolahívogató | Tagiskola",
+    "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html#panel2d",
+    "tags": ["Bálint"]
+  },
+  {
+    "type": "oldal",
+    "name": "NOKS-osok száma, szakképzettsége PS/BS",
+    "description": "NOKS-osok száma, szakképzettsége PS/BS",
+    "link": "bemutatkozas/noksosok_szama_szakkepzettsege.html",
+    "tags": ["Petőfi", "Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "NOKS-osok száma, szakképzettsége | Székhely",
+    "description": "NOKS-osok száma, szakképzettsége | Székhely",
+    "link": "bemutatkozas/noksosok_szama_szakkepzettsege.html",
+    "tags": ["Petőfi", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "NOKS-osok száma, szakképzettsége | Tagiskola",
+    "description": "NOKS-osok száma, szakképzettsége | Tagiskola",
+    "link": "bemutatkozas/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Országos mérés-értékelés évenkénti eredményei",
+    "description": "Kompetenciamérés eredményei",
+    "link": "kozzeteteli_lista/kompetenciameres_eredmenyei.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Tanulók le- és kimaradásával, évfolyamismétlésével kapcsolatos adatok (Petőfi/Bálint)",
+    "description": "Tanulók le- és kimaradásával, évfolyamismétlésével kapcsolatos adatok (Petőfi/Bálint)",
+    "link": "kozzeteteli_lista/evismetles.html",
+    "tags": ["PS", "BS"]
+  },
+  {
+    "type": "oldal",
+    "name": "Egyéni fejlesztés  PS/ BS",
+    "description": "Egyéni fejlesztés  PS/ BS",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Egyéni fejlesztés | Székhely",
+    "description": "Egyéni fejlesztés | Székhely",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Egyéni fejlesztés | Tagiskola",
+    "description": "Egyéni fejlesztés | Tagiskola",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szakkörök, tehetséggondozás  PS/ BS",
+    "description": "Szakkörök, tehetséggondozás  PS/ BS",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szakkörök, tehetséggondozás | Székhely",
+    "description": "Szakkörök, tehetséggondozás | Székhely",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szakkörök, tehetséggondozás | Tagiskola",
+    "description": "Szakkörök, tehetséggondozás | Tagiskola",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szaktárgyi korrepetálások   PS/ BS",
+    "description": "Szaktárgyi korrepetálások   PS/ BS",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szaktárgyi korrepetálások | Székhely",
+    "description": "Szaktárgyi korrepetálások | Székhely",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szaktárgyi korrepetálások | Tagiskola",
+    "description": "Szaktárgyi korrepetálások | Tagiskola",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "NOKS-osok száma, szakképzettsége",
+    "description": "NOKS-osok száma, szakképzettsége",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+  },
+  {
+    "type": "oldal",
+    "name": "NOKS-osok száma, szakképzettsége",
+    "description": "NOKS-osok száma, szakképzettsége",
+    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+    "tags": ["Bálint", "Pedagógiai munkát segítők"]
   }
 ]
