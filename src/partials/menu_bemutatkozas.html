@@ -6,6 +6,8 @@
             'tanaraink_ps_bs'
             'hitoktatok_ps_bs'
             'felekezetek_bemutatkozasa'
+            'felekezetek_reformatus'
+            'felekezetek_katolikus'
             'iskolapszichologusok_bemutatkozasa'
             'pedagogiai_program'
             'pedagogiai_program_2021'
@@ -31,7 +33,8 @@
     <li{{#ifpage 'hitoktatok_ps_bs' }} class="current" {{/ifpage}}>
         <a href="{{root}}bemutatkozas/hitoktatok_ps_bs.html">Hitoktatóink {{>label}}</a>
         </li>
-        <li{{#ifpage 'felekezetek_bemutatkozasa' }} class="current" {{/ifpage}}>
+        <li{{#ifpage 'felekezetek_bemutatkozasa' 'felekezetek_reformatus' 'felekezetek_katolikus' }} class="current"
+            {{/ifpage}}>
             <a href="{{root}}bemutatkozas/felekezetek_bemutatkozasa.html">Felekezetek bemutatkozása</a>
             </li>
             <li{{#ifpage 'iskolapszichologusok_bemutatkozasa' }} class="current" {{/ifpage}}>
