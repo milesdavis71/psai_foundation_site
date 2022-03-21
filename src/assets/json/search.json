@@ -464,9 +464,101 @@
   },
   {
     "type": "oldal",
-    "name": "NOKS-osok száma, szakképzettsége",
-    "description": "NOKS-osok száma, szakképzettsége",
-    "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
-    "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    "name": "Országos mérés-értékelés évenkénti eredményei",
+    "description": "Kompetenciamérés eredményei",
+    "link": "kozzeteteli_lista/kompetenciameres_eredmenyei.html",
+    "tags": ["Bálint", "Petőfi"]
+  },
+  {
+    "type": "oldal",
+    "name": "Tanulók le- és kimaradásával, évfolyamismétlésével kapcsolatos adatok",
+    "description": "Tanulók le- és kimaradásával, évfolyamismétlésével kapcsolatos adatok",
+    "link": "kozzeteteli_lista/evismetles.html",
+    "tags": ["lemaradás", "kimaradás", "évfolyamismétlés"]
+  },
+  {
+    "type": "oldal",
+    "name": "Egyéni fejlesztés   PS / BS",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Egyéni fejlesztés   PS / BS",
+    "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html",
+    "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások "]
+  },
+  {
+    "type": "oldal",
+    "name": "Egyéni fejlesztés   Széhhely",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Egyéni fejlesztés   Széhhely",
+    "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html",
+    "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások "]
+  },
+  {
+    "type": "oldal",
+    "name": "Egyéni fejlesztés   Tagiskola",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Egyéni fejlesztés   Tagiskola",
+    "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html#panel2d",
+    "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szakkörök, tehetséggondozás  PS / BS",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szakkörök, tehetséggondozás  PS / BS",
+    "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs_kozzetetel.html.html",
+    "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szakkörök, tehetséggondozás  Székhely",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szakkörök, tehetséggondozás  Székhely",
+    "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs_kozzetetel.html",
+    "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szakkörök, tehetséggondozás   Tagiskola",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szakkörök, tehetséggondozás   Tagiskola",
+    "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs_kozzetetel.html.html#panel2d",
+    "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások"]
+  },
+  {
+    "type": "oldal",
+    "name": "Szaktárgyi korrepetálások  PS / BS",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szaktárgyi korrepetálások  PS / BS",
+    "link": "tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs_kozzetetel.html",
+    "tags": ["Bálint", "Petőfi", "Szaktárgyi korrepetálások"]
+  },
+  ------
+  {
+    "type": "oldal",
+    "name": "Egyéni fejlesztés   Tagiskola",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Egyéni fejlesztés   Tagiskola",
+    "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html#panel2d",
+    "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások "]
+  },
+  {
+    "type": "oldal",
+    "name": "Egyéni fejlesztés   Tagiskola",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Egyéni fejlesztés   Tagiskola",
+    "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html#panel2d",
+    "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások "]
+  },
+  {
+    "type": "oldal",
+    "name": "Országos mérés-értékelés évenkénti eredményei",
+    "description": "Kompetenciamérés eredményei",
+    "link": "kozzeteteli_lista/kompetenciameres_eredmenyei.html",
+    "tags": ["Bálint", "Petőfi"]
+  },
+  {
+    "type": "oldal",
+    "name": "Országos mérés-értékelés évenkénti eredményei",
+    "description": "Kompetenciamérés eredményei",
+    "link": "kozzeteteli_lista/kompetenciameres_eredmenyei.html",
+    "tags": ["Bálint", "Petőfi"]
+  },
+  {
+    "type": "oldal",
+    "name": "Országos mérés-értékelés évenkénti eredményei",
+    "description": "Kompetenciamérés eredményei",
+    "link": "kozzeteteli_lista/kompetenciameres_eredmenyei.html",
+    "tags": ["Bálint", "Petőfi"]
   }
 ]
