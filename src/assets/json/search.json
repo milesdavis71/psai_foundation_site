@@ -520,12 +520,52 @@
   },
   {
     "type": "oldal",
-    "name": "Szaktárgyi korrepetálások  PS / BS",
-    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szaktárgyi korrepetálások  PS / BS",
+    "name": "Szaktárgyi korrepetálások  Székhely",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szaktárgyi korrepetálások  Székhely",
     "link": "tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs_kozzetetel.html",
     "tags": ["Bálint", "Petőfi", "Szaktárgyi korrepetálások"]
   },
-  ------
+  {
+    "type": "oldal",
+    "name": "Szaktárgyi korrepetálások  Tagiskola",
+    "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szaktárgyi korrepetálások  Tagiskola",
+    "link": "tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs_kozzetetel.html#panel2d",
+    "tags": ["Bálint", "Petőfi", "Szaktárgyi korrepetálások"]
+  },
+  {
+    "type": "oldal",
+    "name": "Hétvégi házi feladatok szabályai",
+    "description": "Hétvégi házi feladatok szabályai",
+    "link": "kozzeteteli_lista/hetvegi_hazi_feladatok_dolgozatok_szabalyai.html",
+    "tags": ["Bálint", "Petőfi", "Hétvégi házi feladatok szabályai"]
+  },
+  {
+    "type": "pdf",
+    "name": "Osztályozó vizsgák követelményei",
+    "description": "Tanulmányok alatti vizsgák követelményei – Osztályozó vizsgák követelményei",
+    "link": "kozzeteteli_lista/osztalyozo_vizsgak_kovetelmenyei.html",
+    "tags": ["Bálint", "Petőfi", "Tanulmányok alatti vizsgák"]
+  },
+
+  -----
+  {
+    "type": "pdf",
+    "name": "Osztályozó vizsgák követelményei",
+    "description": "Tanulmányok alatti vizsgák követelményei – Osztályozó vizsgák követelményei",
+    "link": "kozzeteteli_lista/osztalyozo_vizsgak_kovetelmenyei.html",
+    "tags": ["Bálint", "Petőfi", "Tanulmányok alatti vizsgák"]
+  },
+  {
+    "type": "pdf",
+    "name": "Osztályozó vizsgák követelményei",
+    "description": "Tanulmányok alatti vizsgák követelményei – Osztályozó vizsgák követelményei",
+    "link": "kozzeteteli_lista/osztalyozo_vizsgak_kovetelmenyei.html",
+    "tags": ["Bálint", "Petőfi", "Tanulmányok alatti vizsgák"]
+  },
+
+
+  -------------------
+
   {
     "type": "oldal",
     "name": "Egyéni fejlesztés   Tagiskola",
