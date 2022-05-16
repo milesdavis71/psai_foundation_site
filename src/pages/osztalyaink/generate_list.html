@@ -1,58 +1,46 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-</head>
-
-<body>
-</body>
-
+  <body></body>
 </html>
 <script>
-    var n = "Az előző évi jó állapotú eszközökből nem kell újat venni.\n7 db 21-32 sz. vonalas füzet \n2 db 27-32 sz. négyzetrácsos füzet\n1 db 36-16 sz. hangjegyfüzet (A/5-ös méret) \n1 db szótárfüzet \n1 db leckefüzet\n1 db üzenőfüzet\ngrafit ceruzák, és Rotring, radír\nkis vonalzó, ami elfér a tolltartóban\n30 cm- es vonalzó\nderékszögű vonalzó\nvékony hegyű kék színű toll (NEM zselés)\ntartályos hegyező\n12 színű színes ceruza\n12 színű vízfesték (Anilinky ajánlott)\nzsírkréta 12 színű (külön műanyag dobozban, vagy kis tolltartóban, textilzsákban, a lényeg, hogy ne szakadjon el)\n6 színű tempera \nvastag, közepes és vékony ecset \n50 db. félfamentes A4-es rajzlap\n2 db A4-es gumis mappa\nfekete tűfilc + 12 színű filctoll készlet (külön műanyag dobozban, vagy kis tolltartóban, textilzsákban, a lényeg, hogy ne szakadjon el)\nfekete filctoll\nvizes edény, törlőrongy \nolló (jó minőségű, hegyes)\ntestnevelés felszerelés: sötét alsó, emblémás, illetve fehér póló, tornacipő, fehér zokni, kisméretű törölköző, névbeírással!\n1 uzsonnásdoboz \n1 db teáskanál\n1 csomag szalvéta";
+  var n =
+    "Magyar nyelvtan\n1 db nagyalakú vonalas füzet 81-32\nMagyar irodalom\n1 db kisalakú vonalas füzet 21-32\nTörténelem és állampolgári ismeretek\n1 db nagyalakú vonalas füzet 81-32\n1 db kisalakú vonalas füzet 21-32\nAngol\n1 db nagyalakú vonalas füzet 81-32\n1 db kisalakú vonalas füzet 21-32\n1 db kisalakú szótárfüzet 31-32\nMatematika \n5 db kisalakú négyzetrácsos füzet 27-32\n1 db sima füzet A/5 20-32\n1 db papír szögmérő\n1 db körző\n2 db derékszögű vonalzó\n1 db egyenes vonalzó 30cm\nDigitális kultúra\nkisméretű négyzetrácsos füzet 27-32 \nFizika\n1 db nagyalakú négyzetrácsos füzet 87-32\nBiológia\nvonalas füzet (21-32 vagy 81-32)\n1 csomag írólap\nKémia\nvonalas füzet (21-32 vagy 81-32)\n1 csomag írólap\nFöldünk és környezetünk\n1 db nagyalakú vonalas füzet 81-32\n1 csomag írólap\nÉnek-zene\n1 db kisalakú hangjegyfüzet 36-32\nErkölcstan\n1 db kisalakú vonalas füzet 21-32\nTestnevelés és sport\n1 db tornazsák\npetőfis póló\nfehér zokni\nsötét alsó\ntornacipő\nRajz- és vizuális kultúra\n40 db famentes rajzlap\nCsak a kifogyott felszerelést kell pótolni.\n1 db cipős doboz\n1 db 12 színű gombfesték (lehetőleg Anilinky)\nminimum 3 db. ecset\n1 db temperakészlet (6 vagy 12 színű)\n12 színű színes ceruza\n2B-s ceruza\n1 csomag gyurma (natúr)\n1 db olló, ragasztó\n1 db mappa\nA4-s színes papír készlet\n1 db rossz póló\n1 db rongy\nFekete tűfilc\nTechnika és életvitel\n10 db műszaki rajzlap\n10 db félfamentes rajzlap\n1 csomag írólap\nCsak a kifogyott felszerelést kell pótolni.\n1 db A4-es mappa\nolló\nragasztó\ngyurma (natúr)\n1 csomag A4-es színes papír készlet\n1 db kisalakú vonalas füzet 20-32";
 
+  function tablazatFelbont(n) {
+    str = n.split("\n");
+    return str;
+  }
 
+  function tablazatKiir(str) {
+    document.write("<table border=1>");
+    document.write("<ul>");
 
-
-    function tablazatFelbont(n) {
-        str = n.split("\n");
-        return str
+    for (let i = 0; i < str.length; i++) {
+      document.write("<li>" + str[i] + "</li>");
     }
-
-    function tablazatKiir(str) {
-        document.write("<table border=1>");
-        document.write("<ul>");
-
-        for (let i = 0; i < str.length; i++) {
-
-            document.write("<li>" + str[i] + "</li>");
-
-        }
-        document.write("</ul>");
-
-        document.write("</table>");
-    }
-
-
-    var noFelbontot = tablazatFelbont(n);
-    tablazatKiir(noFelbontot);
-
+    document.write("</ul>");
 
     document.write("</table>");
-    // Requiring fs module in which
-    // writeFile function is defined.
-    const fs = require('fs')
+  }
 
-    // Data which will write in a file.
-    let data = noFelbontot;
+  var noFelbontot = tablazatFelbont(n);
+  tablazatKiir(noFelbontot);
 
-    // Write data in 'Output.txt' .
-    fs.writeFile('output.txt', data, (err) => {
+  document.write("</table>");
+  // Requiring fs module in which
+  // writeFile function is defined.
+  const fs = require("fs");
 
-        // In case of a error throw err.
-        if (err) throw err;
-    })
+  // Data which will write in a file.
+  let data = noFelbontot;
 
-
+  // Write data in 'Output.txt' .
+  fs.writeFile("output.txt", data, (err) => {
+    // In case of a error throw err.
+    if (err) throw err;
+  });
 </script>
