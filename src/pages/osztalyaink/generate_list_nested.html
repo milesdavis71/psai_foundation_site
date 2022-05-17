@@ -8,31 +8,29 @@
 </html>
 <script>
   var n =
-    "Magyar nyelvtan\n2 db vonalas füzet 21-32\tMagyar irodalom\n2 db vonalas füzet 21-32\tTörténelem és állampolgári ismeretek\n1 db nagyalakú vonalas füzet 81-32\n1 db kisalakú vonalas füzet 21-32\tAngol\n1 db nagyalakú vonalas füzet 81-32\n1 db kisalakú vonalas füzet 21-32\n1 db kisalakú szótárfüzet 31-32\tMatematika\n5 db négyzetrácsos füzet 27-32\n1 db sima füzet A/5 20-32\n1 db papír szögmérő\n1 db körző\n2 db derékszögű vonalzó\n1 db egyenes vonalzó 30cm\tTermészetismeret\n1 db vonalas füzet 21-32 vagy \t88-32\n1 db kisalakú vonalas füzet (21-32)\n2 csomag írólap\tÉnek-zene\n1 db kisalakú hangjegyfüzet 36-32\tTechnika és életvitel\n10 db műszaki rajzlap\t- 10 db félfamentes rajzlap\n1 csomag írólap\tCsak a kifogyott felszerelést kell pótolni.\n1 db A4-es mappa\nolló\nragasztó\ngyurma (natúr)\n1 csomag A4-es színes papír készlet\n1 db kisalakú vonalas füzet 20-32\tErkölcstan\t-1 db kisalakú vonalas füzet 21-32\t\tDigitális kultúra\n1 db négyzetrácsos füzet 27-32\tRajz- és vizuális kultúra\nrajzlap: 40 db famentes\tCsak a kifogyott felszerelést kell pótolni.\n1 db cipős doboz\n1 db 12 színű gombfesték (lehetőleg Anilinky)\nminimum 3 db ecset\n1 db temperakészlet (6 vagy 12 színű)\n12 színű színes ceruza\n2B-s ceruza\n1 csomag gyurma (natúr)\n1 db olló, ragasztó\n1 db mappa\nA4-s színes papír készlet\n1 db rossz póló\n1 db rongy\nFekete tűfilc\tTestnevelés és sport\n1 db tornazsák\npetőfis póló\nfehér zokni\nsötét alsó\ntornacipő\tMinden órán legyen: Színes ceruza: sárga, világos barna, sötétbarna, kék, zöld, piros, fekete, ceruza (B-s, H), radír, kék színű golyóstoll, vonalzó\t";
+    "Magyar nyelvtan\n1 db nagyalakú vonalas füzet 81-32\nMagyar irodalom\n1 db kisalakú vonalas füzet 21-32\nTörténelem és állampolgári ismeretek\n1 db nagyalakú vonalas füzet 81-32\n1 db kisalakú vonalas füzet 21-32\nAngol\n1 db nagyalakú vonalas füzet 81-32\n1 db kisalakú vonalas füzet 21-32\n1 db kisalakú szótárfüzet 31-32\nMatematika \n5 db kisalakú négyzetrácsos füzet 27-32\n1 db sima füzet A/5 20-32\n1 db papír szögmérő\n1 db körző\n2 db derékszögű vonalzó\n1 db egyenes vonalzó 30cm\nDigitális kultúra\nkisméretű négyzetrácsos füzet 27-32 \nFizika\n1 db nagyalakú négyzetrácsos füzet 87-32\nBiológia\nvonalas füzet (21-32 vagy 81-32)\n1 csomag írólap\nKémia\nvonalas füzet (21-32 vagy 81-32)\n1 csomag írólap\nFöldünk és környezetünk\n1 db nagyalakú vonalas füzet 81-32\n1 csomag írólap\nÉnek-zene\n1 db kisalakú hangjegyfüzet 36-32\nErkölcstan\n1 db kisalakú vonalas füzet 21-32\nTestnevelés és sport\n1 db tornazsák\npetőfis póló\nfehér zokni\nsötét alsó\ntornacipő\nRajz- és vizuális kultúra\n40 db famentes rajzlap\nCsak a kifogyott felszerelést kell pótolni.\n1 db cipős doboz\n1 db 12 színű gombfesték (lehetőleg Anilinky)\nminimum 3 db. ecset\n1 db temperakészlet (6 vagy 12 színű)\n12 színű színes ceruza\n2B-s ceruza\n1 csomag gyurma (natúr)\n1 db olló, ragasztó\n1 db mappa\nA4-s színes papír készlet\n1 db rossz póló\n1 db rongy\nFekete tűfilc\nTechnika és életvitel\n10 db műszaki rajzlap\n10 db félfamentes rajzlap\n1 csomag írólap\nCsak a kifogyott felszerelést kell pótolni.\n1 db A4-es mappa\nolló\nragasztó\ngyurma (natúr)\n1 csomag A4-es színes papír készlet\n1 db kisalakú vonalas füzet 20-32";
 
-  var str = [];
-  function tablazatFelbont(tablazat) {
-    str = tablazat.split("\n");
-    for (let i = 0; i < str.length; i++) {
-      str[i] = str[i].split("\t");
-    }
+  function tablazatFelbont(n) {
+    str = n.split("\n");
     return str;
   }
 
   function tablazatKiir(str) {
+    document.write("<table border=1>");
+    document.write("<ul>");
+
     for (let i = 0; i < str.length; i++) {
-      document.write("<ul>");
-      for (let k = 0; k < str[i].length; k++) {
-        document.write("<li>" + str[i][k] + "</li>");
-      }
-      document.write("</ul>");
+      document.write("<li>" + str[i] + "</li>");
     }
+    document.write("</ul>");
+
     document.write("</table>");
   }
 
   var noFelbontot = tablazatFelbont(n);
   tablazatKiir(noFelbontot);
 
+  document.write("</table>");
   // Requiring fs module in which
   // writeFile function is defined.
   const fs = require("fs");
