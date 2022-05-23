@@ -860,229 +860,375 @@
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények PS/BS 2021–2022",
-    "description": "Versenyredmények PS/BS 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_2022_ps_bs.html",
+    "name": "Versenyeredmények PS/BS 2021–2022",
+    "description": "Versenyeredmények PS/BS 2021–2022",
+    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
     "tags": [
       "Bálint",
       "Petőfi",
       "Székhely",
       "Tagiskola",
-      "versenyredmények",
+      "versenyeredmények",
       "2021–2022"
     ]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Székhely 2021–2022",
-    "description": "Versenyredmények – Székhely 2021–2022",
+    "name": "Versenyeredmények – Székhely 2021–2022",
+    "description": "Versenyeredmények – Székhely 2021–2022",
     "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
-    "tags": ["Petőfi", "Székhely", "versenyredmények", "2021–2022"]
+    "tags": ["Petőfi", "Székhely", "versenyeredmények", "2021–2022"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Tagiskola 2021–2022",
-    "description": "Versenyredmények – Tagiskola 2021–2022",
+    "name": "Versenyeredmények – Tagiskola 2021–2022",
+    "description": "Versenyeredmények – Tagiskola 2021–2022",
     "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
-    "tags": ["Bálint", "Tagiskola", "versenyredmények", "2021–2022"]
+    "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2021–2022"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények PS/BS 2020–2021",
-    "description": "Versenyredmények PS/BS 2020–2021",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_2022_ps_bs.html",
+    "name": "Versenyeredmények PS/BS 2020–2021",
+    "description": "Versenyeredmények PS/BS 2020–2021",
+    "link": "versenyeredmenyek/versenyeredmenyek_2020_21_ps_bs.html",
     "tags": [
       "Bálint",
       "Petőfi",
       "Székhely",
       "Tagiskola",
-      "versenyredmények",
+      "versenyeredmények",
       "2020–2021"
     ]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Székhely 2020–2021",
-    "description": "Versenyredmények – Székhely 2020–2021",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
-    "tags": ["Petőfi", "Székhely", "versenyredmények", "2020–2021"]
+    "name": "Versenyeredmények – Székhely 2020–2021",
+    "description": "Versenyeredmények – Székhely 2020–2021",
+    "link": "versenyeredmenyek/versenyeredmenyek_2020_21_ps_bs.html",
+    "tags": ["Petőfi", "Székhely", "versenyeredmények", "2020–2021"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Tagiskola 2020–2021",
-    "description": "Versenyredmények – Tagiskola 2020–2021",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
-    "tags": ["Bálint", "Tagiskola", "versenyredmények", "2020–2021"]
+    "name": "Versenyeredmények – Tagiskola 2020–2021",
+    "description": "Versenyeredmények – Tagiskola 2020–2021",
+    "link": "versenyeredmenyek/versenyeredmenyek_2020_21_ps_bs.html#panel2d",
+    "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2020–2021"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények PS/BS 2019–2020",
-    "description": "Versenyredmények PS/BS 2019–2020",
-    "link": "versenyeredmenyek/versenyeredmenyek_2018_2019_ps_bs.html",
+    "name": "Versenyeredmények PS/BS 2019–2020",
+    "description": "Versenyeredmények PS/BS 2019–2020",
+    "link": "versenyeredmenyek/versenyeredmenyek_2019_20_ps_bs.html",
     "tags": [
       "Bálint",
       "Petőfi",
       "Székhely",
       "Tagiskola",
-      "versenyredmények",
+      "versenyeredmények",
       "2019–2020"
     ]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Székhely 2019–2020",
-    "description": "Versenyredmények – Székhely 2019–2020",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
-    "tags": ["Petőfi", "Székhely", "versenyredmények", "2019–2020"]
+    "name": "Versenyeredmények – Székhely 2019–2020",
+    "description": "Versenyeredmények – Székhely 2019–2020",
+    "link": "versenyeredmenyek/versenyeredmenyek_2019_20_ps_bs.html",
+    "tags": ["Petőfi", "Székhely", "versenyeredmények", "2019–2020"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Tagiskola 2019–2020",
-    "description": "Versenyredmények – Tagiskola 2019–2020",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
-    "tags": ["Bálint", "Tagiskola", "versenyredmények", "2019–2020"]
+    "name": "Versenyeredmények – Tagiskola 2019–2020",
+    "description": "Versenyeredmények – Tagiskola 2019–2020",
+    "link": "versenyeredmenyek/versenyeredmenyek_2019_20_ps_bs.html#panel2d",
+    "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2019–2020"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények PS/BS 2018–2019",
-    "description": "Versenyredmények PS/BS 2018–2019",
+    "name": "Versenyeredmények PS/BS 2018–2019",
+    "description": "Versenyeredmények PS/BS 2018–2019",
     "link": "versenyeredmenyek/versenyeredmenyek_2018_2019_ps_bs.html",
     "tags": [
       "Bálint",
       "Petőfi",
       "Székhely",
       "Tagiskola",
-      "versenyredmények",
+      "versenyeredmények",
       "2018–2019"
     ]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Székhely 2018–2019",
-    "description": "Versenyredmények – Székhely 2018–2019",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
-    "tags": ["Petőfi", "Székhely", "versenyredmények", "2018–2019"]
+    "name": "Versenyeredmények – Székhely 2018–2019",
+    "description": "Versenyeredmények – Székhely 2018–2019",
+    "link": "versenyeredmenyek/versenyeredmenyek_2018_19_ps_bs.html",
+    "tags": ["Petőfi", "Székhely", "versenyeredmények", "2018–20189"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Tagiskola 2018–2019",
-    "description": "Versenyredmények – Tagiskola 2018–2019",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
-    "tags": ["Bálint", "Tagiskola", "versenyredmények", "2018–2019"]
+    "name": "Versenyeredmények – Tagiskola 2018–2019",
+    "description": "Versenyeredmények – Tagiskola 2018–2019",
+    "link": "versenyeredmenyek/versenyeredmenyek_2018_19_ps_bs.html#panel2d",
+    "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2018–2019"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények PS/BS 2021–2022",
-    "description": "Versenyredmények PS/BS 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2018_2019_ps_bs.html",
+    "name": "Versenyeredmények PS/BS 2017–2018",
+    "description": "Versenyeredmények PS/BS 2017–2018",
+    "link": "versenyeredmenyek/versenyeredmenyek_2017_2018_ps_bs.html",
     "tags": [
       "Bálint",
       "Petőfi",
       "Székhely",
       "Tagiskola",
-      "versenyredmények",
-      "2021–2022"
+      "versenyeredmények",
+      "2017–2018"
     ]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Székhely 2021–2022",
-    "description": "Versenyredmények – Székhely 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
-    "tags": ["Petőfi", "Székhely", "versenyredmények", "2021–2022"]
+    "name": "Versenyeredmények – Székhely 2017–2018",
+    "description": "Versenyeredmények – Székhely 2017–2018",
+    "link": "versenyeredmenyek/versenyeredmenyek_2017_2018_ps_bs.html",
+    "tags": ["Petőfi", "Székhely", "versenyeredmények", "2017–2018"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Tagiskola 2021–2022",
-    "description": "Versenyredmények – Tagiskola 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
-    "tags": ["Bálint", "Tagiskola", "versenyredmények", "2021–2022"]
+    "name": "Versenyeredmények – Tagiskola 2017–2018",
+    "description": "Versenyeredmények – Tagiskola 2017–2018",
+    "link": "versenyeredmenyek/versenyeredmenyek_2017_18_ps_bs.html#panel2d",
+    "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2017–2018"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények PS/BS 2021–2022",
-    "description": "Versenyredmények PS/BS 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_2022_ps_bs.html",
+    "name": "Versenyeredmények PS/BS 2016–2017",
+    "description": "Versenyeredmények PS/BS 2016–2017",
+    "link": "versenyeredmenyek/versenyeredmenyek_2016_17_ps_bs.html",
     "tags": [
       "Bálint",
       "Petőfi",
       "Székhely",
       "Tagiskola",
-      "versenyredmények",
-      "2021–2022"
+      "versenyeredmények",
+      "2016–2017"
     ]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Székhely 2021–2022",
-    "description": "Versenyredmények – Székhely 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
-    "tags": ["Petőfi", "Székhely", "versenyredmények", "2021–2022"]
+    "name": "Versenyeredmények – Székhely 2016–2017",
+    "description": "Versenyeredmények – Székhely 2016–2017",
+    "link": "versenyeredmenyek/versenyeredmenyek_2016_17_ps_bs.html",
+    "tags": ["Petőfi", "Székhely", "versenyeredmények", "2016–2017"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Tagiskola 2021–2022",
-    "description": "Versenyredmények – Tagiskola 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
-    "tags": ["Bálint", "Tagiskola", "versenyredmények", "2021–2022"]
+    "name": "Versenyeredmények – Tagiskola 2016–2017",
+    "description": "Versenyeredmények – Tagiskola 2016–2017",
+    "link": "versenyeredmenyek/versenyeredmenyek_2016_17_ps_bs.html#panel2d",
+    "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2016–2017"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények PS/BS 2021–2022",
-    "description": "Versenyredmények PS/BS 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_2022_ps_bs.html",
+    "name": "Versenyeredmények PS/BS 2015–2016",
+    "description": "Versenyeredmények PS/BS 2015–2016",
+    "link": "versenyeredmenyek/versenyeredmenyek_2015_2016_ps_bs.html",
     "tags": [
       "Bálint",
       "Petőfi",
       "Székhely",
       "Tagiskola",
-      "versenyredmények",
-      "2021–2022"
+      "versenyeredmények",
+      "2015–2016"
     ]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Székhely 2021–2022",
-    "description": "Versenyredmények – Székhely 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
-    "tags": ["Petőfi", "Székhely", "versenyredmények", "2021–2022"]
+    "name": "Versenyeredmények – Székhely 2015–2016",
+    "description": "Versenyeredmények – Székhely 2015–2016",
+    "link": "versenyeredmenyek/versenyeredmenyek_2015_16_ps_bs.html",
+    "tags": ["Petőfi", "Székhely", "versenyeredmények", "2015–2016"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Tagiskola 2021–2022",
-    "description": "Versenyredmények – Tagiskola 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
-    "tags": ["Bálint", "Tagiskola", "versenyredmények", "2021–2022"]
+    "name": "Versenyeredmények – Tagiskola 2015–2016",
+    "description": "Versenyeredmények – Tagiskola 2015–2016",
+    "link": "versenyeredmenyek/versenyeredmenyek_2015_16_ps_bs.html#panel2d",
+    "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2015–2016"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények PS/BS 2021–2022",
-    "description": "Versenyredmények PS/BS 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_2022_ps_bs.html",
+    "name": "Versenyeredmények PS/BS 2014–2015",
+    "description": "Versenyeredmények PS/BS 2014–2015",
+    "link": "versenyeredmenyek/versenyeredmenyek_2014_15_ps_bs.html",
     "tags": [
       "Bálint",
       "Petőfi",
       "Székhely",
       "Tagiskola",
-      "versenyredmények",
-      "2021–2022"
+      "versenyeredmények",
+      "2014–2015"
     ]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Székhely 2021–2022",
-    "description": "Versenyredmények – Székhely 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
-    "tags": ["Petőfi", "Székhely", "versenyredmények", "2021–2022"]
+    "name": "Versenyeredmények – Székhely 2014–2015",
+    "description": "Versenyeredmények – Székhely 2014–2015",
+    "link": "versenyeredmenyek/versenyeredmenyek_2014_15_ps_bs.html",
+    "tags": ["Petőfi", "Székhely", "versenyeredmények", "2014–2015"]
   },
   {
     "type": "oldal",
-    "name": "Versenyredmények – Tagiskola 2021–2022",
-    "description": "Versenyredmények – Tagiskola 2021–2022",
-    "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
-    "tags": ["Bálint", "Tagiskola", "versenyredmények", "2021–2022"]
+    "name": "Versenyeredmények – Tagiskola 2014–2015",
+    "description": "Versenyeredmények – Tagiskola 2014–2015",
+    "link": "versenyeredmenyek/versenyeredmenyek_2014_15_ps_bs.html#panel2d",
+    "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2014–2015"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2021–2022",
+    "description": "Fotógaléria – Székhely 2021–2022",
+    "link": "galeriak/2021_22/ps/fooldal_2021_22_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2021–2022"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2021–2022",
+    "description": "Fotógaléria – Tagiskola 2021–2022",
+    "link": "galeriak/2021_22/bs/fooldal_2021_22_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2021–2022"]
   },
 
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2020–2021",
+    "description": "Fotógaléria – Székhely 2020–2021",
+    "link": "galeriak/2020_21/ps/fooldal_2020_21_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2020–2021"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2020–2021",
+    "description": "Fotógaléria – Tagiskola 2020–2021",
+    "link": "galeriak/2020_21/bs/fooldal_2020_21_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2020–2021"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2019–2020",
+    "description": "Fotógaléria – Székhely 2019–2020",
+    "link": "galeriak/2019_20/ps/fooldal_2019_20_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2019–2020"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2019–2020",
+    "description": "Fotógaléria – Tagiskola 2019–2020",
+    "link": "galeriak/2019_20/bs/fooldal_2019_20_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2019–2020"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2018–2019",
+    "description": "Fotógaléria – Székhely 2018–2019",
+    "link": "galeriak/2018_19/ps/fooldal_2018_19_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2018–20189"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2018–2019",
+    "description": "Fotógaléria – Tagiskola 2018–2019",
+    "link": "galeriak/2018_19/bs/fooldal_2018_19_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2018–2019"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2017–2018",
+    "description": "Fotógaléria – Székhely 2017–2018",
+    "link": "galeriak/2017_18/ps/fooldal_2017_18_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2017–2018"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2017–2018",
+    "description": "Fotógaléria – Tagiskola 2017–2018",
+    "link": "galeriak/2017_18/bs/fooldal_2017_18_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2017–2018"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "EFOP-4.1.3, Székhely",
+    "description": "Páláyzatok – EFOP-4.1.3, Székhely, Infrastrukturális fejlesztések a Szegedi Petőfi Sándor Általános Iskolában",
+    "link": "palyazatok/EFOP_4_1_3.html",
+    "tags": [
+      "Petőfi",
+      "Székhely",
+      "Pályázat",
+      "EFOP-4.1.3",
+      "Infrastrukturális fejlesztések a Szegedi Petőfi Sándor Általános Iskolában"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Határtalanul PS",
+    "description": "Páláyzatok – Határtalanul, Székhely, Erdélyi legendák nyomában",
+    "link": "palyazatok/hatartalanul_palyazataink.html#panel1d",
+    "tags": [
+      "Petőfi",
+      "Székhely",
+      "Pályázat",
+      "Határtalanul",
+      "Erdélyi legendák nyomában"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Határtalanul PS",
+    "description": "Páláyzatok – Határtalanul, Székhely, Magyar írók, költők nyomában Erdély területén",
+    "link": "palyazatok/hatartalanul_palyazataink.html#panel2d",
+    "tags": [
+      "Petőfi",
+      "Székhely",
+      "Pályázat",
+      "Határtalanul",
+      "Magyar írók, költők nyomában Erdély területén"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Határtalanul BS",
+    "description": "Páláyzatok – Határtalanul, Tagiskola, Erdélyi legendák nyomában",
+    "link": "palyazatok/hatartalanul_palyazataink.html#panel3d",
+    "tags": [
+      "Bálint",
+      "Tagiskola",
+      "Pályázat",
+      "Határtalanul",
+      "Erdélyi legendák nyomában"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Határtalanul BS",
+    "description": "Páláyzatok – Határtalanul, Tagiskola, Királyok és fejedelmek nyomában Erdélyben",
+    "link": "palyazatok/hatartalanul_palyazataink.html#panel4d",
+    "tags": [
+      "Bálint",
+      "Tagiskola",
+      "Pályázat",
+      "Határtalanul",
+      "Királyok és fejedelmek nyomában Erdélyben"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Digitális témahét BS",
+    "description": "Páláyzatok – Digitális témahét, Tagiskola",
+    "link": "palyazatok/digitalis_temahet.html",
+    "tags": ["Bálint", "Tagiskola", "Pályázat", "Digitális témahét"]
+  },
   {
     "type": "oldal",
     "name": "Országos mérés-értékelés évenkénti eredményei",
