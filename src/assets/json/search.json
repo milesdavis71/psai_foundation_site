@@ -1225,15 +1225,224 @@
   {
     "type": "oldal",
     "name": "Digitális témahét BS",
-    "description": "Páláyzatok – Digitális témahét, Tagiskola",
+    "description": "Pályázatok – Digitális témahét, Tagiskola",
     "link": "palyazatok/digitalis_temahet.html",
     "tags": ["Bálint", "Tagiskola", "Pályázat", "Digitális témahét"]
   },
   {
     "type": "oldal",
-    "name": "Országos mérés-értékelés évenkénti eredményei",
-    "description": "Kompetenciamérés eredményei",
-    "link": "kozzeteteli_lista/kompetenciameres_eredmenyei.html",
-    "tags": ["Bálint", "Petőfi"]
+    "name": "Ökoiskola BS",
+    "description": "Pályázatok – Ökoiskola, Tagiskola",
+    "link": "palyazatok/okoiskola.html",
+    "tags": ["Bálint", "Tagiskola", "Pályázat", "Ökoiskola", "Környezetvédelem"]
+  },
+  {
+    "type": "oldal",
+    "name": "Iskolakert BS",
+    "description": "Pályázatok – Iskolakert Alapozó Alprogram, Tagiskola",
+    "link": "palyazatok/iskolakert.html",
+    "tags": ["Bálint", "Tagiskola", "Pályázat", "Iskolakert"]
+  },
+  {
+    "type": "oldal",
+    "name": "Nemzeti Tehetség Program PS",
+    "description": "Pályázatok – Nemzeti Tehetség Program, Tehetséggondozás és fejlesztés a Körtöltésen kívül, Székhely",
+    "link": "palyazatok/ntp.html",
+    "tags": [
+      "Petőfi",
+      "Székhely",
+      "Pályázat",
+      "Iskolakert",
+      "Tehetséggondozás",
+      "fejlesztés"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Comenius projekt PS/BS",
+    "description": "Pályázatok – Comenius Iskola együttműködés, Székhely és Tagiskola",
+    "link": "palyazatok/comenius_projekt.html#panel1d",
+    "tags": [
+      "Petőfi",
+      "Bálint",
+      "Székhely",
+      "Tagiskola",
+      "Pályázat",
+      "Comenius projekt"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Mi iskolánk PS",
+    "description": "Pályázatok – Petőfi Sándor Általános Iskola „Mi iskolánk, mi óvodánk” pályázat, Székhely",
+    "link": "palyazatok/mi_iskolank_ps_bs.html",
+    "tags": ["Petőfi", "Székhely", "Pályázat", "Mi iskolánk"]
+  },
+  {
+    "type": "oldal",
+    "name": "Mi iskolánk BS",
+    "description": "Pályázatok – Petőfi Sándor Általános Iskola „Mi iskolánk, mi óvodánk” pályázat, Tagiskola",
+    "link": "palyazatok/mi_iskolank_ps_bs.html#panel2d",
+    "tags": ["Bálint", "Tagiskola", "Pályázat", "Mi iskolánk"]
+  },
+  {
+    "type": "oldal",
+    "name": "TIOP 2008 PS/BS",
+    "description": "Pályázatok – TIOP 2008, Székhely, Tagiskola",
+    "link": "palyazatok/tiop_2008_ps_bs.html",
+    "tags": [
+      "Petőfi",
+      "Székhely",
+      "Bálint",
+      "Tagiskola",
+      "Pályázat",
+      "TIOP 2008"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "A petőfitelepi ifjúságért alapítvány PS",
+    "description": "Alapítványok – A petőfitelepi ifjúságért alapítvány, Székhely",
+    "link": "alapitvanyok_ps_bs.html",
+    "tags": [
+      "Petőfi",
+      "Székhely",
+      "Alapítvány",
+      "A petőfitelepi ifjúságért alapítvány"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Freinet tanoda alapítvány BS",
+    "description": "Alapítványok – Freinet tanoda alapítvány, Tagiskola",
+    "link": "alapitvanyok_ps_bs.html",
+    "tags": ["Bálint", "Tagiskola", "Alapítvány", "Freinet tanoda alapítvány"]
+  },
+  {
+    "type": "oldal",
+    "name": "Letölthető nyomtatványok",
+    "description": "Felmentés a mindennapos testnevelés alól, Szülői nyilatkozat a délutáni foglalkozásokról, Adó 1%-ról nyilatkozat a Székhelyre, Adó 1%-ról nyilatkozat a Bálint Sándor Tagiskolába",
+    "link": "letoltheto_nyomtatvanyok.html",
+    "tags": [
+      "Bálint",
+      "Tagiskola",
+      "Petőfi",
+      "Székhely",
+      "Letölthető nyomtatványok",
+      "Felmentés a mindennapos testnevelés alól",
+      "Szülői nyilatkozat a délutáni foglalkozásokról",
+      "Adó 1%-ról nyilatkozat a Székhelyre",
+      "Adó 1%-ról nyilatkozat a Bálint Sándor Tagiskolába"
+    ]
+  },
+  {
+    "type": "oldal",
+    "name": "Leendő elsősök szülei részére PS",
+    "description": "e-Ügyintézés – Tájékoztató leendő elsősök szülei részére, Székhely",
+    "link": "e_ugyintezes/leendo_elsosok_szulei_reszere.html",
+    "tags": [
+      "Petőfi",
+      "Székhely",
+      "e-Ügyintézés",
+      "Tájékoztató elsős szülők részére"
+    ]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Leendő elsősök szülei részére BS",
+    "description": "e-Ügyintézés – Tájékoztató leendő elsősök szülei részére, Tagiskola",
+    "link": "e_ugyintezes/leendo_elsosok_szulei_reszere.html#panel2d",
+    "tags": [
+      "Bálint",
+      "Tagiskola",
+      "e-Ügyintézés",
+      "Tájékoztató elsős szülők részére"
+    ]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Általános tájékoztató",
+    "description": "e-Ügyintézés – Általános tájékoztató",
+    "link": "e_ugyintezes/e_ugyintezes.html",
+    "tags": ["e-Ügyintézés", "Általános tájékoztató"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "A KRÉTA rendszer használata",
+    "description": "e-Ügyintézés – A KRÉTA rendszer használata",
+    "link": "https://tudasbazis.ekreta.hu/pages/viewpage.action?pageId=2424949&preview=/2424949/11829263/KR%C3%89TA%20rendszer%20%C3%A1ttekint%C3%A9se.pptx",
+    "tags": ["e-Ügyintézés", "A KRÉTA rendszer használata"]
+  },
+
+  {
+    "type": "pdf",
+    "name": "Tájékoztató",
+    "description": "GDPR tájékoztatók – Adatkezelési tájékoztató",
+    "link": "gdpr_tajekoztatok/hozzajarulo_nyilatk_psai_adatkezeles_rendezvenyeken.html",
+    "tags": ["gdpr", "tájékoztatók", "Adatkezelési tájékoztató"]
+  },
+
+  {
+    "type": "pdf",
+    "name": "Nyilatkozat",
+    "description": "GDPR tájékoztatók – Hozzájáruló nyilatkozat",
+    "link": "gdpr_tajekoztatok/tanuloknak_es_torv_kepviseloknek.html",
+    "tags": ["gdpr", "tájékoztatók", "Hozzájáruló nyilatkozat"]
+  },
+
+  {
+    "type": "pdf",
+    "name": "Munkavállalóknak",
+    "description": "GDPR tájékoztatók – Adatvédelmi tájékoztató munkavállalóknak",
+    "link": "gdpr_tajekoztatok/munkavallaloknak.html",
+    "tags": ["gdpr", "tájékoztatók", "Adatvédelmi tájékoztató munkavállalóknak"]
+  },
+
+  {
+    "type": "pdf",
+    "name": "Álláspályázóknak",
+    "description": "GDPR tájékoztatók – Adatkezelési tájékoztató álláspályázóknak",
+    "link": "gdpr_tajekoztatok/allaspalyazoknak.html",
+    "tags": [
+      "gdpr",
+      "tájékoztatók",
+      "Adatkezelési tájékoztató álláspályázóknak"
+    ]
+  },
+
+  {
+    "type": "pdf",
+    "name": "Szerződéses partnereknek",
+    "description": "GDPR tájékoztatók – Adatkezelési tájékoztató szerződéses partnereknek",
+    "link": "gdpr_tajekoztatok/szerzodeses_partnereknek.html",
+    "tags": [
+      "gdpr",
+      "tájékoztatók",
+      "Adatkezelési tájékoztató szerződéses partnereknek"
+    ]
+  },
+
+  {
+    "type": "pdf",
+    "name": "Hit- és erkölcstan oktatással kapcsolatos adatkezelés",
+    "description": "GDPR tájékoztatók – Hit- és erkölcstan oktatással kapcsolatos adatkezelés",
+    "link": "gdpr_tajekoztatok/adatkezelesi_tajekoztató_hit_es_erkolcstan.html",
+    "tags": [
+      "gdpr",
+      "tájékoztatók",
+      "Adatkezelési tájékoztató",
+      "hit- és erkölcstan oktatáss",
+      "adatkezelés"
+    ]
+  },
+  {
+    "type": "pdf",
+    "name": "Impresszum",
+    "description": "Impresszum",
+    "link": "impresszum.html",
+    "tags": ["Impresszum"]
   }
 ]
