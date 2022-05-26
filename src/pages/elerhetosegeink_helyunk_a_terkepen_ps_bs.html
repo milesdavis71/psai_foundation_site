@@ -1,4 +1,7 @@
 <div class="cell medium-9 medium-cell-block-y">
+    <h5 class="text-center" style="margin-bottom: 1.5rem">Helyünk a térképen</h5>
+
+
     <!-- {{>tabs_ul}}
     {{>tabs_content1}} -->
     <!-- <div class="responsive-embed">
@@ -14,13 +17,25 @@
     <div id="map"></div>
     <script>
         var map = L.map('map', {
-            center: [46.26022302311285, 20.193613540643724],
-            zoom: 18
+            center: [46.262039186657944, 20.187102679298537],
+            zoom: 15
         });
-        L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-            attribution:
-                '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        }).addTo(map);
+        var psIcon = L.icon({
+            iconUrl: "assets/img//google-map-pointer-ps.png"
+        });
+        var bsIcon = L.icon({
+            iconUrl: "assets/img//google-map-pointer-bs.png"
+        });
+
+        L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png').addTo(map);
+        var firstMarker =
+            L.marker([46.26398466723493, 20.179975769385315], { icon: psIcon }).addTo(map)
+                .bindPopup('Szegedi Petőfi Sándor Általános Iskola');
+        L.marker([46.26022302311285, 20.193613540643724], { icon: bsIcon }).addTo(map)
+            .bindPopup('Szegedi Petőfi Sándor Általános Iskola<br>Bálint Sándor Tagiskola');
+
+
+
 
     </script>
 
