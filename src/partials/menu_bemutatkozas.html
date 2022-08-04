@@ -16,7 +16,8 @@
             'imip'
             'hazirend_ps_bs'
             'gyermekvedelem'
-            'tankonyvek_ps_bs'
+            'tankonyvek_ps'
+            'tankonyvek_bs'
             'taneszkozok_ps_bs'
             'regisztralt_tehetsegpont'
             'kek_ter_program'
@@ -62,9 +63,25 @@
                                         <li{{#ifpage 'gyermekvedelem' }} class="current" {{/ifpage}}>
                                             <a href="{{root}}bemutatkozas/gyermekvedelem.html">Gyermekvédelem</a>
                                             </li>
-                                            <li{{#ifpage 'tankonyvek_ps_bs' }} class="current" {{/ifpage}}>
-                                                <a href="{{root}}bemutatkozas/tankonyvek_ps_bs.html">Tankönyvek{{>label}}
+                                            <li>
+                                                <a href="#">Tankönyvek
                                                 </a>
+                                                <ul class="menu vertical nested
+                                                {{#ifpage
+                                                   'tankonyvek_ps'
+                                                   'tankonyvek_bs'
+                                                    }}
+                                                    is-active
+                                                {{/ifpage}}">
+                                                    <li{{#ifpage 'tankonyvek_ps' }} class=" current" {{/ifpage}}><a
+                                                            href="{{root}}bemutatkozas/tankonyvek_ps.html">Tankönyvek –
+                                                            Székhely</a>
+                                            </li>
+                                            <li{{#ifpage 'tankonyvek_bs' }} class=" current" {{/ifpage}}><a
+                                                    href="{{root}}bemutatkozas/tankonyvek_bs.html">Tankönyvek –
+                                                    Tagiskola</a>
+                                                </li>
+                                                </ul>
                                                 </li>
                                                 <li{{#ifpage 'taneszkozok_ps_bs' }} class="current" {{/ifpage}}>
                                                     <a href="{{root}}bemutatkozas/taneszkozok_ps_bs.html">Taneszközök{{>label}}
