@@ -18,7 +18,8 @@
             'gyermekvedelem'
             'tankonyvek_ps'
             'tankonyvek_bs'
-            'taneszkozok_ps_bs'
+            'taneszkozok_ps'
+            'taneszkozok_bs'
             'regisztralt_tehetsegpont'
             'kek_ter_program'
             'keve_program'
@@ -67,12 +68,12 @@
                                                 <a href="#">Tankönyvek
                                                 </a>
                                                 <ul class="menu vertical nested
-                                                {{#ifpage
-                                                   'tankonyvek_ps'
-                                                   'tankonyvek_bs'
-                                                    }}
-                                                    is-active
-                                                {{/ifpage}}">
+                                                    {{#ifpage
+                                                    'tankonyvek_ps'
+                                                    'tankonyvek_bs'
+                                                        }}
+                                                        is-active
+                                                    {{/ifpage}}">
                                                     <li{{#ifpage 'tankonyvek_ps' }} class=" current" {{/ifpage}}><a
                                                             href="{{root}}bemutatkozas/tankonyvek_ps.html">Tankönyvek –
                                                             Székhely</a>
@@ -83,9 +84,26 @@
                                                 </li>
                                                 </ul>
                                                 </li>
-                                                <li{{#ifpage 'taneszkozok_ps_bs' }} class="current" {{/ifpage}}>
-                                                    <a href="{{root}}bemutatkozas/taneszkozok_ps_bs.html">Taneszközök{{>label}}
+                                                <li>
+                                                    <a href="#">Taneszközök
                                                     </a>
+                                                    <ul class="menu vertical nested
+                                                    {{#ifpage
+                                                        'taneszkozok_ps'
+                                                        'taneszkozok_bs'
+                                                        }}
+                                                        is-active
+                                                    {{/ifpage}}">
+                                                        <li{{#ifpage 'taneszkozok_ps' }} class=" current" {{/ifpage}}><a
+                                                                href="{{root}}bemutatkozas/taneszkozok_ps.html">Taneszközök
+                                                                –
+                                                                Székhely</a>
+                                                </li>
+                                                <li{{#ifpage 'taneszkozok_bs' }} class=" current" {{/ifpage}}><a
+                                                        href="{{root}}bemutatkozas/taneszkozok_bs.html">Taneszközök –
+                                                        Tagiskola</a>
+                                                    </li>
+                                                    </ul>
                                                     </li>
                                                     <li{{#ifpage 'regisztralt_tehetsegpont' }} class="current"
                                                         {{/ifpage}}>
