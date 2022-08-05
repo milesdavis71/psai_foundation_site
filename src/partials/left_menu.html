@@ -54,6 +54,8 @@
         'befiz_idopontok_ngsz_unnepi'
         'befiz_ingyen_kedvezm_ngsz_tajekoztato'
         'etkezesi_teritesi_dijak'
+
+        
       }}is-active{{/ifpage}}">
       <li {{#ifpage 'befiz_idopontok_ngsz' }} class="current" {{/ifpage}}>
         <a href="{{root}}befiz_idopontok_ngsz.html">Befizetési időpontok az NGSZ-nél</a>
@@ -88,69 +90,87 @@
     <a href="{{root}}tanev_rendje_ps_bs.html">&thinsp;<i class="fas fa-calendar-alt"></i>&thinsp;&thinsp;&thinsp;A
       tanév rendje</a>
   </li>
-
-  <li {{#ifpage 'osztalyaink_ps_bs' }} class="current" {{/ifpage}}>
+  <li>
+    <a href="#"><i class="fas fa-users-class"></i>&ensp;Osztályaink
+    </a>
+    <ul class="menu vertical nested
+    {{#ifpage
+        'osztalyaink_ps'
+        'osztalyaink_bs'
+        }}
+        is-active
+    {{/ifpage}}">
+      <li{{#ifpage 'osztalyaink_ps' }} class=" current" {{/ifpage}}><a href="{{root}}osztalyaink_ps.html">Osztályaink
+          –
+          Székhely</a>
+  </li>
+  <li{{#ifpage 'osztalyaink_bs' }} class=" current" {{/ifpage}}><a href="{{root}}osztalyaink_bs.html">Osztályaink –
+      Tagiskola</a>
+    </li>
+</ul>
+</li>
+<!-- <li {{#ifpage 'osztalyaink_ps_bs' }} class="current" {{/ifpage}}>
     <a href="{{root}}osztalyaink_ps_bs.html"><i class="fas fa-users-class"></i>&ensp;Osztályaink
       {{> label}} </a>
-  </li>
+  </li> -->
 
-  <li {{#ifpage 'orarendek_ps_bs' }} class="current" {{/ifpage}}>
-    <a href="{{root}}orarendek_ps_bs.html">&thinsp;<i class="fas fa-table"></i>&ensp;Órarendek {{> label}} </a>
-  </li>
-  <li>
-    <a href="#"><i class="fas fa-users"></i>&ensp;Szülői értekezletek, fogadóórák</a>
-    <ul
-      class="menu vertical nested {{#ifpage 'szuloi_ertekezletek_ps_bs' 'fogadoorak_ps_bs' 'egyeni_fogadoorak_ps_bs'}}is-active{{/ifpage}}">
-      <li {{#ifpage 'szuloi_ertekezletek_ps_bs' }} class="current" {{/ifpage}}>
-        <a href="{{root}}szuloi_ertekezlet_fogadoora/szuloi_ertekezletek_ps_bs.html">Szülői értekezletek {{>label}}</a>
-      </li>
-      <li {{#ifpage 'fogadoorak_ps_bs' }} class="current" {{/ifpage}}>
-        <a href="{{root}}szuloi_ertekezlet_fogadoora/fogadoorak_ps_bs.html">Fogadóórák {{>label}}</a>
-      </li>
-      <li {{#ifpage 'egyeni_fogadoorak_ps_bs' }} class="current" {{/ifpage}}>
-        <a href="{{root}}szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html">Egyéni fogadóórák {{>label}}</a>
-      </li>
-    </ul>
-  </li>
-  {{> menu_tanoran_kivuli_foglalkozasok}}
-  {{> menu_versenyeredmenyek}}
-  {{> menu_galeriak}}
-  {{> menu_palyazatok}}
-  <!-- <li {{#ifpage 'fenntarthatosagra_neveles' }} class="current" {{/ifpage}}>
+<li {{#ifpage 'orarendek_ps_bs' }} class="current" {{/ifpage}}>
+  <a href="{{root}}orarendek_ps_bs.html">&thinsp;<i class="fas fa-table"></i>&ensp;Órarendek {{> label}} </a>
+</li>
+<li>
+  <a href="#"><i class="fas fa-users"></i>&ensp;Szülői értekezletek, fogadóórák</a>
+  <ul
+    class="menu vertical nested {{#ifpage 'szuloi_ertekezletek_ps_bs' 'fogadoorak_ps_bs' 'egyeni_fogadoorak_ps_bs'}}is-active{{/ifpage}}">
+    <li {{#ifpage 'szuloi_ertekezletek_ps_bs' }} class="current" {{/ifpage}}>
+      <a href="{{root}}szuloi_ertekezlet_fogadoora/szuloi_ertekezletek_ps_bs.html">Szülői értekezletek {{>label}}</a>
+    </li>
+    <li {{#ifpage 'fogadoorak_ps_bs' }} class="current" {{/ifpage}}>
+      <a href="{{root}}szuloi_ertekezlet_fogadoora/fogadoorak_ps_bs.html">Fogadóórák {{>label}}</a>
+    </li>
+    <li {{#ifpage 'egyeni_fogadoorak_ps_bs' }} class="current" {{/ifpage}}>
+      <a href="{{root}}szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html">Egyéni fogadóórák {{>label}}</a>
+    </li>
+  </ul>
+</li>
+{{> menu_tanoran_kivuli_foglalkozasok}}
+{{> menu_versenyeredmenyek}}
+{{> menu_galeriak}}
+{{> menu_palyazatok}}
+<!-- <li {{#ifpage 'fenntarthatosagra_neveles' }} class="current" {{/ifpage}}>
     <a href="{{root}}fenntarthatosagra_neveles.html"><i class="fas fa-recycle"></i>&thinsp;&thinsp;Fenntarthatóságra
       nevelés</a>
   </li> -->
-  <li {{#ifpage 'alapitvanyok_ps_bs' }} class="current" {{/ifpage}}>
-    <a href="{{root}}alapitvanyok_ps_bs.html"><i class="fas fa-hands"></i>&thinsp;&thinsp;Alapítványok {{>label}}</a>
-  </li>
-  <li {{#ifpage 'letoltheto_nyomtatvanyok' }} class="current" {{/ifpage}}>
-    <a href="{{root}}letoltheto_nyomtatvanyok.html">&thinsp;&thinsp;<i class="fas fa-file-download"></i>&ensp;Letölthető
-      nyomtatványok</a>
-  </li>
+<li {{#ifpage 'alapitvanyok_ps_bs' }} class="current" {{/ifpage}}>
+  <a href="{{root}}alapitvanyok_ps_bs.html"><i class="fas fa-hands"></i>&thinsp;&thinsp;Alapítványok {{>label}}</a>
+</li>
+<li {{#ifpage 'letoltheto_nyomtatvanyok' }} class="current" {{/ifpage}}>
+  <a href="{{root}}letoltheto_nyomtatvanyok.html">&thinsp;&thinsp;<i class="fas fa-file-download"></i>&ensp;Letölthető
+    nyomtatványok</a>
+</li>
 
-  <li>
-    <a href="#">&thinsp;<i class="fas fa-at"></i>&ensp;e-Ügyintézés</a>
-    <ul class="menu vertical nested {{#ifpage 'leendo_elsosok_szulei_reszere' 'e_ugyintezes' ''}}is-active{{/ifpage}}">
-      <li {{#ifpage 'leendo_elsosok_szulei_reszere' }} class="current" {{/ifpage}}>
-        <a href="{{root}}e_ugyintezes/leendo_elsosok_szulei_reszere.html">Leendő elsősök szülei részére</a>
-      </li>
-      <li {{#ifpage 'e_ugyintezes' }} class="current" {{/ifpage}}>
-        <a href="{{root}}e_ugyintezes/e_ugyintezes.html">Általános tájékoztató</a>
-      </li>
-      <li {{#ifpage '' }} class="current" {{/ifpage}}>
-        <a href="https://tudasbazis.ekreta.hu/pages/viewpage.action?pageId=2424949&preview=/2424949/11829263/KR%C3%89TA%20rendszer%20%C3%A1ttekint%C3%A9se.pptx"
-          target="_blank">A KRÉTA rendszer használata</a>
-      </li>
-    </ul>
-  </li>
-  {{> menu_gdpr}}
-  <li {{#ifpage 'kk.gov.hu' }} class="current" {{/ifpage}}>
-    <a href="http://kk.gov.hu/szeged" target="_blank">&thinsp;&thinsp;<i
-        class="fas fa-building"></i>&thinsp;&thinsp;Intézményfenntartó</a>
-  </li>
-  <li {{#ifpage 'impresszum' }} class="current" {{/ifpage}}>
-    <a href="{{root}}impresszum.html"><i class="fas fa-user-cog"></i>&thinsp;&thinsp;Impresszum</a>
-  </li>
+<li>
+  <a href="#">&thinsp;<i class="fas fa-at"></i>&ensp;e-Ügyintézés</a>
+  <ul class="menu vertical nested {{#ifpage 'leendo_elsosok_szulei_reszere' 'e_ugyintezes' ''}}is-active{{/ifpage}}">
+    <li {{#ifpage 'leendo_elsosok_szulei_reszere' }} class="current" {{/ifpage}}>
+      <a href="{{root}}e_ugyintezes/leendo_elsosok_szulei_reszere.html">Leendő elsősök szülei részére</a>
+    </li>
+    <li {{#ifpage 'e_ugyintezes' }} class="current" {{/ifpage}}>
+      <a href="{{root}}e_ugyintezes/e_ugyintezes.html">Általános tájékoztató</a>
+    </li>
+    <li {{#ifpage '' }} class="current" {{/ifpage}}>
+      <a href="https://tudasbazis.ekreta.hu/pages/viewpage.action?pageId=2424949&preview=/2424949/11829263/KR%C3%89TA%20rendszer%20%C3%A1ttekint%C3%A9se.pptx"
+        target="_blank">A KRÉTA rendszer használata</a>
+    </li>
+  </ul>
+</li>
+{{> menu_gdpr}}
+<li {{#ifpage 'kk.gov.hu' }} class="current" {{/ifpage}}>
+  <a href="http://kk.gov.hu/szeged" target="_blank">&thinsp;&thinsp;<i
+      class="fas fa-building"></i>&thinsp;&thinsp;Intézményfenntartó</a>
+</li>
+<li {{#ifpage 'impresszum' }} class="current" {{/ifpage}}>
+  <a href="{{root}}impresszum.html"><i class="fas fa-user-cog"></i>&thinsp;&thinsp;Impresszum</a>
+</li>
 
 
 
