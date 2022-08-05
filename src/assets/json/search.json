@@ -99,16 +99,30 @@
   },
   {
     "type": "oldal",
-    "name": "Tankönyvek",
-    "description": "A központ és a tagintézmény tankönyvlistája",
-    "link": "bemutatkozas/tankonyvek_ps_bs.html",
+    "name": "Tankönyvek – Székhely",
+    "description": "A központ tankönyvlistája",
+    "link": "bemutatkozas/tankonyvek_ps.html",
     "tags": []
   },
   {
     "type": "oldal",
-    "name": "Taneszközök",
-    "description": "A központ és a tagintézmény taneszközlistája",
-    "link": "bemutatkozas/taneszkozok_ps_bs.html",
+    "name": "Tankönyvek – Tagiskola",
+    "description": "A tagintézmény tankönyvlistája",
+    "link": "bemutatkozas/tankonyvek_bs.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Taneszközök – Székhely",
+    "description": "A tagintézmény taneszközlistája",
+    "link": "bemutatkozas/taneszkozok_bs.html",
+    "tags": []
+  },
+  {
+    "type": "oldal",
+    "name": "Taneszközök – Tagiskola",
+    "description": "A központ taneszközlistája",
+    "link": "bemutatkozas/taneszkozok_ps.html",
     "tags": []
   },
   {
