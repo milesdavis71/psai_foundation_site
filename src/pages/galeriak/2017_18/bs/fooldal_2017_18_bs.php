@@ -43,6 +43,6 @@
         <?php
       //set main directory
       $mainDir = '../../../assets/img/galeriak/2017_18/bs/';
-      {{> galeria_fooldal_fix_part}}
+      {{> galeria_fooldal_fix_part_bs_2017_18}}
       {{> menu_galeriak_horizontal_centered}}
 </div>

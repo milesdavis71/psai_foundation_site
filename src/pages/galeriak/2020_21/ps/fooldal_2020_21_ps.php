@@ -42,6 +42,6 @@
       //set main directory
       $mainDir = '../../../assets/img/galeriak/2020_21/ps/';
 
-      {{> galeria_fooldal_fix_part}}
+      {{> galeria_fooldal_fix_part_ps_2020_21}}
       {{> menu_galeriak_horizontal_centered}}
   </div>
