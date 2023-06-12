@@ -6,17 +6,21 @@
 
   <ul class="tabs" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true"
     data-deep-link-smudge-delay="500" data-tabs id="deeplinked-tabs">
-    <li class="tabs-title is-active"><a href="#hat20ps" aria-selected="true">PS HAT-20-01</a></li>
-    <li class="tabs-title"><a href="#hat19ps">PS HAT-19-01</a></li>
-    <li class="tabs-title"><a href="#hat18ps">PS HAT-18-01</a></li>
-    <li class="tabs-title"><a href="#hat17ps">PS HAT-17-01</a></li>
-    <li class="tabs-title"><a href="#hat19bs">BS HAT-19-01</a></li>
-    <li class="tabs-title"><a href="#hat18bs">BS HAT-18-01</a></li>
-    <li class="tabs-title"><a href="#hat17bs">BS HAT-17-01</a></li>
+    <li class="tabs-title is-active"><a href="#hat22psbs" aria-selected="true">PS|BS HAT-22</a></li>
+    <li class="tabs-title"><a href="#hat20ps">PS HAT-20</a></li>
+    <li class="tabs-title"><a href="#hat19ps">PS HAT-19</a></li>
+    <li class="tabs-title"><a href="#hat18ps">PS HAT-18</a></li>
+    <li class="tabs-title"><a href="#hat17ps">PS HAT-17</a></li>
+    <li class="tabs-title"><a href="#hat19bs">BS HAT-19</a></li>
+    <li class="tabs-title"><a href="#hat18bs">BS HAT-18</a></li>
+    <li class="tabs-title"><a href="#hat17bs">BS HAT-17</a></li>
   </ul>
 
   <div class="tabs-content" data-tabs-content="deeplinked-tabs">
     <div class="tabs-panel is-active" id="hat20ps">
+      {{>hat_22_01_psbs}}
+    </div>
+    <div class="tabs-panel" id="hat20ps">
       {{>hat_20_01_ps}}
     </div>
     <div class="tabs-panel" id="hat19ps">
