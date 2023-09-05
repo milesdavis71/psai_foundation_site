@@ -1,5 +1,5 @@
 <li>
-  <a href="#">&thinsp;<i class="fas fa-lock"></i>&ensp;GDPR tájékoztatók</a>
+  <a href="#">&thinsp;<i class="fas fa-lock"></i>&ensp;Adatkezelési tájékoztatók</a>
   <ul class="menu vertical nested {{#ifpage 
     'tanuloknak_es_torv_kepviseloknek'
     'munkavallaloknak'
@@ -10,10 +10,15 @@
     'adatkezelesi_tajekoztató_hit_es_erkolcstan'
     'adatkezelesi_szabalyzat_intezmeny'
     'adatkezelesi_szabalyzat_bs_kamerarendszer'
+    'adatkezelesi_tajekoztato_panaszok'
     }}is-active{{/ifpage}}">
 
     <li {{#ifpage 'adatkezelesi_tajekoztato_tankerulet' }} class="current" {{/ifpage}}>
       <a href="{{root}}gdpr_tajekoztatok/adatkezelesi_tajekoztato_tankerulet.html">Adatkezelési tájékoztató</a>
+    </li>
+    <li {{#ifpage 'adatkezelesi_tajekoztato_panaszok' }} class="current" {{/ifpage}}>
+      <a href="{{root}}gdpr_tajekoztatok/adatkezelesi_tajekoztato_panaszok.html">Adatkezelési tájékoztató –
+        panaszok</a>
     </li>
     <li {{#ifpage 'adatkezelesi_szabalyzat_intezmeny' }} class="current" {{/ifpage}}>
       <a href="{{root}}gdpr_tajekoztatok/adatkezelesi_szabalyzat_intezmeny.html">Adatkezelési szabályzat</a>
@@ -36,7 +41,8 @@
         adatkezelés</a>
     </li>
     <li {{#ifpage 'adatkezelesi_szabalyzat_bs_kamerarendszer' }} class="current" {{/ifpage}}>
-      <a href="{{root}}gdpr_tajekoztatok/adatkezelesi_szabalyzat_bs_kamerarendszer.html">Bálint Sándor Tagiskola kamerarendszer adatkezelési szabályzat</a>
+      <a href="{{root}}gdpr_tajekoztatok/adatkezelesi_szabalyzat_bs_kamerarendszer.html">Bálint Sándor Tagiskola
+        kamerarendszer adatkezelési szabályzat</a>
     </li>
   </ul>
 </li>
