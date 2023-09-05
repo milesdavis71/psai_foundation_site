@@ -131,9 +131,6 @@
   </ul>
 </li>
 {{> menu_tanoran_kivuli_foglalkozasok}}
-{{> menu_versenyeredmenyek}}
-{{> menu_galeriak}}
-{{> menu_palyazatok}}
 <li>
   <a href="#">&thinsp;&thinsp;<i class="fas fa-child"></i>&ensp;Délutáni felügyelet
   </a>
@@ -145,15 +142,18 @@
         is-active
     {{/ifpage}}">
     <li{{#ifpage '16_17_kozott' }} class=" current" {{/ifpage}}><a
-        href="{{root}}delutani_gyermekfelugyelet/16_17_kozott.html">16.00 –
-        17.00 közötti gyermekfelügyelet</a>
+        href="{{root}}delutani_gyermekfelugyelet/16_17_kozott.html">16.00–17.00 közötti gyermekfelügyelet</a>
 </li>
 <li{{#ifpage '17_18_kozott' }} class=" current" {{/ifpage}}><a
-    href="{{root}}delutani_gyermekfelugyelet/17_18_kozott.html">17.00 – 18.00
+    href="{{root}}delutani_gyermekfelugyelet/17_18_kozott.html">17.00–18.00
     közötti gyermekfelügyelet</a>
   </li>
   </ul>
   </li>
+  {{> menu_versenyeredmenyek}}
+  {{> menu_galeriak}}
+  {{> menu_palyazatok}}
+
   <li {{#ifpage 'alapitvanyok_ps_bs' }} class="current" {{/ifpage}}>
     <a href="{{root}}alapitvanyok_ps_bs.html"><i class="fas fa-hands"></i>&thinsp;&thinsp;Alapítványok {{>label}}</a>
   </li>
