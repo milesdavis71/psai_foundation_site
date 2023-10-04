@@ -4,40 +4,28 @@
     "name": "Foundation 2",
     "description": "Documentation for Foundation 2.2.1",
     "link": "https://get.foundation/sites/docs/v/2.2.1/",
-    "tags": [
-      "old",
-      "previous"
-    ]
+    "tags": ["old", "previous"]
   },
   {
     "type": "old version",
     "name": "Foundation 3",
     "description": "Documentation for Foundation 3.2.5",
     "link": "https://get.foundation/sites/docs/v/3.2.5/",
-    "tags": [
-      "old",
-      "previous"
-    ]
+    "tags": ["old", "previous"]
   },
   {
     "type": "old version",
     "name": "Foundation 4",
     "description": "Documentation for Foundation 4.3.2",
     "link": "https://get.foundation/sites/docs/v/4.3.2/index.html",
-    "tags": [
-      "old",
-      "previous"
-    ]
+    "tags": ["old", "previous"]
   },
   {
     "type": "old version",
     "name": "Foundation 5",
     "description": "Documentation for Foundation 5.5.3",
     "link": "https://get.foundation/sites/docs/v/5.5.3/index.html",
-    "tags": [
-      "old",
-      "previous"
-    ]
+    "tags": ["old", "previous"]
   },
   {
     "type": "library",
@@ -72,10 +60,7 @@
     "name": "Compatibility",
     "description": "Foundation is tested across many browsers and devices, and works back as far as IE9 and Android 2.",
     "link": "compatibility.html",
-    "tags": [
-      "support",
-      "browser"
-    ]
+    "tags": ["support", "browser"]
   },
   {
     "type": "page",
@@ -89,10 +74,7 @@
     "name": "Welcome to Foundation 6",
     "description": "We built Foundation for Sites to be the most advanced responsive front-end framework in the world.",
     "link": "index.html",
-    "tags": [
-      "index",
-      "home"
-    ]
+    "tags": ["index", "home"]
   },
   {
     "type": "page",
@@ -155,10 +137,7 @@
     "name": "Abide",
     "description": "Abide is a form validation library that extends the HTML5 validation API with custom validators.",
     "link": "abide.html",
-    "tags": [
-      "forms",
-      "validation"
-    ]
+    "tags": ["forms", "validation"]
   },
   {
     "type": "component",
@@ -193,37 +172,28 @@
     "name": "Button Group",
     "description": "Button groups are containers for related action items. They're great when you need to display a group of actions in a bar. These build off the button styles and work perfectly with the grid.",
     "link": "button-group.html",
-    "tags": [
-      "split button"
-    ]
+    "tags": ["split button"]
   },
   {
     "type": "component",
     "name": "Button",
     "description": "Buttons are convenient tools when you need more traditional actions. To that end, Foundation has many easy to use button styles that you can customize or override to fit your needs.",
     "link": "button.html",
-    "tags": [
-      "dropdown button"
-    ]
+    "tags": ["dropdown button"]
   },
   {
     "type": "component",
     "name": "Callout",
     "description": "Callouts combine panels and alerts from Foundation 5 into one generic container component.",
     "link": "callout.html",
-    "tags": [
-      "panel",
-      "alert"
-    ]
+    "tags": ["panel", "alert"]
   },
   {
     "type": "component",
     "name": "Card",
     "description": "Cards are a popular and flexible UI component.",
     "link": "card.html",
-    "tags": [
-      "card"
-    ]
+    "tags": ["card"]
   },
   {
     "type": "component",
@@ -286,12 +256,7 @@
     "name": "Forms",
     "description": "We set out to create an easy, powerful and versatile form layout system. A combination of form styles and the Foundation grid means you can do almost anything.",
     "link": "forms.html",
-    "tags": [
-      "input",
-      "select",
-      "radio",
-      "checkbox"
-    ]
+    "tags": ["input", "select", "radio", "checkbox"]
   },
   {
     "type": "component",
@@ -305,9 +270,7 @@
     "name": "The Grid",
     "description": "Create powerful multi-device layouts quickly and easily with the default 12-column, nestable Foundation grid. If you're familiar with grid systems, you'll feel right at home. If not, you'll learn quickly.",
     "link": "grid.html",
-    "tags": [
-      "block grid"
-    ]
+    "tags": ["block grid"]
   },
   {
     "type": "component",
@@ -328,9 +291,7 @@
     "name": "Magellan",
     "description": "Magellan allows you to create navigation that tracks the active section of a page your user is in. Pair it with our Sticky plugin to create a fixed navigation element.",
     "link": "magellan.html",
-    "tags": [
-      "navigation"
-    ]
+    "tags": ["navigation"]
   },
   {
     "type": "component",
@@ -344,45 +305,28 @@
     "name": "Media Queries",
     "description": "CSS media queries allow us to adjust the display and orientation of content at different screen sizes.",
     "link": "media-queries.html",
-    "tags": [
-      "breakpoints"
-    ]
+    "tags": ["breakpoints"]
   },
   {
     "type": "component",
     "name": "Menu",
     "description": "Our flexible menu component makes it easy to build many common navigation patterns, all with the same markup.",
     "link": "menu.html",
-    "tags": [
-      "navigation",
-      "side nav",
-      "sub nav",
-      "icon bar",
-      "top bar"
-    ]
+    "tags": ["navigation", "side nav", "sub nav", "icon bar", "top bar"]
   },
   {
     "type": "component",
     "name": "Off-canvas",
     "description": "Off-canvas panels are positioned outside of the viewport and slide in when activated. Setting up an off-canvas layout in Foundation is super easy.",
     "link": "off-canvas.html",
-    "tags": [
-      "navigation",
-      "offcanvas",
-      "off-canvas",
-      "nav",
-      "title bar"
-    ]
+    "tags": ["navigation", "offcanvas", "off-canvas", "nav", "title bar"]
   },
   {
     "type": "component",
     "name": "Orbit",
     "description": "An image and content carousel with animation support and many customizable options.",
     "link": "orbit.html",
-    "tags": [
-      "slider",
-      "carousel"
-    ]
+    "tags": ["slider", "carousel"]
   },
   {
     "type": "component",
@@ -410,9 +354,7 @@
     "name": "Responsive Accordion Tabs",
     "description": "Added in 6.3.0, use the Markup of the Accordion or Tabs components to create Responsive Accordion Tabs.",
     "link": "responsive-accordion-tabs.html",
-    "tags": [
-      "tabcordion"
-    ]
+    "tags": ["tabcordion"]
   },
   {
     "type": "component",
@@ -433,9 +375,7 @@
     "name": "Reveal",
     "description": "Modal dialogs, or pop-up windows, are handy for prototyping and production. Foundation includes Reveal, our jQuery modal plugin, to make this easy for you.",
     "link": "reveal.html",
-    "tags": [
-      "modal"
-    ]
+    "tags": ["modal"]
   },
   {
     "type": "component",
@@ -456,18 +396,14 @@
     "name": "Slider",
     "description": "This handy lil slider is perfect for setting specific values within a range.",
     "link": "slider.html",
-    "tags": [
-      "range"
-    ]
+    "tags": ["range"]
   },
   {
     "type": "component",
     "name": "Smooth Scroll",
     "description": "Allows internal links smooth scrolling.",
     "link": "smooth-scroll.html",
-    "tags": [
-      "navigation"
-    ]
+    "tags": ["navigation"]
   },
   {
     "type": "component",
@@ -547,22 +483,14 @@
     "name": "Typography Helpers",
     "description": "Our helper classes allow you to scaffold certain typographic styles faster.",
     "link": "typography-helpers.html",
-    "tags": [
-      "alignment",
-      "subheader",
-      "lead",
-      "statistic"
-    ]
+    "tags": ["alignment", "subheader", "lead", "statistic"]
   },
   {
     "type": "component",
     "name": "Visibility Classes",
     "description": "Visibility classes let you show or hide elements based on screen size or device orientation. You can also use visibility classes to control which elements users see depending on their browsing environment.",
     "link": "visibility.html",
-    "tags": [
-      "hide",
-      "show"
-    ]
+    "tags": ["hide", "show"]
   },
   {
     "type": "component",
