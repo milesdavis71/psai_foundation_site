@@ -3,9 +3,11 @@
 <h5 class="text-center" style="margin-bottom: 1.1rem">
   SZAKKÖRÖK, TEHETSÉGGONDOZÁS
 </h5>
-<h6 class="text-center">Hamarosan...</h6>
+<!-- <h6 class="text-center">Hamarosan...</h6> -->
 
-<!-- <table class="hover">
+
+
+<table class="hover">
   <thead>
     <tr>
       <td>Szakkörök, tehetséggondozás</td>
@@ -14,50 +16,12 @@
     </tr>
   </thead>
   <tbody>
+    {{#each person}}
     <tr>
-      <td>logika</td>
-      <td>hétfő 7. óra</td>
-      <td>Minik Ilona</td>
+      <td>{{this.tantargy}}</td>
+      <td>{{this.datum}}</td>
+      <td>{{this.tanar}}</td>
     </tr>
-    <tr>
-      <td>rajz</td>
-      <td>szerda 8–9. óra</td>
-      <td>Czelédyné Somi Éva</td>
-    </tr>
-    <tr>
-      <td>matematika 6. osztály</td>
-      <td>hétfő 6. óra</td>
-      <td>Nagyistók Zsuzsanna</td>
-    </tr>
-    <tr>
-      <td>matematika 5. osztály</td>
-      <td>kedd 8. óra</td>
-      <td>Nagyistók Zsuzsanna</td>
-    </tr>
-    <tr>
-      <td>magyar</td>
-      <td>csütörtök 6. óra</td>
-      <td>Polyák-Kósa Krisztina</td>
-    </tr>
-    <tr>
-      <td>énekkar</td>
-      <td>hétfő, kedd 5. óra</td>
-      <td>Simonné Tóth Edina</td>
-    </tr>
-    <tr>
-      <td>magyar 3., 4. osztály</td>
-      <td>szerda 5. óra</td>
-      <td>Czeróczki Claudia</td>
-    </tr>
-    <tr>
-      <td>magyar 1., 2. osztály</td>
-      <td>szerda 4. óra</td>
-      <td>Széllné Bartók Mária</td>
-    </tr>
-    <tr>
-      <td>matematika 1., 2. osztály</td>
-      <td>péntek 6. óra</td>
-      <td>Savanya Béláné</td>
-    </tr>
+    {{/each}}
   </tbody>
-</table> -->
+</table>l
