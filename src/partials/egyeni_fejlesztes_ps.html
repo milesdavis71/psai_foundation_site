@@ -1,8 +1,6 @@
 {{> head_ps_year_2023_24}}
 <h5 class="text-center" style="margin-bottom: 1.1rem">EGYÉNI FEJLESZTÉS</h5>
-<h6 class="text-center">Hamarosan...</h6>
-
-<!-- 
+<!-- <h6 class="text-center">Hamarosan...</h6> -->
 <table class="hover">
   <thead>
     <tr>
@@ -12,40 +10,12 @@
     </tr>
   </thead>
   <tbody>
+    {{#each egyenifejlps}}
     <tr>
-      <td>kedd</td>
-      <td>13:05–13:50</td>
-      <td>Májer Szilvia</td>
+      <td>{{this.nap}}</td>
+      <td>{{this.ora}}</td>
+      <td>{{this.tanar}}</td>
     </tr>
-    <tr>
-      <td>szerda</td>
-      <td>13:05–13:50</td>
-      <td>Májer Szilvia</td>
-    </tr>
-    <tr>
-      <td>péntek</td>
-      <td>13:05–13:50</td>
-      <td>Májer Szilvia</td>
-    </tr>
-    <tr>
-      <td>kedd</td>
-      <td>13:05–13:50</td>
-      <td>Molnár-Berkó Rita</td>
-    </tr>
-    <tr>
-      <td>csütörtök</td>
-      <td>13:05–13:50</td>
-      <td>Molnár-Berkó Rita</td>
-    </tr>
-    <tr>
-      <td>szerda</td>
-      <td>14:00–15:45</td>
-      <td>Molnár-Berkó Rita</td>
-    </tr>
-    <tr>
-      <td>csütörtök</td>
-      <td>14:00–15:45</td>
-      <td>Molnár-Berkó Rita</td>
-    </tr>
+    {{/each}}
   </tbody>
-</table> -->
+</table>
