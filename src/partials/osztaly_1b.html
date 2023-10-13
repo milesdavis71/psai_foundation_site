@@ -1,28 +1,8 @@
-<div class="grid-x grid-margin-x">
-	<div class="cell small-12 large-4">
-		<table class="hover">
-			<tbody id="11b">
-				{{>osztaly_11b}}
+<div class="threecolumns">
 
-			</tbody>
-		</table>
-	</div>
-	<div class="cell small-12 large-4">
-		<table class="hover">
-			<tbody id="12b">
-				{{>osztaly_12b}}
-
-
-			</tbody>
-		</table>
-	</div>
-	<div class="cell small-12 large-4">
-		<table class="hover">
-			<tbody id="13b">
-				{{>osztaly_13b}}
-
-
-			</tbody>
-		</table>
-	</div>
+	<ol>
+		{{#each 1b}}
+		<li>{{ this }}</li>
+		{{/each}}
+	</ol>
 </div>

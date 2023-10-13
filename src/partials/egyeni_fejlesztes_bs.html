@@ -1,7 +1,7 @@
 {{> head_bs_year_2023_24}}
-<h6 class="text-center">Hamarosan...</h6>
+<!-- <h6 class="text-center">Hamarosan...</h6> -->
 
-<!-- <h5 class="text-center" style="margin-bottom: 1.1rem">EGYÉNI FEJLESZTÉS</h5>
+<h5 class="text-center" style="margin-bottom: 1.1rem">EGYÉNI FEJLESZTÉS</h5>
 
 <table class="hover">
   <thead>
@@ -12,35 +12,12 @@
     </tr>
   </thead>
   <tbody>
+    {{#each egyenifejlbs}}
     <tr>
-      <td>hétfő</td>
-      <td>11:00-11:45</td>
-      <td>Ungerné Fekete Mónika</td>
+      <td>{{this.nap}}</td>
+      <td>{{this.ora}}</td>
+      <td>{{this.tanar}}</td>
     </tr>
-    <tr>
-      <td>kedd</td>
-      <td>9:00–9:45, 13:05–13:50</td>
-      <td>Ungerné Fekete Mónika</td>
-    </tr>
-    <tr>
-      <td>csütörtök</td>
-      <td>14:00–15:45</td>
-      <td>Ungerné Fekete Mónika</td>
-    </tr>
-    <tr>
-      <td>péntek</td>
-      <td>10:00-10:45</td>
-      <td>Ungerné Fekete Mónika</td>
-    </tr>
-    <tr>
-      <td>hétfő</td>
-      <td>14:00–15:45</td>
-      <td>Porkolábné Papp Zsuzsanna</td>
-    </tr>
-    <tr>
-      <td>péntek</td>
-      <td>14:00–15:45</td>
-      <td>Porkolábné Papp Zsuzsanna</td>
-    </tr>
+    {{/each}}
   </tbody>
-</table> -->
+</table>

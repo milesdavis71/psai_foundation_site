@@ -1,0 +1,441 @@
+---
+- osztaly: 1/A
+  nev: Balog Alex
+- osztaly: 1/A
+  nev: Barta Gergő Norbert
+- osztaly: 1/A
+  nev: Berényi Fanni Margit
+- osztaly: 1/A
+  nev: Borbás Bertalan
+- osztaly: 1/A
+  nev: Breszka Natasa
+- osztaly: 1/A
+  nev: Császár Kornél
+- osztaly: 1/A
+  nev: de Lamberterie Edmond László
+- osztaly: 1/A
+  nev: Éder Barna
+- osztaly: 1/A
+  nev: Fehér Izabella
+- osztaly: 1/A
+  nev: Garamvölgyi Gellért
+- osztaly: 1/A
+  nev: Godó Réka
+- osztaly: 1/A
+  nev: Gyivicsán Zoé
+- osztaly: 1/A
+  nev: Hadnagy Boglárka Zoé
+- osztaly: 1/A
+  nev: Héger Viktor
+- osztaly: 1/A
+  nev: Horváth Amanda
+- osztaly: 1/A
+  nev: Hovanyec Ádám
+- osztaly: 1/A
+  nev: Kormányos Emma Cecília
+- osztaly: 1/A
+  nev: Kovács Balázs Martin
+- osztaly: 1/A
+  nev: Losonczi-Tóth Eszter
+- osztaly: 1/A
+  nev: Nagy Noel
+- osztaly: 1/A
+  nev: Németh Ádám Péter
+- osztaly: 1/A
+  nev: Németh Vivien
+- osztaly: 1/A
+  nev: Papp Csongor
+- osztaly: 1/A
+  nev: Petró Nimród
+- osztaly: 1/A
+  nev: Rácz Zita
+- osztaly: 1/A
+  nev: Simon Bella Fruzsina
+- osztaly: 1/A
+  nev: Sóki Izabella
+- osztaly: 1/A
+  nev: Szakács János
+- osztaly: 1/A
+  nev: Váradi Olívia Paulina
+- osztaly: 2/A
+  nev: Annus Amina
+- osztaly: 2/A
+  nev: Béres Bence
+- osztaly: 2/A
+  nev: Boglár-Mencser Benjámin
+- osztaly: 2/A
+  nev: Boros Márta Zsóka
+- osztaly: 2/A
+  nev: Czirok Lotti
+- osztaly: 2/A
+  nev: Czirok Zalán
+- osztaly: 2/A
+  nev: Fehér Richárd
+- osztaly: 2/A
+  nev: Gyöngyösi Kinga Kitana
+- osztaly: 2/A
+  nev: Horváth Zétény Levente
+- osztaly: 2/A
+  nev: Jankov Írisz Natasa
+- osztaly: 2/A
+  nev: Kalmár Zsombor István
+- osztaly: 2/A
+  nev: Kárai Noel Tamás
+- osztaly: 2/A
+  nev: Kenderessy-Szabó Flóra Laura
+- osztaly: 2/A
+  nev: Kis Csaba
+- osztaly: 2/A
+  nev: Miklós Erik
+- osztaly: 2/A
+  nev: Németh Karolina Edina
+- osztaly: 2/A
+  nev: Németh Zsolt György
+- osztaly: 2/A
+  nev: Sántha Lili Gréta
+- osztaly: 2/A
+  nev: Sirián Lili
+- osztaly: 2/A
+  nev: Sörfőző Luca
+- osztaly: 2/A
+  nev: Szakács Márton
+- osztaly: 2/A
+  nev: Szalai Ádám
+- osztaly: 2/A
+  nev: Sztanó-Arany András
+- osztaly: 2/A
+  nev: Szűcs Eliza Anna
+- osztaly: 2/A
+  nev: Tajti Dorka
+- osztaly: 2/A
+  nev: Tátrai Laura
+- osztaly: 2/A
+  nev: Vaszil Tamara
+- osztaly: 2/A
+  nev: Zámbó Zoltán Dominik
+- osztaly: 2/A
+  nev: Zombori Nolen
+- osztaly: 3/A
+  nev: Bernáth Eliza Fanni
+- osztaly: 3/A
+  nev: Borbély Amira
+- osztaly: 3/A
+  nev: Deák Hanna Roxána
+- osztaly: 3/A
+  nev: Dukai Dávid
+- osztaly: 3/A
+  nev: Farkas Zalán
+- osztaly: 3/A
+  nev: Fenyvesi Gergő Máté
+- osztaly: 3/A
+  nev: Füsti-Molnár Anna Luca
+- osztaly: 3/A
+  nev: Gondi Leila Szófia
+- osztaly: 3/A
+  nev: Halla Csenge
+- osztaly: 3/A
+  nev: Hangyál Roland
+- osztaly: 3/A
+  nev: Horváth Dominika
+- osztaly: 3/A
+  nev: Horváth Gábor
+- osztaly: 3/A
+  nev: Horváth Noé Noel
+- osztaly: 3/A
+  nev: Igaz Bálint
+- osztaly: 3/A
+  nev: Jaksa Kitti
+- osztaly: 3/A
+  nev: Kovács Patrik
+- osztaly: 3/A
+  nev: Ktkani Natalia
+- osztaly: 3/A
+  nev: Lele Ákos
+- osztaly: 3/A
+  nev: Lévai Bence
+- osztaly: 3/A
+  nev: Nagy Szófia
+- osztaly: 3/A
+  nev: Nikovics Szabolcs
+- osztaly: 3/A
+  nev: Rabi Anikó Napsugár
+- osztaly: 3/A
+  nev: Rácz Réka
+- osztaly: 3/A
+  nev: Rafael Zoltán Milán
+- osztaly: 3/A
+  nev: Szél Tamás
+- osztaly: 3/A
+  nev: Szűcs-Tóth Rebeka Alexandra
+- osztaly: 3/A
+  nev: Tóth Nikolett
+- osztaly: 3/A
+  nev: Urbán Kevin Zoltán
+- osztaly: 3/A
+  nev: Vidumánszki Nimród Tamás
+- osztaly: 3/A
+  nev: Vörös Léda
+- osztaly: 3/A
+  nev: Zsíros Bálint
+- osztaly: 4/A
+  nev: Ábrahám Médea
+- osztaly: 4/A
+  nev: Antal Dóra
+- osztaly: 4/A
+  nev: Bogos Balázs
+- osztaly: 4/A
+  nev: Dávid Damián Nolen
+- osztaly: 4/A
+  nev: Fekete Zétény
+- osztaly: 4/A
+  nev: Galiba Gergő Gábor
+- osztaly: 4/A
+  nev: Héger Levente
+- osztaly: 4/A
+  nev: Kenderessy - Szabó Hanna Flóra
+- osztaly: 4/A
+  nev: Kormányos Tamás József
+- osztaly: 4/A
+  nev: Losonczi-Tóth Luca
+- osztaly: 4/A
+  nev: Marozsi Lia
+- osztaly: 4/A
+  nev: Molnár Mira
+- osztaly: 4/A
+  nev: Molnár Petra Tímea
+- osztaly: 4/A
+  nev: Nyilasi Martin
+- osztaly: 4/A
+  nev: Szabó Bátor Levente
+- osztaly: 4/A
+  nev: Szabó Benjamin Noel
+- osztaly: 4/A
+  nev: Szászik Viktória
+- osztaly: 4/A
+  nev: Szűcs-Papp Máté Gábor
+- osztaly: 4/A
+  nev: Szűcs-Tóth Tamás
+- osztaly: 4/A
+  nev: Tamás Abigél
+- osztaly: 4/A
+  nev: Tarkó Bence Antal
+- osztaly: 4/A
+  nev: Urbán Jázmin Lara
+- osztaly: 4/A
+  nev: Vass Bence
+- osztaly: 5/A
+  nev: Ács Bence Balázs
+- osztaly: 5/A
+  nev: Ács Petra Panka
+- osztaly: 5/A
+  nev: Balogh Eszter
+- osztaly: 5/A
+  nev: Bokor Dorka Gabriella
+- osztaly: 5/A
+  nev: Boldvai Barnabás
+- osztaly: 5/A
+  nev: Borbás Luca
+- osztaly: 5/A
+  nev: Borbély Jázmin
+- osztaly: 5/A
+  nev: Borzák Hanna Mária
+- osztaly: 5/A
+  nev: Csentes Balázs
+- osztaly: 5/A
+  nev: Debreczeni Bella
+- osztaly: 5/A
+  nev: Dóka Alexandra Sarolta
+- osztaly: 5/A
+  nev: Fleckenstein Regina
+- osztaly: 5/A
+  nev: Háló Lea Fanni
+- osztaly: 5/A
+  nev: Horváth Viviána Mira
+- osztaly: 5/A
+  nev: Hunvölgyi Emil
+- osztaly: 5/A
+  nev: Keczer Janka
+- osztaly: 5/A
+  nev: Kiss Belián Ottó
+- osztaly: 5/A
+  nev: Kocsis Hella Jázmin
+- osztaly: 5/A
+  nev: Mikó Zalán
+- osztaly: 5/A
+  nev: Nagy Lili
+- osztaly: 5/A
+  nev: Németh Liliána Rozina
+- osztaly: 5/A
+  nev: Papp Lili Kitti
+- osztaly: 5/A
+  nev: Petró Timót
+- osztaly: 5/A
+  nev: Sebők Csenge Stefánia
+- osztaly: 5/A
+  nev: Sipőcz Gina
+- osztaly: 5/A
+  nev: Sirián Bence
+- osztaly: 5/A
+  nev: Sztanojev Olívia
+- osztaly: 5/A
+  nev: Tábit Máté Gábor
+- osztaly: 5/A
+  nev: Tandari Ádám
+- osztaly: 5/A
+  nev: Tóth-Kalmár Anna
+- osztaly: 5/A
+  nev: Veverka Noel Milán
+- osztaly: 6/A
+  nev: Balatonyi Kincső
+- osztaly: 6/A
+  nev: Czékus Anna Diána
+- osztaly: 6/A
+  nev: Fazekas Panna
+- osztaly: 6/A
+  nev: Gaál Dávid Ferenc
+- osztaly: 6/A
+  nev: Havai Hunor Áron
+- osztaly: 6/A
+  nev: Havjár István
+- osztaly: 6/A
+  nev: Hódi Kamilla Haruka
+- osztaly: 6/A
+  nev: Janiga Bence
+- osztaly: 6/A
+  nev: Jánoska Kristóf
+- osztaly: 6/A
+  nev: Kakas Ádám
+- osztaly: 6/A
+  nev: Kalmár Ádám
+- osztaly: 6/A
+  nev: Laczkó Máté
+- osztaly: 6/A
+  nev: Lövey Zoltán Attila
+- osztaly: 6/A
+  nev: Meleg Zsombor László
+- osztaly: 6/A
+  nev: Nagy Amarillisz Rubina
+- osztaly: 6/A
+  nev: Pálfi Gergő
+- osztaly: 6/A
+  nev: Paschek Tamás Zoltán
+- osztaly: 6/A
+  nev: Pleskó Balázs József
+- osztaly: 6/A
+  nev: Puskás Gergely
+- osztaly: 6/A
+  nev: Rácz Liza
+- osztaly: 6/A
+  nev: Sári Milán
+- osztaly: 6/A
+  nev: Szászik Richárd
+- osztaly: 6/A
+  nev: Varga Szabolcs
+- osztaly: 6/A
+  nev: Varga Vivien Anna
+- osztaly: 6/A
+  nev: Vas Richárd
+- osztaly: 7/A
+  nev: Ambrus Kincső Beatrix
+- osztaly: 7/A
+  nev: Bodó-Kispál Sára
+- osztaly: 7/A
+  nev: Csizmadia László Zsombor
+- osztaly: 7/A
+  nev: Dávid Ádám
+- osztaly: 7/A
+  nev: Dóczi Marcell László
+- osztaly: 7/A
+  nev: Farkas Andor Dominik
+- osztaly: 7/A
+  nev: Finta Dominika Jázmin
+- osztaly: 7/A
+  nev: Fülöp Vivien
+- osztaly: 7/A
+  nev: Hőrits Fruzsina
+- osztaly: 7/A
+  nev: Iritz Ervin
+- osztaly: 7/A
+  nev: Jakab Laura Zoé
+- osztaly: 7/A
+  nev: Kerekes Borbála
+- osztaly: 7/A
+  nev: Kószó Áron
+- osztaly: 7/A
+  nev: Kotogány Patrik
+- osztaly: 7/A
+  nev: Kovács Eszter
+- osztaly: 7/A
+  nev: Kovács Máté László
+- osztaly: 7/A
+  nev: Kránicz Hanna
+- osztaly: 7/A
+  nev: Ktkani Diana
+- osztaly: 7/A
+  nev: Ktkani Julia
+- osztaly: 7/A
+  nev: Laczi Nimród
+- osztaly: 7/A
+  nev: Major Márk
+- osztaly: 7/A
+  nev: Nagy Vivien
+- osztaly: 7/A
+  nev: Pipis Roland
+- osztaly: 7/A
+  nev: Széll Dominik
+- osztaly: 7/A
+  nev: Terhes Leila Szilvia
+- osztaly: 7/A
+  nev: Tóth Konrád Vilmos
+- osztaly: 8/A
+  nev: Ács Máté Milán
+- osztaly: 8/A
+  nev: Dávid Nataniel Mór
+- osztaly: 8/A
+  nev: Donáth Dóra
+- osztaly: 8/A
+  nev: Fehér Jázmin Kinga
+- osztaly: 8/A
+  nev: Galiba Nikoletta Anna
+- osztaly: 8/A
+  nev: Háló Roland
+- osztaly: 8/A
+  nev: Horváth Armand
+- osztaly: 8/A
+  nev: Horváth Róbert Máté
+- osztaly: 8/A
+  nev: Hunvölgyi Emőke
+- osztaly: 8/A
+  nev: Juhász Veronika
+- osztaly: 8/A
+  nev: Kollár Vanessza Petra
+- osztaly: 8/A
+  nev: Kovács-Major Glória
+- osztaly: 8/A
+  nev: Ktkani Jihad
+- osztaly: 8/A
+  nev: Mag Richárd József
+- osztaly: 8/A
+  nev: Márki Mira Mária
+- osztaly: 8/A
+  nev: Maróti Gréta
+- osztaly: 8/A
+  nev: Nagy András László
+- osztaly: 8/A
+  nev: Óvári Blanka
+- osztaly: 8/A
+  nev: Ökrös Kiara Liza
+- osztaly: 8/A
+  nev: Pető Lejla Dorina
+- osztaly: 8/A
+  nev: Pleskó Botond János
+- osztaly: 8/A
+  nev: Rácz Vivien
+- osztaly: 8/A
+  nev: Sári Hanna
+- osztaly: 8/A
+  nev: Skobrics Bence
+- osztaly: 8/A
+  nev: Szetei Karolina
+- osztaly: 8/A
+  nev: Tari Boglárka

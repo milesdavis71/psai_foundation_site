@@ -1,32 +1,8 @@
-<h6 class="subheader text-center" id="count3b">
-</h6>
+<div class="threecolumns">
 
-<div class="grid-x grid-margin-x">
-	<div class="cell small-12 large-4">
-		<table class="hover">
-			<tbody id="31b">
-				{{>osztaly_31b}}
-
-
-			</tbody>
-		</table>
-	</div>
-	<div class="cell small-12 large-4">
-		<table class="hover">
-			<tbody id="32b">
-
-				{{>osztaly_32b}}
-
-
-			</tbody>
-		</table>
-	</div>
-	<div class="cell small-12 large-4">
-		<table class="hover">
-			<tbody id="33b">
-				{{>osztaly_33b}}
-
-			</tbody>
-		</table>
-	</div>
+	<ol>
+		{{#each 3b}}
+		<li>{{ this }}</li>
+		{{/each}}
+	</ol>
 </div>
