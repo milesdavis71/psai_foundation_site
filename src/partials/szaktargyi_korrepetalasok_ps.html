@@ -3,9 +3,10 @@
 <h5 class="text-center" style="margin-bottom: 1.1rem">
   SZAKTÁRGYI KORREPETÁLÁSOK
 </h5>
-<h6 class="text-center">Hamarosan...</h6>
+<!-- <h6 class="text-center">Hamarosan...</h6> -->
 
-<!-- <table class="hover">
+
+<table class="hover">
   <thead>
     <tr>
       <td>Osztály</td>
@@ -14,70 +15,12 @@
     </tr>
   </thead>
   <tbody>
+    {{#each szaktargyikorrps}}
     <tr>
-      <td>1. osztály</td>
-      <td>csütörtök 5. óra</td>
-      <td>Szabó Amanda</td>
+      <td>{{this.osztaly}}</td>
+      <td>{{this.idopont}}</td>
+      <td>{{this.tanar}}</td>
     </tr>
-    <tr>
-      <td>2. osztály</td>
-      <td>kedd 6–7. óra</td>
-      <td>Szabó Adrienne</td>
-    </tr>
-    <tr>
-      <td>2., 4. osztály</td>
-      <td>csütörtök 6. óra</td>
-      <td>Terhes Bernadett</td>
-    </tr>
-    <tr>
-      <td>3. osztály</td>
-      <td>kedd 5. óra</td>
-      <td>Szabó Adrienne</td>
-    </tr>
-    <tr>
-      <td>3., 4. osztály</td>
-      <td>hétfő 7. óra</td>
-      <td>Csányi Erika</td>
-    </tr>
-    <tr>
-      <td>4., 6. osztály</td>
-      <td>csütörtök 7. óra</td>
-      <td>Terhes Bernadett</td>
-    </tr>
-    <tr>
-      <td>5. osztály</td>
-      <td>szerda 6. óra</td>
-      <td>Gusztosné Thékes Andrea</td>
-    </tr>
-    <tr>
-      <td>5. osztály</td>
-      <td>szerda 6. óra</td>
-      <td>Vígh Anita</td>
-    </tr>
-    <tr>
-      <td>6., 7. osztály</td>
-      <td>kedd 7. óra</td>
-      <td>Katona-Madarász Viktória</td>
-    </tr>
-    <tr>
-      <td>6 osztály, 8 osztály</td>
-      <td>szerda 7.óra</td>
-      <td>Gusztosné Thékes Andrea</td>
-    </tr>
-    <tr>
-      <td>7 osztály</td>
-      <td>kedd 7. óra</td>
-      <td>Molnár-Berkó Rita</td>
-    </tr>
-    <tr>
-      <td>7 osztály</td>
-      <td>csütörtök 7. óra</td>
-      <td>Gusztosné Thékes Andrea</td>
-    </tr>
-    <tr>
-      <td>8 osztály</td>
-      <td>csütörtök 7. óra</td>
-      <td>Minik Ilona</td>
-    </tr>
+    {{/each}}
   </tbody>
-</table> -->
+</table>
