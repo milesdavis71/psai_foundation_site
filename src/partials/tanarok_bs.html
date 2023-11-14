@@ -1,110 +1,44 @@
 <h5 class="text-center" style="margin-bottom: 1.1rem">
   A Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskola tanárai
 </h5>
+
 <table class="hover">
+
   <tbody>
-    {{>tanar_kozos_winkler}}
-    {{>tanar_kozos_hurton}}
+    {{#each tanarokbs}}
     <tr>
-      <td>Porkolábné Papp Zsuzsanna</td>
-      <td>egyetem</td>
-      <td><strong>tagintézmény-vezető</strong><br />
-        történelem-orosz szakos általános iskolai tanár<br />
-        magyar nyelv és irodalom általános iskolai tanár<br />
-        intézményvezető és középvezető területen szakvizsgázott pedagógus<br />
-        gyógypedagógus, logopédia szakos tanár
+      <td>
+        {{this.FIELD1}}
       </td>
-    </tr>
-    <tr>
-      {{>tanar_kozos_bendene}}
-      {{>tanar_kozos_bohusne}}
-      {{>tanar_kozos_czegledyne}}
-    <tr>
-      <td>Czeróczki Claudia</td>
-      <td>főiskola</td>
-      <td>Magyar nyelv és irodalom szakos általános iskolai tanár és tanító<br>Nyelv- és beszédfejlesztő tanár</td>
-    </tr>
-    <tr>
-      <td>Fodorné Kiss Magdolna</td>
-      <td>főiskola</td>
-      <td>tanító
+      <td>
+        {{#if this.FIELD2}}
+        {{this.FIELD2}}
+        {{/if}}
+        {{#if this.FIELD3}}
+        <br>{{this.FIELD3}}
+        {{/if}}
       </td>
-    </tr>
-    <tr>
-      <td>Jójárt Renáta</td>
-      <td>főiskola</td>
-      <td>tanító<br>matematika műveltségterülettel
+      <td>
+        {{#if this.FIELD4}}
+        {{this.FIELD4}}
+        {{/if}}
+        {{#if this.FIELD5}}
+        <br>{{this.FIELD5}}
+        {{/if}}
+        {{#if this.FIELD6}}
+        <br>{{this.FIELD6}}
+        {{/if}}
+        {{#if this.FIELD7}}
+        <br>{{this.FIELD7}}
+        {{/if}}
+        {{#if this.FIELD8}}
+        <br>{{this.FIELD8}}
+        {{/if}}
+        {{#if this.FIELD9}}
+        <br>{{this.FIELD9}}
+        {{/if}}
       </td>
-    </tr>
 
-    <tr>
-      <td>Kisné Fülöp Ilona</td>
-      <td>főiskola</td>
-      <td>tanító</td>
-    </tr>
-    {{>tanar_kozos_kovacs-kincses}}
-    <tr>
-      <td> Makra Eszter</td>
-      <td>egyetem</td>
-      <td>magyar–angol szakos középiskolai tanár</td>
-    </tr>
-    {{>tanar_kozos_minik}}
-    <tr>
-      <td>Megyesi Beáta</td>
-      <td>főiskola</td>
-      <td>történelem szakos általános iskolai tanár<br>könyvtáros</td>
-    </tr>
-    <tr>
-      <td>Nagyistók Zsuzsanna</td>
-      <td>főiskola</td>
-      <td>matematika-földrajz szakos általános iskolai tanár,<br />
-        számítástechnika tanár</td>
-    </tr>
-    {{>tanar_kozos_pajko}}
-    <tr>
-      <td>Patyi Zoltán</td>
-      <td></td>
-      </td>
-      <td>néptánc oktató</td>
-    </tr>
-    {{>tanar_kozos_peczeli}}
-
-    <tr>
-      <td>Savanya Béláné</td>
-      <td>főiskola</td>
-      <td>tanító</td>
-    </tr>
-    <tr>
-      <td>Simonné Tóth Edina</td>
-      <td>főiskola</td>
-      <td>tanító</td>
-    </tr>
-    <tr>
-      <td>Skultéti Katalin</td>
-      <td>főiskola</td>
-      <td>tanító</td>
-    </tr>
-    <tr>
-      <td>Szegedi László</td>
-      <td>főiskola</td>
-      <td>földrajz–testnevelés szakos általános iskolai tanár</td>
-    </tr>
-    <tr>
-      <td>Széllné Bartók Mária</td>
-      <td>főiskola</td>
-      <td>tanító</td>
-    </tr>
-    <tr>
-      <td>Túri Ágnes</td>
-      <td>főiskola</td>
-      <td>általános iskolai angol nyelvtanár</td>
-    </tr>
-    <tr>
-      <td>Ungerné Fekete Mónika</td>
-      <td>főiskola</td>
-      <td>általános iskolai magyar tanár és könyvtáros<br>
-        differenciáló, fejlesztő pedagógiai ismeretek<br>
-        – szakvizsgázott pedagógus, fejlesztőpedagógus</td>
-    </tr>
+    </tr> {{/each}}
   </tbody>
 </table>
