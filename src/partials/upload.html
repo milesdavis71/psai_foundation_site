@@ -21,7 +21,7 @@
 								let = selectedFile = fileupload.files[0]
 								formData.append("file", selectedFile);
 								if (selectedFile) {
-									await fetch('{{root}}upload.php', { method: "POST", body: formData });
+									await fetch('{{root}}/assets/php/upload.php', { method: "POST", body: formData });
 									successMessage.innerHTML = '<p style="color: green; margin: -1.2rem 0 -0.5rem;">Sikeres fájlfeltöltés.</p>';
 								} else {
 									successMessage.innerHTML = '<p style="color: red; margin: -1.2rem 0 -0.5rem;">A feltöltéshez ki kell választani egy fájlt.</p>';

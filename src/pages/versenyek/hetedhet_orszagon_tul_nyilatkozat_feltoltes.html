@@ -4,22 +4,17 @@
     Abide.defaults.patterns.alpha_numeric = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
   </script> -->
 
-  <!-- jarasi_mesemondo_verseny -->
-
   <p class="text-center">
     <img src="{{root}}assets/img/versenyek/jarasi_mesemondo_verseny.jpg" alt="">
   </p>
   <h4 class="text-center">Hozzájáruló nyilatkozat<br>a <em>„Hetedhét országon túl…”</em> járási mesemondó versenyre
-
+    <hr style="margin: 0.5rem 0.4rem;">
   </h4>
-
   <div class="grid-container">
     <div class="grid-x grid-margin-x">
       <div class="cell large-12">
         {{>jarasi_versenyek_hozz_nyil_vissza}}
-
       </div>
-
     </div>
     <div class="grid-x grid-margin-x">
       <div class="cell large-12">
@@ -27,8 +22,6 @@
           <h4 class="text-center">
             <small>Hozzájáruló nyilatkozat letöltése, kinyomtatása</small>
           </h4>
-
-
           <script>
             function printPdfSzulo() {
               printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf", type: "pdf", targetStyle: "*" });
@@ -37,10 +30,6 @@
               printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf", type: "pdf", targetStyle: "*" });
             }
           </script>
-
-
-
-
           <div class="grid-x grid-margin-x">
             <div class="cell large-6">
               <div class="callout secondary">
@@ -53,7 +42,6 @@
                     download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
                 </p>
               </div>
-
             </div>
             <div class="cell large-6">
               <div class="callout secondary">
@@ -66,50 +54,17 @@
                     download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
                 </p>
               </div>
-
             </div>
           </div>
         </div>
       </div>
-
-      <div class="cell large-12">
-        <div class="callout">
-          <h4 class="text-center">
-            <small>Hozzájáruló nyilatkozat feltöltése</small>
-          </h4>
-
-          <div class="grid-x grid-margin-x">
-            <div class="cell large-6">
-
-              <div class="callout primary">
-                <p class="text-center">
-                  Szülői, tanulóra vonatkozó hozzájáruló nyilatkozat <strong>feltöltése</strong>
-                </p>
-
-                {{>upload}}
-              </div>
-            </div>
-            <div class="cell large-6">
-
-              <div class="callout primary">
-                <p class="text-center">
-                  Pedagógusra vonatkozó hozzájáruló nyilatkozat <strong>feltöltése</strong>
-                </p>
-
-                {{>upload}}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <script>
-        $(document).ready(function () {
-          $(document).foundation();
-        })
-      </script>
     </div>
-    {{> vissza}}
-
+    {{>upload}}
+    <script>
+      $(document).ready(function () {
+        $(document).foundation();
+      })
+    </script>
   </div>
+  {{> vissza}}
+</div>
