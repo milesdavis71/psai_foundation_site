@@ -175,55 +175,7 @@
       </div>
     </form>
   </div>
-  <div class="callout">
-    <h4 class="text-center">
-      <small>Hozzájáruló nyilatkozat letöltése, kinyomtatása</small>
-    </h4>
-    {{>jarasi_versenyek_hozz_nyil_vissza}}
 
-
-    <script>
-      function printPdfSzulo() {
-        printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf", type: "pdf", targetStyle: "*" });
-      }
-      function printPdfPed() {
-        printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf", type: "pdf", targetStyle: "*" });
-      }
-    </script>
-    <div class="grid-x grid-margin-x">
-      <div class="cell large-6">
-        <div class="callout secondary">
-          <p class="text-center">
-            Szülői, tanulóra vonatkozó hozzájáruló nyilatkozat <strong>nyomtatása, letöltése</strong>
-          </p>
-          <p class="text-center">
-            <a onclick="printPdfSzulo()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
-            <a href="{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf" target="_blank" download><i
-                class="fas fa-download"></i>&thinsp;Letöltés</a>
-          </p>
-        </div>
-        <div class="callout">
-          <p class="text-center">
-            Szülői, tanulóra vonatkozó hozzájáruló nyilatkozat <strong>feltöltése</strong>
-          </p>
-
-          {{>upload}}
-        </div>
-      </div>
-      <div class="cell large-6">
-        <div class="callout secondary">
-          <p class="text-center" style="line-height: 180%;">
-            Pedagógusra vonatkozó hozzájáruló nyilatkozat<br>nyomtatása, letöltése
-          </p>
-          <p class="text-center">
-            <a onclick="printPdfPed()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
-            <a href="{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf" target="_blank"
-              download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
   {{> vissza}}
 
   <script>

@@ -6,8 +6,4 @@ $filename = $_FILES['file']['name'];
 $location = "uploads/" . $filename;
 
 /* Save the uploaded file */
-if (move_uploaded_file($_FILES['file']['tmp_name'], $location)) {
-    echo "Success";
-} else {
-    echo "Failure";
-}
+move_uploaded_file($_FILES['file']['tmp_name'], $location);

@@ -1,0 +1,115 @@
+<div class="cell medium-9 medium-cell-block-y">
+  <!-- <script>
+    Abide.defaults.patterns.alpha = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
+    Abide.defaults.patterns.alpha_numeric = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
+  </script> -->
+
+  <!-- jarasi_mesemondo_verseny -->
+
+  <p class="text-center">
+    <img src="{{root}}assets/img/versenyek/jarasi_mesemondo_verseny.jpg" alt="">
+  </p>
+  <h4 class="text-center">Hozzájáruló nyilatkozat<br>a <em>„Hetedhét országon túl…”</em> járási mesemondó versenyre
+
+  </h4>
+
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x">
+      <div class="cell large-12">
+        {{>jarasi_versenyek_hozz_nyil_vissza}}
+
+      </div>
+
+    </div>
+    <div class="grid-x grid-margin-x">
+      <div class="cell large-12">
+        <div class="callout">
+          <h4 class="text-center">
+            <small>Hozzájáruló nyilatkozat letöltése, kinyomtatása</small>
+          </h4>
+
+
+          <script>
+            function printPdfSzulo() {
+              printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf", type: "pdf", targetStyle: "*" });
+            }
+            function printPdfPed() {
+              printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf", type: "pdf", targetStyle: "*" });
+            }
+          </script>
+
+
+
+
+          <div class="grid-x grid-margin-x">
+            <div class="cell large-6">
+              <div class="callout secondary">
+                <p class="text-center">
+                  Szülői, tanulóra vonatkozó hozzájáruló nyilatkozat <br> <strong>nyomtatása, letöltése</strong>
+                </p>
+                <p class="text-center">
+                  <a onclick="printPdfSzulo()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
+                  <a href="{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_szulo.pdf" target="_blank"
+                    download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
+                </p>
+              </div>
+
+            </div>
+            <div class="cell large-6">
+              <div class="callout secondary">
+                <p class="text-center">
+                  Pedagógusra vonatkozó hozzájáruló nyilatkozat<br> <strong>nyomtatása, letöltése</strong>
+                </p>
+                <p class="text-center">
+                  <a onclick="printPdfPed()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
+                  <a href="{{root}}assets/versenyek/hetedhet/hozzájáruló_nyilatkozat_pedagogus.pdf" target="_blank"
+                    download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell large-12">
+        <div class="callout">
+          <h4 class="text-center">
+            <small>Hozzájáruló nyilatkozat feltöltése</small>
+          </h4>
+
+          <div class="grid-x grid-margin-x">
+            <div class="cell large-6">
+
+              <div class="callout primary">
+                <p class="text-center">
+                  Szülői, tanulóra vonatkozó hozzájáruló nyilatkozat <strong>feltöltése</strong>
+                </p>
+
+                {{>upload}}
+              </div>
+            </div>
+            <div class="cell large-6">
+
+              <div class="callout primary">
+                <p class="text-center">
+                  Pedagógusra vonatkozó hozzájáruló nyilatkozat <strong>feltöltése</strong>
+                </p>
+
+                {{>upload}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script>
+        $(document).ready(function () {
+          $(document).foundation();
+        })
+      </script>
+    </div>
+    {{> vissza}}
+
+  </div>
