@@ -1,7 +1,7 @@
 <?php
 
 
-$to = "admin@petofiszeged.hu"; // this is your Email address
+$to = "admin@petofiszeged.hu, adharaw2@gmail.com, madaraszviki@gmail.com, berkorita22@gmail.com"; // this is your Email address
 $from = $_POST['email']; // this is the sender's Email address
 
 // Tanuló
