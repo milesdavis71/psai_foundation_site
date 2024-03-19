@@ -5,6 +5,44 @@
 <table class="hover">
 
   <tbody>
+    {{#each vezetokbs}}
+    <tr>
+      <td>
+        {{this.FIELD1}}
+      </td>
+      <td>
+        {{#if this.FIELD2}}
+        {{this.FIELD2}}
+        {{/if}}
+        {{#if this.FIELD3}}
+        <br>{{this.FIELD3}}
+        {{/if}}
+      </td>
+      <td>
+        <b>
+          {{#if this.FIELD4}}
+          {{this.FIELD4}}
+          {{/if}}
+        </b>
+        {{#if this.FIELD5}}
+        <br>{{this.FIELD5}}
+        {{/if}}
+        {{#if this.FIELD6}}
+        <br>{{this.FIELD6}}
+        {{/if}}
+        {{#if this.FIELD7}}
+        <br>{{this.FIELD7}}
+        {{/if}}
+        {{#if this.FIELD8}}
+        <br>{{this.FIELD8}}
+        {{/if}}
+        {{#if this.FIELD9}}
+        <br>{{this.FIELD9}}
+        {{/if}}
+      </td>
+
+    </tr> {{/each}}
+
     {{#each tanarokbs}}
     <tr>
       <td>
