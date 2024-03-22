@@ -1,12 +1,37 @@
-ngszbefiz:
-  - jan
-  - febr
-  - marc
-  - apr
-dates:
-  jan:
-    - dsfads
-    - dsfads
-    - dsfads
-    - dsfads
-    - dsfads
+ngsz-befiz-date:
+  - month: április
+    de: "07:30–14:30"
+    du: "10:00–17:00"
+    date01: 03. 05.
+    date02: 03. 06.
+    date03: 03. 12.
+    date04: 03. 13.
+    date05: 03. 19.
+    date06: 03. 20.
+    date07: 03. 26.
+    date08: 03. 27.
+    date09: 04. 02.
+    date10: 03. 03.
+  - month: május
+    de: "07:30–14:30"
+    du: "10:00–17:00"
+    date01: 04. 09.
+    date02: 04. 10.
+    date03: 04. 16.
+    date04: 04. 17.
+    date05: 04. 23.
+    date06: 04. 24.
+    date07: 04. 30.
+  - month: június
+    de: "07:30–14:30"
+    du: "10:00–17:00"
+    date01: 05. 07.
+    date02: 05. 08.
+    date05: 05. 14.
+    date04: 05. 15.
+    date05: 05. 21.
+    date06: 05. 22.
+    date07: 05. 28.
+    date08: 05. 29.
+    date09: 06. 04.
+    date10: 06. 05.
