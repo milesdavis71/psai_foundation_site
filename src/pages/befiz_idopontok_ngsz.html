@@ -12,161 +12,32 @@
       Központban (6724 Szeged, Huszár u. l.) kialakított beszedési helyiségben kerül lebonyolításra. <br></p>
 
     <div class="grid-x grid-margin-x">
+      {{#each ngszbefiz.months}}
+
       <div class="cell small-12 large-6">
-        <!-- aug -->
+
         <table class="hover">
           <tbody>
             <thead>
               <tr>
-                <th colspan="2" class="text-center">Március</th>
+                <th colspan="2" class="text-center">{{this}}</th>
               </tr>
             </thead>
+            {{#each ngszbefiz.dates}}
             <tr>
-              <td class="text-left">2024. 02. 06.</td>
-              <td class="text-left">07:30–14:30</td>
+              <td class="text-left">{{this}}</td>
             </tr>
-            <tr>
-              <td class="text-left">2024. 02. 07.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2024. 02. 13.</td>
-              <td class="text-left">07:30–14:30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2024. 02. 14.</td>
-              <td class="text-left">07:30–14:30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2024. 02. 20.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2024. 02. 21.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2024. 02. 27.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2024. 02. 28.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
+            {{/each}}
 
           </tbody>
         </table>
       </div>
-
-      <div class="cell small-12 large-6">
-        <!-- szept -->
-        <table class="hover">
-          <tbody>
-            <thead>
-              <tr>
-                <th colspan="2" class="text-center">Április</th>
-              </tr>
-            </thead>
-            <tr>
-              <td class="text-left">2023. 08. 31.</td>
-              <td class="text-left">07:30–11.00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 01.</td>
-              <td class="text-left">07:30–11.00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 04.</td>
-              <td class="text-left">07:30–14.30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 05.</td>
-              <td class="text-left">07:30–14.30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 06.</td>
-              <td class="text-left">07:30–14.30</td>
-            </tr>
-          </tbody>
-        </table>
-
-      </div>
-      <div class="cell small-12 large-6">
-        <!-- okt -->
-        <table class="hover">
-          <tbody>
-            <thead>
-              <tr>
-                <th colspan="2" class="text-center">Május</th>
-              </tr>
-            </thead>
-            <tr>
-              <td class="text-left">2023. 09. 12.</td>
-              <td class="text-left">07:30–14:30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 13.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 19.</td>
-              <td class="text-left">07:30–14:30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 20.</td>
-              <td class="text-left">10:00–17:00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 26.</td>
-              <td class="text-left">07:30–14.30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 27.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="cell small-12 large-6">
-        <!-- okt -->
-        <table class="hover">
-          <tbody>
-            <thead>
-              <tr>
-                <th colspan="2" class="text-center">Június</th>
-              </tr>
-            </thead>
-            <tr>
-              <td class="text-left">2023. 09. 12.</td>
-              <td class="text-left">07:30–14:30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 13.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 19.</td>
-              <td class="text-left">07:30–14:30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 20.</td>
-              <td class="text-left">10:00–17:00</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 26.</td>
-              <td class="text-left">07:30–14.30</td>
-            </tr>
-            <tr>
-              <td class="text-left">2023. 09. 27.</td>
-              <td class="text-left">10:00–17.00</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      {{/each}}
     </div>
-
-    <br />
-    {{> vissza}}
   </div>
+</div>
+
+<br />
+{{> vissza}}
+</div>
 </div>
