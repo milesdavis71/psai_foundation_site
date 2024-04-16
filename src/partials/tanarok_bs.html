@@ -2,78 +2,27 @@
   A Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskola tanárai
 </h5>
 
-<table class="hover">
-
+<table class="hover stack">
   <tbody>
-    {{#each vezetokbs}}
-    <tr>
-      <td>
-        {{this.FIELD1}}
-      </td>
-      <td>
-        {{#if this.FIELD2}}
-        {{this.FIELD2}}
-        {{/if}}
-        {{#if this.FIELD3}}
-        <br>{{this.FIELD3}}
-        {{/if}}
-      </td>
-      <td>
-        <b>
-          {{#if this.FIELD4}}
-          {{this.FIELD4}}
-          {{/if}}
-        </b>
-        {{#if this.FIELD5}}
-        <br>{{this.FIELD5}}
-        {{/if}}
-        {{#if this.FIELD6}}
-        <br>{{this.FIELD6}}
-        {{/if}}
-        {{#if this.FIELD7}}
-        <br>{{this.FIELD7}}
-        {{/if}}
-        {{#if this.FIELD8}}
-        <br>{{this.FIELD8}}
-        {{/if}}
-        {{#if this.FIELD9}}
-        <br>{{this.FIELD9}}
-        {{/if}}
-      </td>
-
-    </tr> {{/each}}
+    {{> vezetok_bs_table}}
 
     {{#each tanarokbs}}
     <tr>
       <td>
-        {{this.FIELD1}}
+        {{this.name}}
       </td>
       <td>
-        {{#if this.FIELD2}}
-        {{this.FIELD2}}
-        {{/if}}
-        {{#if this.FIELD3}}
-        <br>{{this.FIELD3}}
-        {{/if}}
+        {{this.grad}}
       </td>
       <td>
-        {{#if this.FIELD4}}
-        {{this.FIELD4}}
+        {{#if this.spec1}}
+        {{this.spec1}}
         {{/if}}
-        {{#if this.FIELD5}}
-        <br>{{this.FIELD5}}
+        {{#if this.spec2}}
+        <br>{{this.spec2}}
         {{/if}}
-        {{#if this.FIELD6}}
-        <br>{{this.FIELD6}}
-        {{/if}}
-        {{#if this.FIELD7}}
-        <br>{{this.FIELD7}}
-        {{/if}}
-        {{#if this.FIELD8}}
-        <br>{{this.FIELD8}}
-        {{/if}}
-        {{#if this.FIELD9}}
-        <br>{{this.FIELD9}}
+        {{#if this.spec3}}
+        <br>{{this.spec3}}
         {{/if}}
       </td>
 
