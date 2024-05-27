@@ -24,17 +24,15 @@
     <div class="headers">
         <div class="scroller">
             <ul class="menu simple">
-                <li style="padding: 0.7rem 1rem;"><a
-                        href="{{root}}galeriak/2022_23/ps/fooldal_2022_23_ps.php">Székhely</a></li>
-                <li class="is-active"><a href="{{root}}galeriak/2022_23/bs/fooldal_2022_23_bs.php"
-                        style="padding: 0.7rem 1rem;">Tagiskola</a></li>
+                <li style="padding: 0.7rem 1rem;"><a href="{{root}}galeriak/2022_23/ps/fooldal_2022_23_ps.php">Székhely</a></li>
+                <li class="is-active"><a href="{{root}}galeriak/2022_23/bs/fooldal_2022_23_bs.php" style="padding: 0.7rem 1rem;">Tagiskola</a></li>
             </ul>
         </div>
     </div>
 
 
     <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola<br />
-        Bálint Sándor Tagiskola<br>
+        Bálint Sándor Tagiskolája<br>
         <small>Fotógalériák 2022–2023</small>
     </h3>
     <hr>

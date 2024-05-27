@@ -3,7 +3,7 @@
 
 
     <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola<br />
-        Bálint Sándor Tagiskola<br>
+        Bálint Sándor Tagiskolája<br>
         <small>
             <?php echo $_POST["title"]; ?>
         </small>
