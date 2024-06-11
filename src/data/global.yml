@@ -36,6 +36,13 @@ ngsz-befiz-date:
     date10: 06. 05.
 
 news:
+    - 
+      title: Röplabda Diákolimpia Országos Döntő VII. helyezés 
+      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: bs_8oszt_roplabda_donto.jpg
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news03
     -
       title: Vármegyei matematika verseny, III. helyezés 
       school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
@@ -50,6 +57,6 @@ news:
       imgclass: medium-4
       contentclass: medium-8
       content: news02
-
+    
     
   
