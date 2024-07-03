@@ -59,4 +59,28 @@ news:
       content: news02
     
     
-  
+taneszkoz:
+    - 
+      class: "1"
+      deeplink: 1b
+    - 
+      class: "2"
+      deeplink: 2b
+    - 
+      class: "3"
+      deeplink: 3b
+    - 
+      class: "4"
+      deeplink: 4b
+    - 
+      class: "5"
+      deeplink: 5b
+    - 
+      class: "6"
+      deeplink: 6b
+    - 
+      class: "7"
+      deeplink: 7b
+    - 
+      class: "8"
+      deeplink: 8b
