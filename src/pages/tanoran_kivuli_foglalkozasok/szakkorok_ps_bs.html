@@ -1,8 +1,21 @@
+---
+title: Szakkörök
+description: Lorem ipsum.
+school_ps: Szegedi Petőfi Sándor Általános Iskola
+school_bs: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+year: 2024-25-ös tanév
+---
 <div class="cell medium-9 medium-cell-block-y">
-  {{>tabs_ul}}
-  {{>tabs_content1}}
+    {{>tabs_ul}}
+    {{>tabs_content1}}
+    {{>head_school_year_ps_bs school="ps"}}
+    <h5 class="text-center" style="margin-bottom: 1.1rem">{{title}}</h5>
+    {{>head_hamarosan}}
     {{>szakkorok_ps}}
-  {{>tabs_content2}}
+    {{>tabs_content2}}
+    {{>head_school_year_ps_bs school="bs"}}
+    <h5 class="text-center" style="margin-bottom: 1.1rem">{{title}}</h5>
+    {{>head_hamarosan}}
     {{>szakkorok_bs}}
-  {{>tabs_content3}}
+    {{>tabs_content3}}
 </div>
