@@ -592,7 +592,8 @@ screen and (min-width: 40em) {
 }
 
 // három oszlopban továbbfolyatás
-.threecolumns {
+/* 
+  .threecolumns {
     width: 100%;
     margin: 1em 0 1.5em 0;
     -moz-column-count: 3;
@@ -601,6 +602,6 @@ screen and (min-width: 40em) {
     -webkit-column-gap: 6em;
     -moz-column-gap: 3em;
     column-gap: 3em;
-    height: 16em;
-    /* Or whatever height is appropriate. */
+    height: 18em;
+*/
 }
