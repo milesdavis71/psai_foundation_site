@@ -37,6 +37,15 @@ ngsz-befiz-date:
 
 news:
     - 
+      title: Tankönyvek átvétele 
+      school: Szegedi Petőfi Sándor Általános Iskola
+      img: tankonyvosztas_left.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news05
+
+newsold:
+    - 
       title: 2024. Nyári vezetői ügyelet 
       school: Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
       img: summer_holiday_2024.jpg
