@@ -11,6 +11,10 @@
   grad: főiskola
   spec1: földrajz–rajz szakos általános iskolai tanár
 
+- name: Csernus Fruzsina
+  grad: főiskola
+  spec1: tanító
+
 - name: Fodorné Kiss Magdolna
   grad: főiskola
   spec1: tanító
@@ -56,10 +60,6 @@
   grad: főiskola
   spec1: néptánc oktató
 
-- name: Péczeli Zoltán
-  grad: főiskola
-  spec1: sakk oktató (óraadó)
-
 - name: Savanya Béláné
   grad: főiskola
   spec1: tanító
@@ -72,13 +72,17 @@
   grad: főiskola
   spec1: tanító
 
-- name: Szegedi László
-  grad: főiskola
-  spec1: földrajz–testnevelés szakos általános iskolai tanár
-
 - name: Széllné Bartók Mária
   grad: főiskola
   spec1: tanító
+
+- name: Terhes Bernadett
+  grad: főiskola
+  spec1: általános iskolai tanító
+
+- name: Tombácz Adél
+  grad: egyetem
+  spec1: angol nyelv és kultúra - magyar szakos középiskolai tanár
 
 - name: Túri Ágnes
   grad: főiskola

@@ -1,104 +1,28 @@
 <h5 class="text-center" style="margin-bottom: 1.1rem">
-  A Szegedi Petőfi Sándor Általános Iskola tanárai
+    A Szegedi Petőfi Sándor Általános Iskola tanárai
 </h5>
-<table class="hover">
-  <tbody>
-    {{>tanar_kozos_winkler}}
-    {{>tanar_kozos_hurton}}
-    <tr>
-      <td>Katona-Madarász Viktória</td>
-      <td>egyetem<br />főiskola</td>
-      <td><strong>igazgatóhelyettes</strong><br />
-        történelem szakos középiskolai tanár<br />
-        angol–történelem szakos általános iskolai tanár<br>
-        szakvizsgázott pedagógus, közoktatási vezető
-      </td>
-    </tr>
-    {{>tanar_kozos_bendene}}
-    <tr>
-      <td>Bogár Ildikó</td>
-      <td>főiskola</td>
-      <td>általános iskolai tanító vizuális nevelés szakkollégiumi képzéssel</td>
-    </tr>
-    {{>tanar_kozos_bohusne}}
-    {{>tanar_kozos_czegledyne}}
-    <tr>
-      <td>Csányi Erika</td>
-      <td>főiskola</td>
-      <td>általános iskolai tanító</td>
-    </tr>
-    <tr>
-      <td>Gusztosné Thékes Andrea</td>
-      <td>főiskola</td>
-      <td>magyar–történelem szakos általános iskolai tanár</td>
-    </tr>
-    <tr>
-      <td>Haumann Anett</td>
-      <td>egyetem<br />
-        főiskola</td>
-      <td>okleveles német- és nemzetiségi német szakos általános iskolai tanár<br />
-        angol–német szakos tanár</td>
-    </tr>
-    <tr>
-    <tr>
-      <td>Kelemen Babett</td>
-      <td>főiskola</td>
-      </td>
-      <td>általános iskolai tanító</td>
-    </tr>
-    {{>tanar_kozos_kovacs-kincses}}
-    <tr>
-      <td>Májer Szilvia</td>
-      <td>főiskola</td>
-      <td>általános iskolai tanító</td>
-    </tr>
-    {{>tanar_kozos_minik}}
-    <tr>
-      <td>Molnár-Berkó Rita Tímea</td>
-      <td>főiskola</td>
-      <td>angol szakos általános iskolai tanár, gyógypedagógus,<br />tanulásban akadályozottak pedagógiája szakos tanár
-      </td>
-    </tr>
-    <tr>
-    <tr>
-      <td>Molnár-Tóth Szilvia</td>
-      <td>egyetem<br>
-        főiskola
-      </td>
-      <td>testnevelés szakos középiskolai tanár,<br />testnevelés–rekreáció szakos általános iskolai tanár
-      </td>
-    </tr>
-    <tr>
-      <td>Nagy-Györgyné Krémer Katalin</td>
-      <td>főiskola</td>
-      <td>angol–matematika–fizika szakos általános iskolai tanár
-      </td>
-    </tr>
-    {{>tanar_kozos_peczeli}}
-    <tr>
-      <td>Sipos Lili</td>
-      <td>főiskola</td>
-      <td>angol–történelem szakos általános iskolai tanár</td>
-    </tr>
-    <tr>
-      <td>Szabó Adrienne</td>
-      <td>főiskola</td>
-      <td>általános iskolai tanító</td>
-    </tr>
-    <tr>
-      <td>Szabó Amanda Márta</td>
-      <td>főiskola</td>
-      <td>általános iskolai tanító</td>
-    </tr>
-    <tr>
-      <td>Terhes Bernadett</td>
-      <td>főiskola</td>
-      <td>általános iskolai tanító</td>
-    </tr>
-    <tr>
-      <td>Vigh Anita</td>
-      <td>főiskola</td>
-      <td>általános iskolai tanító</td>
-    </tr>
-  </tbody>
+<table class="hover stack">
+    <tbody>
+        {{> vezetok_ps_table}}
+        {{#each tanarokps}}
+        <tr>
+            <td>
+                {{this.name}}
+            </td>
+            <td>
+                {{this.grad}}
+            </td>
+            <td>
+                {{#if this.spec1}}
+                {{this.spec1}}
+                {{/if}}
+                {{#if this.spec2}}
+                <br>{{this.spec2}}
+                {{/if}}
+                {{#if this.spec3}}
+                <br>{{this.spec3}}
+                {{/if}}
+            </td>
+        </tr> {{/each}}
+    </tbody>
 </table>
