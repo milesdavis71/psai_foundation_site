@@ -37,7 +37,15 @@ ngsz-befiz-date:
 
 news:
     - 
-      title: Tankönyvek átvétele 
+      title: Tankönyvosztás 2024–2025 – Tagiskola 
+      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: tankonyvosztas_right.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news06
+
+    - 
+      title: Tankönyvek átvétele – Székhely
       school: Szegedi Petőfi Sándor Általános Iskola
       img: tankonyvosztas_left.jpg
       imgclass: medium-3
