@@ -40,8 +40,9 @@ news:
       title: Tanévnyitó ünnepség – Tagiskola
       school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
       img: tanevnyito.png
-      imgclass: medium-4
-      contentclass: medium-8
+      align: center
+      imgclass: medium-12
+      contentclass: medium-12
       content: news07
     - 
       title: Tankönyvosztás 2024–2025 – Tagiskola 
