@@ -37,7 +37,24 @@ ngsz-befiz-date:
 
 news:
     - 
-      title: Tanévnyitó ünnepség – Tagiskola
+      title: Szülői értekezletek 2024 ősz – Tagiskola
+      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: szuloi.png
+      align: center
+      imgclass: medium-6
+      contentclass: medium-6
+      content: news09
+    - 
+      title: Tanévnyitó ünnepség 2024 ősz – Székhely
+      school: Szegedi Petőfi Sándor Általános Iskola
+      img: tanevnyito.png
+      align: center
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news08
+
+    - 
+      title: Tanévnyitó ünnepség 2024 ősz – Tagiskola
       school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
       img: tanevnyito.png
       align: center
