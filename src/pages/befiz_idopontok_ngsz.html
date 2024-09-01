@@ -10,109 +10,20 @@
       napjai az NGSZ
       Központban (6724 Szeged, Huszár u. l.) kialakított beszedési helyiségben kerül lebonyolításra. <br></p>
  -->
-        <h5 class="text-center">Tájékoztatás a közétkeztetési ügyfélszolgálat 2024-es nyári nyitva tartásáról
-        </h5>
-        <p class="text-center">2024. július 01-től 2024. augusztus 02-ig az NGSZ közétkeztetési
-            ügyfélszolgálata (6724 Szeged, Huszár u. 1.) az alábbiak szerint tart nyitva:</p>
+        <h5 class="text-center">Befizetési időpontok 2024. szeptemberre</h5>
+        <p class="text-center">Befizetési helyszín: NGSZ közétkeztetési ügyfélszolgálat (6724 Szeged, Huszár u. 1.)</p>
         <div class="grid-x grid-margin-x">
             <div class="cell auto">
             </div>
             <div class="cell small-12 large-6">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td class="text-left">hétfő-csütörtök:</td>
-                            <td class="text-left">07:30 – 16:00</td>
-                        </tr>
-                        <tr>
-                            <td class="text-left">péntek:</td>
-                            <td class="text-left">08:00 – 13:00</td>
-                        </tr>
-                    </tbody>
-                </table>
+                {{>md_ngsz_befizetes}}
             </div>
             <div class="cell auto">
             </div>
         </div>
-        <p>A közétkeztetéssel kapcsolatos személyes és telefonos (62/561-960) ügyintézés, valamint a
-            <a href="mailto:kozetkeztetes@ngsz.hu">kozetkeztetes@ngsz.hu</a> címre küldött e-mailek feldolgozása is a fent jelzett időpontokban
-            történik.</p>
-        <!-- 
-        <div class="grid-x grid-margin-x">
-            {{#each global.ngsz-befiz-date}}
-            <div class="cell small-12 large-6">
-                <table class="hover">
-    <tbody>
-        <thead>
-            <tr>
-                <th colspan="2" class="text-center">{{month}}</th>
-            </tr>
-        </thead>
-        {{#if date01}}
-        <tr>
-            <td class="text-left">{{date01}}</td>
-            <td class="text-left">{{de}}</td>
-        </tr>
-        {{/if}}
-        {{#if date02}}
-        <tr>
-            <td class="text-left">{{date02}}</td>
-            <td class="text-left">{{du}}</td>
-        </tr>
-        {{/if}}
-        {{#if date03}}
-        <tr>
-            <td class="text-left">{{date03}}</td>
-            <td class="text-left">{{de}}</td>
-        </tr>
-        {{/if}}
-        {{#if date04}}
-        <tr>
-            <td class="text-left">{{date04}}</td>
-            <td class="text-left">{{du}}</td>
-        </tr>
-        {{/if}}
-        {{#if date05}}
-        <tr>
-            <td class="text-left">{{date05}}</td>
-            <td class="text-left">{{de}}</td>
-        </tr>
-        {{/if}}
-        {{#if date06}}
-        <tr>
-            <td class="text-left">{{date06}}</td>
-            <td class="text-left">{{du}}</td>
-        </tr>
-        {{/if}}
-        {{#if date07}}
-        <tr>
-            <td class="text-left">{{date07}}</td>
-            <td class="text-left">{{de}}</td>
-        </tr>
-        {{/if}}
-        {{#if date08}}
-        <tr>
-            <td class="text-left">{{date08}}</td>
-            <td class="text-left">{{du}}</td>
-        </tr>
-        {{/if}}
-        {{#if date09}}
-        <tr>
-            <td class="text-left">{{date09}}</td>
-            <td class="text-left">{{de}}</td>
-        </tr>
-        {{/if}}
-        {{#if date10}}
-        <tr>
-            <td class="text-left">{{date10}}</td>
-            <td class="text-left">{{du}}</td>
-        </tr>
-        {{/if}}
-    </tbody>
-</table> 
-    </div>
-    {{/each}}
-    </div>-->
+        <!-- <p>A közétkeztetéssel kapcsolatos személyes és telefonos (62/561-960) ügyintézés, valamint a
+    <a href="mailto:kozetkeztetes@ngsz.hu">kozetkeztetes@ngsz.hu</a> címre küldött e-mailek feldolgozása is a fent jelzett időpontokban
+    történik.</p> -->
         {{> vissza}}
     </div>
 </div>

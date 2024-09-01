@@ -1,96 +1,87 @@
 <div class="cell medium-9 medium-cell-block-y">
+    {{>hamarosan}}
     {{>osztalyok_szama_es_tanulok_letszama}}
     <hr>
-    <h5 class="text-center">Tisztelt szülő/törvényes képviselő!</h5>
-    <p>
-        Amennyiben már regisztráltak, és e-mailben visszajeleztek levelünkre, a levelünkben foglaltakon kívül további
-        teendőjük nincs!
-    </p>
-    <p>
-        Akik még semmilyen formában nem vették fel a kapcsolatot iskolánkkal:<br>
-        Tájékoztatom, hogy a kihirdetett veszélyhelyzetre tekintettel a 2021/2022. tanítási évre történő általános
-        iskolai
-        beiratkozás során nemcsak személyes, hanem online úton is lehetőség van beíratni a tanköteles korba lépő
-        gyermekét.
-        Az általános iskola első évfolyamára történő jelentkezésének elektronikus, online formájára 2021. április 10-től
-        nyílik meg az informatikai lehetőség az Ön részére a KRÉTA rendszer felületén keresztül:
-        https://eugyintezes.e-kreta.hu/kezdolap. Az e-Ügyintézés „Beiratkozás Általános Iskolába (BÁI)” felület 2021.
-        április 16-án éjfélig van nyitva. Amennyiben módosítani kíván a már elektronikusan beküldött adatokon, akkor ezt
-        úgy teheti meg, hogy jelzi (telefonon, e-mailben, az intézmény által meghatározott módon) az adott intézmény
-        részére a visszavonási vagy adatmódosítási szándékát. Az adatok módosítását az intézmény a KRÉTA felületén a
-        kérés
-        alapján
-        elvégzi. Amennyiben a szülő visszavonja gyermeke jelentkezését, ennek következményeként a BÁI felületen az
-        iskola a benyújtott jelentkezésre a szülő kérése alapján elutasító határozatot hoz, és az intézmény saját
-        rendszerében a
-        gyermek adatait a „Beiratkozás visszavonva” státuszba állítja. Ezen műveletek elvégzését követően Ön ismét be
-        tudja
-        nyújtani gyermeke jelentkezését egy másik iskolába.
-    </p>
-    <p>
-        Amennyiben Ön nem a lakóhelye vagy tartózkodási helye szerinti körzetes iskolába íratná be a gyermekét, akkor is
-        meg kell adnia a kötelező felvételt biztosító általános iskola nevét és címét is a jelentkezése során.
-
-    </p>
-    <p>
-        Akár körzetes, akár nem körzetes iskolába kívánja beíratni gyermekét, mindenképpen jelentkeznie kell az
-        általános
-        iskolánál, amely jelentkezés a fent jelzett online módon vagy személyesen történhet meg.
-    </p>
-    <p>
-        Az online beiratkozás esetén a beiratkozáshoz szükséges eredeti dokumentumok bemutatására a 2021/2022. tanév
-        első
-        napjáig (2021. szeptember 1.) kerülhet sor. A beiratkozás adatainak felvétele indokolt esetben, a beiratkozást
-        lefolytató iskola által szabályozott módon, személyesen is megtörténhet 2021. április 15-én és 16-án 8.00 és
-        19.00
-        óra között, a járványügyi veszélyhelyzet miatt megkövetelt egészségügyi szabályok szigorú betartása mellett. Ez
-        a
-        következőképpen alakul iskolánkban:
-    </p>
-    <p>
-        Amennyiben még semmilyen formában nem vették fel velünk a kapcsolatot, úgy a titkárság telefonszámán kérhetnek
-        időpontot (székhely: 30/736-2795; tagiskola: 30 736 3456) az Önök számára megfelelő pontos idő megjelölésével. A
-        beíratást, amennyiben az időjárás megengedi az iskola bejáratánál, a szabad levegőn szervezzük meg. Ezért
-        kérjük,
-        hogy az Önök által kért időpontra pontosan érkezzenek!
-
-    </p>
-
-    <p>
-        A fentiek után, akár online, akár személyesen történt a jelentkezése az iskolába, a körzettel nem rendelkező
-        általános iskolai osztályok tekintetében, továbbá a körzettel rendelkező iskolákba jelentkező, nem körzetes
-        gyermekek esetében egyaránt legkésőbb 2021. április 23-ig döntenek a gyermekek felvételéről és ezután küldik el
-        a
-        tájékoztatásukat Önnek.
-
-    </p>
-
-    <p>
-        A beiratkozási eljárás során vagy annak lezárása után legkésőbb két héten belül Önnek nyilatkoznia kell arról,
-        hogy
-        gyermeke számára hit- és erkölcstan vagy etika órát választja. A hit- és erkölcstan tantárgy választása esetén
-        meg
-        kell jelölnie, hogy melyik egyház hit- és erkölcstan oktatásának megszervezését kéri majd gyermeke számára. Az
-        iskola a hit- és erkölcstan oktatással kapcsolatos, az egyházaktól kapott információkat feltünteti a honlapján.
-
-    </p>
-
-    <p>
-        A beiratkozáshoz szükséges dokumentumok, adatok megadása kapcsán Ön segítséget kérhet a gyermeke óvodájától –
-        óvoda
-        OM azonosítja, gyermekük oktatási azonosítója tekintetében. Természetesen iskolánk fenntartója, a Szegedi
-        Tankerületi Központ is rendelkezésre áll a körzetes iskolákkal kapcsolatos információk, az online vagy a
-        személyes
-        beiratkozás rendjével kapcsolatos kérdések esetén.
-    </p>
-
-    <p class="text-right" style="margin-right: 4rem;">
-        <img src="{{root}}assets/img/wa_sign.jpg" alt="Winkler Andrea aláírás">
-    </p>
-    <p class="text-right" style="margin-right: 6rem;">
-        Winkler Andrea&ensp;<br>
-        intézményvezető
-    </p>
-
-
+    <!-- <h5 class="text-center">Tisztelt szülő/törvényes képviselő!</h5>
+<p>
+    Amennyiben már regisztráltak, és e-mailben visszajeleztek levelünkre, a levelünkben foglaltakon kívül további
+    teendőjük nincs!
+</p>
+<p>
+    Akik még semmilyen formában nem vették fel a kapcsolatot iskolánkkal:<br>
+    Tájékoztatom, hogy a kihirdetett veszélyhelyzetre tekintettel a 2021/2022. tanítási évre történő általános
+    iskolai
+    beiratkozás során nemcsak személyes, hanem online úton is lehetőség van beíratni a tanköteles korba lépő
+    gyermekét.
+    Az általános iskola első évfolyamára történő jelentkezésének elektronikus, online formájára 2021. április 10-től
+    nyílik meg az informatikai lehetőség az Ön részére a KRÉTA rendszer felületén keresztül:
+    https://eugyintezes.e-kreta.hu/kezdolap. Az e-Ügyintézés „Beiratkozás Általános Iskolába (BÁI)” felület 2021.
+    április 16-án éjfélig van nyitva. Amennyiben módosítani kíván a már elektronikusan beküldött adatokon, akkor ezt
+    úgy teheti meg, hogy jelzi (telefonon, e-mailben, az intézmény által meghatározott módon) az adott intézmény
+    részére a visszavonási vagy adatmódosítási szándékát. Az adatok módosítását az intézmény a KRÉTA felületén a
+    kérés
+    alapján
+    elvégzi. Amennyiben a szülő visszavonja gyermeke jelentkezését, ennek következményeként a BÁI felületen az
+    iskola a benyújtott jelentkezésre a szülő kérése alapján elutasító határozatot hoz, és az intézmény saját
+    rendszerében a
+    gyermek adatait a „Beiratkozás visszavonva” státuszba állítja. Ezen műveletek elvégzését követően Ön ismét be
+    tudja
+    nyújtani gyermeke jelentkezését egy másik iskolába.
+</p>
+<p>
+    Amennyiben Ön nem a lakóhelye vagy tartózkodási helye szerinti körzetes iskolába íratná be a gyermekét, akkor is
+    meg kell adnia a kötelező felvételt biztosító általános iskola nevét és címét is a jelentkezése során.
+</p>
+<p>
+    Akár körzetes, akár nem körzetes iskolába kívánja beíratni gyermekét, mindenképpen jelentkeznie kell az
+    általános
+    iskolánál, amely jelentkezés a fent jelzett online módon vagy személyesen történhet meg.
+</p>
+<p>
+    Az online beiratkozás esetén a beiratkozáshoz szükséges eredeti dokumentumok bemutatására a 2021/2022. tanév
+    első
+    napjáig (2021. szeptember 1.) kerülhet sor. A beiratkozás adatainak felvétele indokolt esetben, a beiratkozást
+    lefolytató iskola által szabályozott módon, személyesen is megtörténhet 2021. április 15-én és 16-án 8.00 és
+    19.00
+    óra között, a járványügyi veszélyhelyzet miatt megkövetelt egészségügyi szabályok szigorú betartása mellett. Ez
+    a
+    következőképpen alakul iskolánkban:
+</p>
+<p>
+    Amennyiben még semmilyen formában nem vették fel velünk a kapcsolatot, úgy a titkárság telefonszámán kérhetnek
+    időpontot (székhely: 30/736-2795; tagiskola: 30 736 3456) az Önök számára megfelelő pontos idő megjelölésével. A
+    beíratást, amennyiben az időjárás megengedi az iskola bejáratánál, a szabad levegőn szervezzük meg. Ezért
+    kérjük,
+    hogy az Önök által kért időpontra pontosan érkezzenek!
+</p>
+<p>
+    A fentiek után, akár online, akár személyesen történt a jelentkezése az iskolába, a körzettel nem rendelkező
+    általános iskolai osztályok tekintetében, továbbá a körzettel rendelkező iskolákba jelentkező, nem körzetes
+    gyermekek esetében egyaránt legkésőbb 2021. április 23-ig döntenek a gyermekek felvételéről és ezután küldik el
+    a
+    tájékoztatásukat Önnek.
+</p>
+<p>
+    A beiratkozási eljárás során vagy annak lezárása után legkésőbb két héten belül Önnek nyilatkoznia kell arról,
+    hogy
+    gyermeke számára hit- és erkölcstan vagy etika órát választja. A hit- és erkölcstan tantárgy választása esetén
+    meg
+    kell jelölnie, hogy melyik egyház hit- és erkölcstan oktatásának megszervezését kéri majd gyermeke számára. Az
+    iskola a hit- és erkölcstan oktatással kapcsolatos, az egyházaktól kapott információkat feltünteti a honlapján.
+</p>
+<p>
+    A beiratkozáshoz szükséges dokumentumok, adatok megadása kapcsán Ön segítséget kérhet a gyermeke óvodájától –
+    óvoda
+    OM azonosítja, gyermekük oktatási azonosítója tekintetében. Természetesen iskolánk fenntartója, a Szegedi
+    Tankerületi Központ is rendelkezésre áll a körzetes iskolákkal kapcsolatos információk, az online vagy a
+    személyes
+    beiratkozás rendjével kapcsolatos kérdések esetén.
+</p>
+<p class="text-right" style="margin-right: 4rem;">
+    <img src="{{root}}assets/img/wa_sign.jpg" alt="Winkler Andrea aláírás">
+</p>
+<p class="text-right" style="margin-right: 6rem;">
+    Winkler Andrea&ensp;<br>
+    intézményvezető
+</p> -->
 </div>
