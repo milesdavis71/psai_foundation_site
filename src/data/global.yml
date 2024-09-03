@@ -293,15 +293,28 @@ kompetenciameres-2024:
       smile3ps: 😐
       smile3bs: 😐
 
-tanevrendje:
-    - tan_nelk_nap_1: ""
-      tan_nelk_nap_2: ""
-      tan_nelk_nap_3: ""
-      tan_nelk_nap_4: ""
-      osziszunet_start: ""
-      osziszunet_end: ""
-      teliszunet_start: ""
-      teliszunet_end: ""
-      tavasziszunet_start: ""
-      tavasziszunet_end: ""
-      felev_end: ""
+tanevrendje_bs:
+    - tan_nelk_nap_1: "2024. október 4. (péntek)"
+      tan_nelk_nap_2: "2024. december 7. (szombat)"
+      tan_nelk_nap_3: "2025. február 3. (hétfő)"
+      tan_nelk_nap_4: "2025. június 18. (szerda)"
+      osziszunet_start: "2024. október 25. (péntek)"
+      osziszunet_end: "2024. november 4. (hétfő) "
+      teliszunet_start: "2024. december 20. (péntek)"
+      teliszunet_end: "2025. január 6. (hétfő)"
+      tavasziszunet_start: "2025. április 16. (szerda)"
+      tavasziszunet_end: "2025. április 28. (hétfő)"
+      felev_end: "2025. január 17. (péntek)"
+
+tanevrendje_ps:
+    - tan_nelk_nap_1: "hamarosan"
+      tan_nelk_nap_2: "hamarosan"
+      tan_nelk_nap_3: "hamarosan"
+      tan_nelk_nap_4: "hamarosan"
+      osziszunet_start: "2024. október 25. (péntek)"
+      osziszunet_end: "2024. november 4. (hétfő)"
+      teliszunet_start: "2024. december 20. (péntek)"
+      teliszunet_end: "2025. január 6. (hétfő)"
+      tavasziszunet_start: "2025. április 16. (szerda)"
+      tavasziszunet_end: "2025. április 28. (hétfő)"
+      felev_end: "2025. január 17. (péntek)"
