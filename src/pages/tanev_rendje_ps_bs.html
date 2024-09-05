@@ -1,21 +1,13 @@
 ---
 title: Tanév rendje
 description: Lorem ipsum.
-school_ps: Szegedi Petőfi Sándor Általános Iskola
-school_bs: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+school: Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
 year: 2024-25-ös tanév
 ---
 <div class="cell medium-9 medium-cell-block-y">
     <div class="cell medium-9 medum-cell-block-y">
-        {{>tabs_ul}}
-        {{>tabs_content1}}
-        {{>head_school_year_ps_bs school="ps"}}
-        <h4 class="text-center">{{title}}</h4>
-        {{>tanev_rendje_ps}}
-        {{>tabs_content2}}
-        {{>head_school_year_ps_bs school="bs"}}
-        <h4 class="text-center">{{title}}</h4>
-        {{>tanev_rendje_bs}}
-        {{>tabs_content3}}
+        {{>head_school_year}}
+        <h5 class="text-center">{{title}}</h5>
+        {{>tanev_rendje_ps_bs}}
     </div>
 </div>
