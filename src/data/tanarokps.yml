@@ -19,6 +19,10 @@
   grad: főiskola
   spec1: általános iskolai tanító
 
+- name: Gonda Babett
+  grad: főiskola
+  spec1: általános iskolai tanító
+
 - name: Gusztosné Thékes Andrea
   grad: főiskola
   spec1: magyar–történelem szakos általános iskolai tanár
@@ -27,10 +31,6 @@
   grad: egyetem
   spec1: okleveles német- és nemzetiségi német szakos általános iskolai tanár
   spec2: angol–német szakos tanár
-
-- name: Kelemen Babett
-  grad: főiskola
-  spec1: általános iskolai tanító
 
 - name: Kovács-Kincses Emilia
   grad: főiskola
