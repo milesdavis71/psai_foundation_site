@@ -332,3 +332,145 @@ csengetesi_rend_ps:
     ido: 14:00 – 14:45
   - ora: 8
     ido: 15:00 – 15:45
+
+gallery_fooldal_bs:
+    2023-24:
+    - pict_folder_url: 2023_09_01_Tanévnyitó
+      title: Tanévnyitó
+      date: 2023 09 01
+      html_url:
+    - pict_folder_url: 2023_10_01_Zene-világnapja
+      title: Zene-világnapja
+      date: 2023 09 01
+    - pict_folder_url: 2023_10_20_PÁV-nap
+      title: PÁV nap
+      date: 2023_10_20
+    - pict_folder_url: 2023_10_26_Halloween
+      title: Halloween
+      date: 2023_10_26
+    - pict_folder_url: 2023_10_26_Magyar-népmese-napja
+      title: Magyar népmese napja
+      date: 2023_10_26
+    - pict_folder_url: 2023_11_09_Könyvtárlátogatások
+      title: 2023_11_09_Könyvtárlátogatások
+      date: 2023. 11. 09
+    - pict_folder_url: 2023_11_10_Márton-nap
+      title: 2023_11_10_Márton-nap
+      date: 2023_11_10
+    - pict_folder_url: 2023_11_17_bs-ps-kosármeccs
+      title: 2023_11_17_bs-ps-kosármeccs
+      date: 2023_11_17
+    - pict_folder_url: 2023_11_22_Versmondó-verseny díjazottai-alsó-tagozat
+      title: 2023_11_22_Versmondó-verseny díjazottai-alsó-tagozat
+      date: 2023_11_22
+    - pict_folder_url: 2023_12_04_Adventi-készülődés
+      title: 2023_12_04_Adventi-készülődés
+      date: 2023_12_04
+    - pict_folder_url: 2024_01_19_Bábszínház-foglalkozás
+      title: 2024_01_19_Bábszínház-foglalkozás
+      date: 2024_01_19
+    - pict_folder_url: 2024_01_31_Medve-nap
+      title: 2024_01_31_Medve-nap
+      date: 2024_01_31
+    - pict_folder_url: 2024_02_05_Tisza-élővilágának-emléknapja
+      title: 2024_02_05_Tisza-élővilágának-emléknapja
+      date: 2024_02_05
+    - pict_folder_url: 2024_02_06_Farsangi-bál
+      title: 2024_02_06_Farsangi-bál
+      date: 2024_02_06
+    - pict_folder_url: 2024_02_07_Januári-események
+      title: 2024_02_07_Januári-események
+      date: 2024_02_07
+    - pict_folder_url: 2024_02_09_Bűnmegelőzés
+      title: 2024_02_09
+      date: 2024_02_09_Bűnmegelőzés
+    - pict_folder_url: 2024_02_12_KEVE_kék-tér
+      title: 2024_02_12
+      date: 2024_02_12_KEVE_kék-tér
+    - pict_folder_url: 2024_02_15_Kiszebáb-égetés
+      title: 2024_02_15_Kiszebáb-égetés
+      date: 2024_02_15_Kiszebáb-égetés
+    - pict_folder_url: 2024_02_19_Büszkeségeink
+      title: 2024_02_19_Büszkeségeink
+      date: 2024_02_19_Büszkeségeink
+    - pict_folder_url: 2024_02_23_Magyar-Parasport-Napja
+      title: 2024_02_23_Magyar-Parasport-Napja
+      date: 2024_02_23_Magyar-Parasport-Napja
+    - pict_folder_url: 2024_02_27_Könyvtári-látogatás
+      title: 2024_02_27_Könyvtári-látogatás
+      date: 2024_02_27_Könyvtári-látogatás
+    - pict_folder_url: 2024_03_05_Erős-Pista-kalandjai-rajzpályázat
+      title: 2024_03_05_Erős-Pista-kalandjai-rajzpályázat
+      date: 2024_03_05_Erős-Pista-kalandjai-rajzpályázat
+    - pict_folder_url: 2024_03_13_Rendhagyó-órák
+      title: 2024_03_13_Rendhagyó-órák
+      date: 2024_03_13_Rendhagyó-órák
+    - pict_folder_url: 2024_03_14_Március-15
+      title: 2024_03_14_Március-15
+      date: 2024_03_14_Március-15
+    - pict_folder_url: 2024_03_19_Iskolakert
+      title: 2024_03_19_Iskolakert
+      date: 2024_03_19_Iskolakert
+    - pict_folder_url: 2024_03_26_Víz-világnapja
+      title: 2024_03_26_Víz-világnapja
+      date: 2024_03_26_Víz-világnapja
+    - pict_folder_url: 2024_04_12 A-magyar-költészet-napja
+      title: 2024_04_12 A-magyar-költészet-napja
+      date: 2024_04_12 A-magyar-költészet-napja
+    - pict_folder_url: 2024_04_17_Rendhagyó-órák
+      title: 2024_04_17_Rendhagyó-órák
+      date: 2024_04_17_Rendhagyó-órák
+    - pict_folder_url: 2024_04_29_Témahetek
+      title: 2024_04_29_Témahetek
+      date: 2024_04_29_Témahetek
+    - pict_folder_url: 2024_04_30_Büszkeségeink
+      title: 2024_04_30_Büszkeségeink
+      date: 2024_04_30_Büszkeségeink
+    - pict_folder_url: 2024_04-22_Csendéletfestő-háziverseny
+      title: 2024_04-22_Csendéletfestő-háziverseny
+      date: 2024_04-22_Csendéletfestő-háziverseny
+    - pict_folder_url: 2024_05_10_Rendhagyó-órák
+      title: 2024_05_10_Rendhagyó-órák
+      date: 2024_05_10_Rendhagyó-órák
+    - pict_folder_url: 2024_05_13_Bálint-Sándor-emlékhét
+      title: 2024_05_13_Bálint-Sándor-emlékhét
+      date: 2024_05_13_Bálint-Sándor-emlékhét
+    - pict_folder_url: 2024_05_17_Vármegyei-csendéletfestő-verseny
+      title: 2024_05_17_Vármegyei-csendéletfestő-verseny
+      date: 2024_05_17_Vármegyei-csendéletfestő-verseny
+    - pict_folder_url: 2024_05_31_Sudoku-háziverseny
+      title: 2024_05_31_Sudoku-háziverseny
+      date: 2024_05_31_Sudoku-háziverseny
+    - pict_folder_url: 2024_06_03_Családi-nap
+      title: 2024_06_03_Családi-nap
+      date: 2024_06_03_Családi-nap
+    - pict_folder_url: 2024_06_10_Négyet-egy-sorba
+      title: 2024_06_10_Négyet-egy-sorba
+      date: 2024_06_10_Négyet-egy-sorba
+    - pict_folder_url: 2024_06_11_Határtalanul
+      title: 2024_06_11_Határtalanul
+      date: 2024_06_11_Határtalanul
+    - pict_folder_url: 2024_06_17_Színes-programok
+      title: 2024_06_17_Színes-programok
+      date: 2024_06_17_Színes-programok
+    - pict_folder_url: 2024_06_18_Osztálykirándulások
+      title: 2024_06_18_Osztálykirándulások
+      date: 2024_06_18_Osztálykirándulások
+    - pict_folder_url: 2024_06_21_Legizgalmasabb-projektjeink
+      title: 2024_06_21_Legizgalmasabb-projektjeink
+      date: 2024_06_21_Legizgalmasabb-projektjeink
+    - pict_folder_url: 2024_06_25_Színes-programok
+      title: 2024_06_25_Színes-programok
+      date: 2024_06_25_Színes-programok
+
+gallery_bs:
+  2023-24:
+    pict_folder_url: 2023_09_01_Tanévnyitó
+      - 01.jpg
+      - 02.jpg
+      - 03.jpg
+      - 04.jpg
+      - 05.jpg
+      - 06.jpg
+      - 07.jpg
+      - 08.jpg
