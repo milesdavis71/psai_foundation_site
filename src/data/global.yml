@@ -474,3 +474,17 @@ gallery_bs:
       - 06.jpg
       - 07.jpg
       - 08.jpg
+
+download_pdf:
+-
+    title: Igazolás mindennapos testnevelés alóli felmentéshez – Székhely/Tagiskola
+    url: igazolas_mindennapos_testneveles_aloli_felmenteshez_ps_bs_2024_25.pdf
+-
+    title: Szülői nyilatkozat a kötelező alsós napközi foglalkozások tudomásulvételéről – Székhely
+    url: nyilatkozat_kotelezo_alsos_napkozi_tudomasulvetelerol_2024_25.pdf
+-
+    title: Szülői kérelem az alsós napközis foglalkozásokról való állandó felmentéshez – Székhely
+    url: kerelem_allando_napkozis_kikerohoz_alsos_2024_25.pdf
+-
+    title: Szülői nyilatkozat a felső tagozatos napközi foglalkozások elhagyásának időpontjairól – Székhely
+    url: szuloi_nyilatkozat_a_delutani_foglalkozasok_elhagyasarol_2024_25.pdf
