@@ -488,3 +488,134 @@ download_pdf:
 -
     title: Szülői nyilatkozat a felső tagozatos napközi foglalkozások elhagyásának időpontjairól – Székhely
     url: szuloi_nyilatkozat_a_delutani_foglalkozasok_elhagyasarol_2024_25.pdf
+-
+    title: Xxxxx
+    url: yyyyy
+-
+    title: Xxxxx
+    url: yyyyy
+-
+    title: Xxxxx
+    url: yyyyy
+-
+    title: Xxxxx
+    url: yyyyy
+-
+    title: Xxxxx
+    url: yyyyy
+-
+    title: Xxxxx
+    url: yyyyy
+-
+    title: Xxxxx
+    url: yyyyy
+-
+    title: Xxxxx
+    url: yyyyy
+-
+    title: Xxxxx
+    url: yyyyy
+
+
+szaktargyi_korrepetalas:
+  ps:
+  - tantargy: korrepetálás 1
+    idopont: szerda 6. óra
+  - tantargy: korrepetálás 2
+    idopont: hétfő 6. óra
+  - tantargy: korrepetálás 3
+    idopont: hétfő 5. óra
+  - tantargy: korrepetálás 4
+    idopont: csütörtök 5. óra
+  - tantargy: korrepetálás 6
+    idopont: szerda 7. óra
+  - tantargy: korrepetálás 7
+    idopont: hétfő 6. óra
+  - tantargy: korrepetálás 8
+    idopont: kedd 8. óra
+  bs:
+  - tantargy: korrepetálás
+    idopont: szerda 6. óra
+    tanar: Ungerné Fekete Mónika
+
+  - tantargy: korrepetálás
+    idopont: csütörtök 7. óra
+    tanar: Ungerné Fekete Mónika
+
+  - tantargy: korrepetálás
+    idopont: hétfő 7. óra
+    tanar: Nagyistók Zsuzsanna
+
+  - tantargy: korrepetálás
+    idopont: kedd 6. óra
+    tanar: Nagyistók Zsuzsanna
+
+
+egyenifejlesztes:
+  bs:
+  - tantargy: BTMN-F/1
+    idopont: kedd 7.ó.
+    tanar: Porkolábné Papp Zsuzsa
+  - tantargy: BTMN-F/2
+    idopont: hétfő 7.ó.
+    tanar: Porkolábné Papp Zsuzsa
+  - tantargy: BTMN-F/3
+    idopont: kedd 8.ó.
+    tanar: Porkolábné Papp Zsuzsa
+  - tantargy: BTMN -K/2
+    idopont: szerda 5.ó.
+    tanar: Fodorné Kiss Magdolna
+  - tantargy: BTMN-K/3
+    idopont: szerda 4.ó.
+    tanar: Terhes Bernadett
+  - tantargy: BTMN-K/4
+    idopont: szerda 4.ó.
+    tanar: Skultéti Katalin
+  - tantargy: BTMN-K/5
+    idopont: kedd 5.ó.
+    tanar: Csernus Fruzsina
+  - tantargy: BTMN-K/6
+    idopont: csütörtök 4.ó.
+    tanar: Csernus Fruzsina
+  - tantargy: BTMN-K/7
+    idopont: csütörtök 6.ó.
+    tanar: Széllné Bartók Mária
+  - tantargy: BTMN-K/1
+    idopont: szerda 4.ó.
+    tanar: Savanya Béláné
+  - tantargy: BTMN-K/8
+    idopont: szerda 6. ó.
+    tanar: Ungerné Fekete Mónika
+  - tantargy: BTMN-K/9
+    idopont: kedd 6.ó.
+    tanar: Porkolábné Papp Zsuzsa
+  - tantargy: BTMN-K/10
+    idopont: kedd 6.ó.
+    tanar: Zombori-Benczur Izabella
+  - tantargy: BTMN-K/11
+    idopont: kedd 8.ó.
+    tanar: Zombori-Benczur Izabella
+  - tantargy: BTMN-K/12
+    idopont: szerda 7.ó.
+    tanar: Zombori-Benczur Izabella
+  - tantargy: BTMN-K/13
+    idopont: kedd 7.ó.
+    tanar: Zombori-Benczur Izabella
+  - tantargy: SNI
+    idopont: hétfő 7.óra
+    tanar: Mede Brigitta
+  - tantargy: SNI
+    idopont: hétfő 8.óra
+    tanar: Mede Brigitta
+  - tantargy: SNI
+    idopont: kedd 3.óra
+    tanar: Mede Brigitta
+  - tantargy: SNI
+    idopont: kedd 6.óra
+    tanar: Mede Brigitta
+  - tantargy: SNI
+    idopont: kedd 7.óra
+    tanar: Mede Brigitta
+
+
+  

@@ -1,36 +1,17 @@
-<!-- <table class="hover">
+<table class="hover">
     <thead>
         <tr>
-            <td>Osztály</td>
-            <td>Időpont</td>
             <td>Tantárgy</td>
-            <td>Pedagógus</td>
-        </tr>
+            <td>Időpont</td>
+<td>Pedagógus</td>        </tr>
     </thead>
     <tbody>
+        {{#each global.szaktargyi_korrepetalas.bs}}
         <tr>
-            <td>5. osztály</td>
-            <td>hétfő 7. óra</td>
-            <td>matematika </td>
-            <td>Jójárt Renáta</td>
+            <td>{{this.tantargy}}</td>
+            <td>{{this.idopont}}</td>
+            <td>{{this.tanar}}</td>
         </tr>
-        <tr>
-            <td>8. osztály</td>
-            <td>kedd 6. óra</td>
-            <td>magyar</td>
-            <td>Ungerné Fekete Mónika</td>
-        </tr>
-        <tr>
-            <td>5. és 6. osztály</td>
-            <td>szerda 6. óra</td>
-            <td>magyar</td>
-            <td>Ungerné Fekete Mónika</td>
-        </tr>
-        <tr>
-            <td>6. osztály</td>
-            <td>szerda 6. óra</td>
-            <td>matematika</td>
-            <td>Nagyistók Zsuzsanna</td>
-        </tr>
+        {{/each}}
     </tbody>
-</table> -->
+</table>
