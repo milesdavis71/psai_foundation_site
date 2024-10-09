@@ -3,14 +3,12 @@ title: Órarend
 description: Lorem ipsum.
 school_ps: Szegedi Petőfi Sándor Általános Iskola
 school_bs: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
-year: 2024-25-ös tanév
 ---
 <div class="cell medium-9 medium-cell-block-y">
     {{>tabs_ul}}
     {{>tabs_content1}}
-    {{>head_school_year_ps_bs school="ps"}}
+    {{>head_school_ps_bs school="ps"}}
     <h5 class="text-center">{{title}}</h5>
-    {{>head_hamarosan}}
     <div class="responsive-embed">
         <div id="example1" style="height: 85vh; width: 100vw"></div>
         {{>pdfviewer}}
@@ -19,7 +17,7 @@ year: 2024-25-ös tanév
         </script>
     </div>
     {{>tabs_content2}}
-    {{>head_school_year_ps_bs school="bs"}}
+    {{>head_school_ps_bs school="bs"}}
     <h5 class="text-center">{{title}}</h5>
     {{>head_hamarosan}}
     <div class="responsive-embed">
