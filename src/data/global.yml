@@ -37,6 +37,14 @@ ngsz-befiz-date:
 
 news:
     - 
+      title: 'Suliváró foglakozás és beiskolázási nyílt óra – SZÉKHELY'
+      school: Szegedi Petőfi Sándor Általános Iskola
+      img: sulivaro.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news12
+    - 
       title: 'Közlemény: A mindennapos testnevelés szabályai a 2024-25-ös tanévben'
       school: Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
       img: csik_bottom.jpg
@@ -611,4 +619,41 @@ egyenifejlesztes:
     tanar: Mede Brigitta
 
 
-  
+iskolai_segitok:
+  - job: iskolapszichológus
+    name: Ficz Gábor
+    mail: falco444@gmail.com
+    tel1: '+36203879927'
+    tel2: +36 20 387 9927
+
+  - job: Gyógypedagógus
+    name: Mede Brigitta
+    mail: −
+    tel1: −
+    tel2: −
+
+  - job: Szurdópedagógus
+    name: Petrás Zsuzsanna
+    mail: −
+    tel1: −
+    tel2: −
+
+  - job: Logopédus
+    name: Dusik-Balázs Dóra
+    mail: −
+    tel1: −
+    tel2: −
+
+  - job: Iskolai segítő
+    name: Hajdú Éva
+    mail: hajdu.eva@csgyjk.ritek.hu
+    tel1: '+36203879927'
+    tel2: +36 20 387 9927
+
+  - job: Iskolarendőr
+    name: Kocsis Mihály Zsolt
+    mail: jaksai@csongrad.police.hu
+    tel1: '+36203879927'
+    tel2: +36 20 387 9927
+
+
