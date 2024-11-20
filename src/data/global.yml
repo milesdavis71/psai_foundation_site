@@ -626,8 +626,14 @@ iskolai_segitok:
     tel1: '+36203879927'
     tel2: +36 20 387 9927
 
-  - job: Gyógypedagógus
+  - job: Gyógypedagógus I.
     name: Mede Brigitta
+    mail: −
+    tel1: −
+    tel2: −
+
+  - job: Gyógypedagógus II.
+    name: Bozóki Petra
     mail: −
     tel1: −
     tel2: −
