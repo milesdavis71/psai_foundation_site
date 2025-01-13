@@ -32,7 +32,7 @@
                         <li>A verseny két kategóriában folyik, 5–6. és 7–8. osztályos korcsoportban.</li>
                     </ul>
                 </p>
-                {{> jarasi_versenyek_jelentkezes_kozos}}
+                {{> jarasi_versenyek_jelentkezes_kozos1}}
             </div>
         </div>
     </div>
@@ -146,10 +146,12 @@
                         <button class="button expanded" type="submit" value="Submit"><strong>Elküldés</strong></button>
                     </div>
                     <div class="cell auto"></div>
+                    {{>jarasi_versenyek_sikertelen_regisztracio}}
                 </div>
             </div>
         </form>
     </div>
+    {{> jarasi_versenyek_jelentkezes_kozos2}}
     {{> vissza}}
     <script>
     $(document).ready(function() {
