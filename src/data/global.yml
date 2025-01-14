@@ -662,4 +662,14 @@ iskolai_segitok:
     tel1: '+36203879927'
     tel2: +36 20 387 9927
 
+jarasiverseny:
+  huszonot:
+    - datum: 2025. február 27. (csütörtök) 13 óra 30 perc
+      helyszin: Szegedi Petőfi Sándor Általános Iskola
+      cim: Szeged, Benczúr Gyula u. 29.
+      tel: +36 30 736 2795
+      telegybe: '+36307362795'    
+
+
+
 

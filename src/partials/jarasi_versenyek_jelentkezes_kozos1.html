@@ -13,15 +13,17 @@
                 <td>2024. április XX. (csütörtök) 13:30</td>
             </tr> -->
             <tr>
+                {{#each global.jarasiverseny.huszonot}}
                 <td><strong>A verseny
                         időpontja:</strong></td>
-                <td>2025. február 27. (csütörtök) 13 óra 30 perc</td>
+                <td>{{datum}}</td>
             </tr>
             <tr>
                 <td><strong>Helyszíne:</strong></td>
-                <td>Szegedi Petőfi Sándor Általános Iskola,<br>Szeged, Benczúr Gyula u. 29.<br>
-                    Tel.: <a href="tel:+36307362795">+36 30 736 2795</a>
+                <td>{{helyszin}}<br>{{cim}}<br>
+                    Tel.: <a href="tel:{{telegybe}}">{{tel}}</a>
                 </td>
+                {{/each}}
             </tr>
             <tr>
                 <td><strong>Eredményhirdetés:</strong></td>
