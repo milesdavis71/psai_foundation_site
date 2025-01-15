@@ -24,7 +24,7 @@
     <div class="headers">
         <div class="scroller">
             <ul class="menu simple">
-                <li style="padding: 0.7rem 1rem;"><a href="{{root}}galeriak/2022_23/ps/fooldal_2023_24_ps.php">Székhely</a></li>
+                <li style="padding: 0.7rem 1rem;"><a href="{{root}}galeriak/2022_23/bs/fooldal_2023_24_bs.php">Székhely</a></li>
                 <li class="is-active"><a href="{{root}}galeriak/2023_24/bs/fooldal_2023_24_bs.php" style="padding: 0.7rem 1rem;">Tagiskola</a></li>
             </ul>
         </div>

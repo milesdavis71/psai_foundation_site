@@ -2,31 +2,34 @@
     {{> vissza2}}
 
 
-    <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola<br />
-        Bálint Sándor Tagiskolája<br>
+    <h3 class="text-center">Szegedi Petőfi Sándor Általános Iskola
         <small>
             <?php echo $_POST["title"]; ?>
         </small>
     </h3>
     <hr>
 
-<div class="gg-container">
-        <h3>Default</h3>
-        <div class="gg-box">
-          <img src="img/1.jpg">
-          <img src="img/2.jpg">
-          <img src="img/3.jpg">
-          <img src="img/4.jpg">
-          <img src="img/5.jpg">
-          <img src="img/6.jpg">
-          <img src="img/7.jpg">
-          <img src="img/8.jpg">
-          <img src="img/9.jpg">
-          <img src="img/10.jpg">
-          <img src="img/11.jpg">
-          <img src="img/12.jpg">
-          <img src="img/13.jpg">
-          <img src="img/14.jpg">
+
+    <div class="content">
+        <div class="gg-container">
+            <div class="gg-box dark" id='square'>
+                <?php
+                //set main directory
+                $mainDir = '../../../assets/img/galeriak/2023_24/bs/';
+
+                //gets sub directories of PDFS directory
+                $subDirectories = scandir($mainDir);
+
+                //removes the first two indexes in the directories array that are just dots
+                unset($subDirectories[0]);
+                unset($subDirectories[1]);
+
+                foreach (glob($mainDir . '/' . $_POST["folder"] . '/*.jpg') as $file) {
+                    $counter = substr($file, -6, 2);
+                    echo '<img src="' . $file . '">';
+                }
+                ?>
+            </div>
         </div>
     </div>
     {{> grid_gallery_js}}
