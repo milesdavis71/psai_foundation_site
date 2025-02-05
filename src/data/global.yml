@@ -52,6 +52,9 @@ news:
       imgclass: medium-12
       contentclass: medium-12
       content: news11
+
+
+newsold:
     - 
       title: Szülői értekezletek 2024 ősz – SZÉKHELY
       school: Szegedi Petőfi Sándor Általános Iskola
@@ -99,9 +102,6 @@ news:
       imgclass: medium-3
       contentclass: medium-9
       content: news05
-
-
-newsold:
     - 
       title: 2024. Nyári vezetői ügyelet 
       school: Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
