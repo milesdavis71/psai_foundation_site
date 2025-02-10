@@ -37,6 +37,22 @@ ngsz-befiz-date:
 
 news:
     - 
+      title: Szülői értekezletek 2025 tavasz – SZÉKHELY
+      school: Szegedi Petőfi Sándor Általános Iskola
+      img: szuloi.png
+      align: center
+      imgclass: medium-6
+      contentclass: medium-6
+      content: news14
+    - 
+      title: Szülői értekezletek 2025 tavasz – TAGISKOLA
+      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: szuloi.png
+      align: center
+      imgclass: medium-6
+      contentclass: medium-6
+      content: news13
+    - 
       title: 'Beiskolázási nyílt óra és iskolába hívogató foglalkozás'
       school: Szegedi Petőfi Sándor Általános Iskola
       img: sulivaro.jpg
@@ -55,22 +71,7 @@ news:
 
 
 newsold:
-    - 
-      title: Szülői értekezletek 2024 ősz – SZÉKHELY
-      school: Szegedi Petőfi Sándor Általános Iskola
-      img: szuloi.png
-      align: center
-      imgclass: medium-6
-      contentclass: medium-6
-      content: news10
-    - 
-      title: Szülői értekezletek 2024 ősz – TAGISKOLA
-      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
-      img: szuloi.png
-      align: center
-      imgclass: medium-6
-      contentclass: medium-6
-      content: news09
+
     - 
       title: Tanévnyitó ünnepség 2024 ősz – SZÉKHELY
       school: Szegedi Petőfi Sándor Általános Iskola

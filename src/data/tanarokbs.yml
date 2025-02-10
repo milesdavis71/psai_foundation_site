@@ -19,6 +19,10 @@
   grad: főiskola
   spec1: tanító
 
+- name: Darukáné Jójárt Renáta – tartósan távollévő
+  grad: főiskola
+  spec1: tanító
+
 - name: Kisné Fülöp Ilona
   grad: főiskola
   spec1: tanító
@@ -27,9 +31,6 @@
   grad: főiskola
   spec1: biológia–kémia szakos általános iskolai tanár
 
-- name: Makra Eszter
-  grad: egyetem
-  spec1: magyar–angol szakos középiskolai tanár
 
 - name: Minik Ilona
   grad: egyetem
