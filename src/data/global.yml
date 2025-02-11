@@ -37,8 +37,24 @@ ngsz-befiz-date:
 
 news:
     - 
+      title: 'Suliváró foglalkozások'
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: sulivaro.jpg
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news16  
+    - 
+      title: Hit- és erkölcstan oktatással kapcsolatos tájékoztató
+      school: 
+      img: csik_bottom.jpg
+      align: center
+      imgclass: 
+      contentclass: medium-12
+      content: news15
+    - 
       title: Szülői értekezletek 2025 tavasz – SZÉKHELY
-      school: Szegedi Petőfi Sándor Általános Iskola
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
       img: szuloi.png
       align: center
       imgclass: medium-6
@@ -46,7 +62,7 @@ news:
       content: news14
     - 
       title: Szülői értekezletek 2025 tavasz – TAGISKOLA
-      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
       img: szuloi.png
       align: center
       imgclass: medium-6
@@ -54,7 +70,7 @@ news:
       content: news13
     - 
       title: 'Beiskolázási nyílt óra és iskolába hívogató foglalkozás'
-      school: Szegedi Petőfi Sándor Általános Iskola
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
       img: sulivaro.jpg
       align: 
       imgclass: medium-5
@@ -62,7 +78,7 @@ news:
       content: news12
     - 
       title: 'Közlemény: A mindennapos testnevelés szabályai a 2024-25-ös tanévben'
-      school: Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
       img: csik_bottom.jpg
       align: 
       imgclass: medium-12
@@ -74,7 +90,7 @@ newsold:
 
     - 
       title: Tanévnyitó ünnepség 2024 ősz – SZÉKHELY
-      school: Szegedi Petőfi Sándor Általános Iskola
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
       img: tanevnyito.png
       align: center
       imgclass: medium-12
@@ -83,7 +99,7 @@ newsold:
 
     - 
       title: Tanévnyitó ünnepség 2024 ősz – TAGISKOLA
-      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
       img: tanevnyito.png
       align: center
       imgclass: medium-12
@@ -91,35 +107,35 @@ newsold:
       content: news07
     - 
       title: Tankönyvosztás 2024–2025 – Tagiskola 
-      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
       img: tankonyvosztas_right.jpg
       imgclass: medium-3
       contentclass: medium-9
       content: news06
     - 
       title: Tankönyvek átvétele – SZÉKHELY
-      school: Szegedi Petőfi Sándor Általános Iskola
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
       img: tankonyvosztas_left.jpg
       imgclass: medium-3
       contentclass: medium-9
       content: news05
     - 
       title: 2024. Nyári vezetői ügyelet 
-      school: Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
       img: summer_holiday_2024.jpg
       imgclass: medium-3
       contentclass: medium-9
       content: news04
     -
       title: Vármegyei matematika verseny, III. helyezés 
-      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
       img: bs_varmegyei_mat_verseny_2024_3_hely_szabo_viktoria.jpg
       imgclass: medium-4
       contentclass: medium-8
       content: news01
     - 
       title: Tudásbajnokság, országos döntő, matematika, I. helyezés 
-      school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
       img: bs-tudasbajnoksag-mat-orszagos-donto-2024-1-hely.jpg
       imgclass: medium-4
       contentclass: medium-8
