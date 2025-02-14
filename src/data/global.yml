@@ -689,5 +689,49 @@ jarasiverseny:
       mail: titkarsag@petofiszeged.hu
 
 
+psbemutatk:
+  1-:
+  - folder: bemutatkozas/ps/
+    filename: also-tagozatos-osztalyterem
+    caption: Alsó tagozatos osztályterem
+  - folder: bemutatkozas/ps/
+    filename: felso-tagozatos-osztalyterem
+    caption: Felső tagozatos osztályterem
+  - folder: bemutatkozas/ps/
+    filename: felujitott-tornaterem
+    caption: Felújított osztályterem
 
 
+  2-:
+  - folder: bemutatkozas/ps/
+    filename: udvar-eletkep
+    caption: Udvari életkép
+  - folder: bemutatkozas/ps/
+    filename: udvari-jatszokak
+    caption: Udvari játszókák
+  - folder: bemutatkozas/ps/
+    filename: szureti-piknik
+    caption: Szüreti piknik
+
+  3-:
+  - folder: bemutatkozas/ps/
+    filename: angol-tan-1-oszt
+    caption: Angolnyelvtanítás első osztálytól
+  - folder: bemutatkozas/ps/
+    filename: tablet
+    caption: Tablet használata tanórán
+  - folder: bemutatkozas/ps/
+    filename: info-szaktanterem
+    caption: Informatikai szaktanterem
+ 
+  4-:
+  - folder: bemutatkozas/ps/
+    filename: haziversenyek
+    caption: Háziversenyek
+  - folder: bemutatkozas/ps/
+    filename: termttud-szaktanterem
+    caption: Természettudományos szaktanterem
+  - folder: bemutatkozas/ps/
+    filename: ebedlo
+    caption: Ebédlő
+  
