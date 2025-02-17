@@ -34,7 +34,7 @@ function loadConfig() {
 gulp.task(
     "build",
     gulp.series(
-        // clean,
+        clean,
         gulp.parallel(pages, javascript, images, copy),
         sass,
         styleGuide

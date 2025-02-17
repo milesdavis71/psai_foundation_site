@@ -37,6 +37,87 @@ ngsz-befiz-date:
 
 news:
     - 
+      title: Sakkverseny
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: sakkverseny.jpg
+      align: 
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news26  
+    - 
+      title: Téli szünet
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: teli_szunet_2021.png
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news25  
+    - 
+      title: Karácsonyi műsor
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: karacsonyi_musor.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news24  
+    - 
+      title: Egészségnap
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: egeszsegnap.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news23  
+    - 
+      title: Papírgyűjtés eredményhirdetés
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: papirgyujtes.png
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news22  
+    - 
+      title: Alapítványi bál
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: ball.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news21  
+    - 
+      title: Őszi szünet
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: oszi_szunet.jpg
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news20  
+    - 
+      title: Október 23-i megemlékezés
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: okt23.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news19  
+    - 
+      title: Óvodások szavalóversenye
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: szavaloverseny.jpg
+      align: 
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news18  
+    - 
+      title: Szüreti piknik
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: szureti_piknik.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news17  
+
+    - 
       title: 'Suliváró foglalkozások'
       school: ▶️ Szegedi Petőfi Sándor Általános Iskola
       img: sulivaro.jpg
