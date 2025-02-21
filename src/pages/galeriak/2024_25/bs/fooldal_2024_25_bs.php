@@ -35,13 +35,13 @@
         Bálint Sándor Tagiskolája<br>
         <small>Fotógalériák 2024–2025</small>
     </h3>
-    <h5 class="text-center subheader">Hamarosan...</h5>
+    <!-- <h5 class="text-center subheader">Hamarosan...</h5> -->
     <hr>
 
     <div class="grid-x grid-margin-x">
      <?php
     //set main directory
-    // $mainDir = '../../../assets/img/galeriak/2023_24/bs/';
+    $mainDir = '../../../assets/img/galeriak/2024_25/bs/';
     {{> galeria_fooldal_fix_part_bs_2024_25}}
     {{> menu_galeriak_horizontal_centered}}
 
