@@ -37,6 +37,40 @@ ngsz-befiz-date:
 
 news:
     - 
+      title: Fogadóóra 2025 tavasz
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: fogadoora_small.jpg
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news30  
+
+    - 
+      title: Farsang
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: farsang_maszk.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news29  
+    - 
+      title: Vidám, játékos téli sor-és váltóverseny alsó tagozatosoknak
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: teli_szunet.jpg
+      align: center
+      imgclass: medium-12
+      contentclass: 
+      content: news28  
+
+    - 
+      title: Tangram alkotói pályázat óvodásoknak
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: tangram.jpg
+      align: 
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news27  
+    - 
       title: Sakkverseny
       school: ▶️ Szegedi Petőfi Sándor Általános Iskola
       img: sakkverseny.jpg
