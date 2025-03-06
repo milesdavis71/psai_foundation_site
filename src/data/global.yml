@@ -37,6 +37,16 @@ ngsz-befiz-date:
 
 news:
     - 
+      title: Járási verseny
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: csik_bottom.jpg
+      align: 
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news32  
+
+
+    - 
       title: Fogadóóra 2025 tavasz
       school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
       img: fogadoora_small.jpg
@@ -802,7 +812,28 @@ jarasiverseny:
       tel: +36 30 736 2795
       telegybe: '+36307362795'
       mail: titkarsag@petofiszeged.hu
+  1-:
+  - filename: 2o
+    caption: Alsó tagozatos osztályterem
+  - filename: felso-tagozatos-osztalyterem
+    caption: Felső tagozatos osztályterem
+ 
+  2-:
+  - folder: hirfolyam/jarasi_verseny/
+    filename: udvar-eletkep
+    caption: Udvari életkép
+  - folder: hirfolyam/jarasi_verseny/
+    filename: felso-tagozatos-osztalyterem
+    caption: Felső tagozatos osztályterem
 
+  3-:
+  - folder: hirfolyam/jarasi_verseny/
+    filename: angol-tan-1-oszt
+    caption: Angolnyelvtanítás első osztálytól
+  - folder: hirfolyam/jarasi_verseny/
+    filename: tablet
+    caption: Tablet használata tanórán
+ 
 
 psbemutatk:
   1-:
