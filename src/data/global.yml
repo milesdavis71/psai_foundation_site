@@ -37,6 +37,22 @@ ngsz-befiz-date:
 
 news:
     - 
+      title: BEIRATKOZÁS 2025-2026 – székhely és tagiskola
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: beiratkozas.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news35  
+    - 
+      title: 'Iskolahívógató: Gergely-járás játékos foglalkozás'
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskolája
+      img: gergelyjaras.jpg
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news33  
+    - 
       title: Járási verseny
       school: ▶️ Szegedi Petőfi Sándor Általános Iskola
       img: csik_bottom.jpg
@@ -44,8 +60,6 @@ news:
       imgclass: medium-12
       contentclass: medium-12
       content: news32  
-
-
     - 
       title: Fogadóóra 2025 tavasz
       school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
@@ -804,7 +818,7 @@ iskolai_segitok:
     tel1: '+36203879927'
     tel2: +36 20 387 9927
 
-jarasiverseny:
+jarasiversenBSy:
   huszonot:
     - datum: 2025. február 27. (csütörtök) 13 óra 30 perc
       helyszin: Szegedi Petőfi Sándor Általános Iskola
